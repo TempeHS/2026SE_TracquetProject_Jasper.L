@@ -6742,3 +6742,435 @@
 2025-12-16 02:20:02,072 127.0.0.1 - - [16/Dec/2025 02:20:02] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
 2025-12-16 02:20:02,092 {"csp-report":{"document-uri":"https://upgraded-acorn-444pgxprxxpf7p5w-5000.app.github.dev/","referrer":"https://upgraded-acorn-444pgxprxxpf7p5w-5000.app.github.dev/logout.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://upgraded-acorn-444pgxprxxpf7p5w-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
 2025-12-16 02:20:02,092 127.0.0.1 - - [16/Dec/2025 02:20:02] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:02,795 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.91:5000
+2026-06-01 03:50:02,795 [33mPress CTRL+C to quit[0m
+2026-06-01 03:50:02,795  * Restarting with stat
+2026-06-01 03:50:03,129  * Debugger is active!
+2026-06-01 03:50:03,129  * Debugger PIN: 830-862-356
+2026-06-01 03:50:06,939 127.0.0.1 - - [01/Jun/2026 03:50:06] "GET / HTTP/1.1" 200 -
+2026-06-01 03:50:07,192 127.0.0.1 - - [01/Jun/2026 03:50:07] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-01 03:50:07,283 127.0.0.1 - - [01/Jun/2026 03:50:07] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-01 03:50:07,292 127.0.0.1 - - [01/Jun/2026 03:50:07] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-01 03:50:07,294 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:07,294 127.0.0.1 - - [01/Jun/2026 03:50:07] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:07,331 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:50:07,331 127.0.0.1 - - [01/Jun/2026 03:50:07] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:07,417 127.0.0.1 - - [01/Jun/2026 03:50:07] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2026-06-01 03:50:07,528 127.0.0.1 - - [01/Jun/2026 03:50:07] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-01 03:50:07,576 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:07,577 127.0.0.1 - - [01/Jun/2026 03:50:07] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:07,597 127.0.0.1 - - [01/Jun/2026 03:50:07] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:07,658 127.0.0.1 - - [01/Jun/2026 03:50:07] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-01 03:50:10,056 127.0.0.1 - - [01/Jun/2026 03:50:10] "GET / HTTP/1.1" 200 -
+2026-06-01 03:50:10,138 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:10,138 127.0.0.1 - - [01/Jun/2026 03:50:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:10,145 127.0.0.1 - - [01/Jun/2026 03:50:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:10,147 127.0.0.1 - - [01/Jun/2026 03:50:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:10,210 127.0.0.1 - - [01/Jun/2026 03:50:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:10,254 127.0.0.1 - - [01/Jun/2026 03:50:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:10,280 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:50:10,281 127.0.0.1 - - [01/Jun/2026 03:50:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:10,299 127.0.0.1 - - [01/Jun/2026 03:50:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:10,340 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:10,340 127.0.0.1 - - [01/Jun/2026 03:50:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:10,343 127.0.0.1 - - [01/Jun/2026 03:50:10] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:11,211 127.0.0.1 - - [01/Jun/2026 03:50:11] "GET / HTTP/1.1" 200 -
+2026-06-01 03:50:11,284 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:11,284 127.0.0.1 - - [01/Jun/2026 03:50:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:11,293 127.0.0.1 - - [01/Jun/2026 03:50:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:11,297 127.0.0.1 - - [01/Jun/2026 03:50:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:11,300 127.0.0.1 - - [01/Jun/2026 03:50:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:11,347 127.0.0.1 - - [01/Jun/2026 03:50:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:11,386 127.0.0.1 - - [01/Jun/2026 03:50:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:11,414 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:50:11,415 127.0.0.1 - - [01/Jun/2026 03:50:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:11,444 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:11,446 127.0.0.1 - - [01/Jun/2026 03:50:11] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:11,448 127.0.0.1 - - [01/Jun/2026 03:50:11] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:12,292 127.0.0.1 - - [01/Jun/2026 03:50:12] "GET / HTTP/1.1" 200 -
+2026-06-01 03:50:12,371 127.0.0.1 - - [01/Jun/2026 03:50:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:12,373 127.0.0.1 - - [01/Jun/2026 03:50:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:12,375 127.0.0.1 - - [01/Jun/2026 03:50:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:12,378 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:12,378 127.0.0.1 - - [01/Jun/2026 03:50:12] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:12,405 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:50:12,405 127.0.0.1 - - [01/Jun/2026 03:50:12] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:12,422 127.0.0.1 - - [01/Jun/2026 03:50:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:12,461 127.0.0.1 - - [01/Jun/2026 03:50:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:12,501 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:12,502 127.0.0.1 - - [01/Jun/2026 03:50:12] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:12,505 127.0.0.1 - - [01/Jun/2026 03:50:12] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:15,366 127.0.0.1 - - [01/Jun/2026 03:50:15] "GET /login.html HTTP/1.1" 200 -
+2026-06-01 03:50:15,449 127.0.0.1 - - [01/Jun/2026 03:50:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:15,451 127.0.0.1 - - [01/Jun/2026 03:50:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:15,455 127.0.0.1 - - [01/Jun/2026 03:50:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:15,509 127.0.0.1 - - [01/Jun/2026 03:50:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:15,549 127.0.0.1 - - [01/Jun/2026 03:50:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:15,595 127.0.0.1 - - [01/Jun/2026 03:50:15] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:16,437 127.0.0.1 - - [01/Jun/2026 03:50:16] "GET / HTTP/1.1" 200 -
+2026-06-01 03:50:16,517 127.0.0.1 - - [01/Jun/2026 03:50:16] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:16,525 127.0.0.1 - - [01/Jun/2026 03:50:16] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:16,526 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:16,527 127.0.0.1 - - [01/Jun/2026 03:50:16] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:16,527 127.0.0.1 - - [01/Jun/2026 03:50:16] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:16,533 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:50:16,533 127.0.0.1 - - [01/Jun/2026 03:50:16] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:16,585 127.0.0.1 - - [01/Jun/2026 03:50:16] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:16,617 127.0.0.1 - - [01/Jun/2026 03:50:16] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:16,660 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/login.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:16,660 127.0.0.1 - - [01/Jun/2026 03:50:16] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:16,666 127.0.0.1 - - [01/Jun/2026 03:50:16] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:32,799 127.0.0.1 - - [01/Jun/2026 03:50:32] "GET /login.html HTTP/1.1" 200 -
+2026-06-01 03:50:32,878 127.0.0.1 - - [01/Jun/2026 03:50:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:32,881 127.0.0.1 - - [01/Jun/2026 03:50:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:32,889 127.0.0.1 - - [01/Jun/2026 03:50:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:32,938 127.0.0.1 - - [01/Jun/2026 03:50:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:32,971 127.0.0.1 - - [01/Jun/2026 03:50:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:33,033 127.0.0.1 - - [01/Jun/2026 03:50:33] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:33,717 127.0.0.1 - - [01/Jun/2026 03:50:33] "GET / HTTP/1.1" 200 -
+2026-06-01 03:50:33,808 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:33,808 127.0.0.1 - - [01/Jun/2026 03:50:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:33,811 127.0.0.1 - - [01/Jun/2026 03:50:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:33,815 127.0.0.1 - - [01/Jun/2026 03:50:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:33,818 127.0.0.1 - - [01/Jun/2026 03:50:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:33,848 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:50:33,848 127.0.0.1 - - [01/Jun/2026 03:50:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:33,877 127.0.0.1 - - [01/Jun/2026 03:50:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:33,924 127.0.0.1 - - [01/Jun/2026 03:50:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:33,961 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/login.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:50:33,961 127.0.0.1 - - [01/Jun/2026 03:50:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:50:33,975 127.0.0.1 - - [01/Jun/2026 03:50:33] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:36,562 127.0.0.1 - - [01/Jun/2026 03:50:36] "GET /login.html HTTP/1.1" 200 -
+2026-06-01 03:50:36,634 127.0.0.1 - - [01/Jun/2026 03:50:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:36,640 127.0.0.1 - - [01/Jun/2026 03:50:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:36,643 127.0.0.1 - - [01/Jun/2026 03:50:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:36,689 127.0.0.1 - - [01/Jun/2026 03:50:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:36,732 127.0.0.1 - - [01/Jun/2026 03:50:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:36,773 127.0.0.1 - - [01/Jun/2026 03:50:36] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:50:44,846 127.0.0.1 - - [01/Jun/2026 03:50:44] "GET /signup.html HTTP/1.1" 200 -
+2026-06-01 03:50:44,943 127.0.0.1 - - [01/Jun/2026 03:50:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:44,943 127.0.0.1 - - [01/Jun/2026 03:50:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:44,948 127.0.0.1 - - [01/Jun/2026 03:50:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:50:45,001 127.0.0.1 - - [01/Jun/2026 03:50:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:45,035 127.0.0.1 - - [01/Jun/2026 03:50:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:50:45,087 127.0.0.1 - - [01/Jun/2026 03:50:45] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:51:14,596 127.0.0.1 - - [01/Jun/2026 03:51:14] "[32mPOST /signup.html HTTP/1.1[0m" 302 -
+2026-06-01 03:51:14,642 127.0.0.1 - - [01/Jun/2026 03:51:14] "GET /login.html HTTP/1.1" 200 -
+2026-06-01 03:51:14,722 127.0.0.1 - - [01/Jun/2026 03:51:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:51:14,722 127.0.0.1 - - [01/Jun/2026 03:51:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:51:14,725 127.0.0.1 - - [01/Jun/2026 03:51:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:51:14,773 127.0.0.1 - - [01/Jun/2026 03:51:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:51:14,814 127.0.0.1 - - [01/Jun/2026 03:51:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:51:14,867 127.0.0.1 - - [01/Jun/2026 03:51:14] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:51:24,055 127.0.0.1 - - [01/Jun/2026 03:51:24] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-01 03:51:24,154 127.0.0.1 - - [01/Jun/2026 03:51:24] "GET /setup_2fa.html?mandatory=true HTTP/1.1" 200 -
+2026-06-01 03:51:24,224 127.0.0.1 - - [01/Jun/2026 03:51:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:51:24,241 127.0.0.1 - - [01/Jun/2026 03:51:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:51:24,244 127.0.0.1 - - [01/Jun/2026 03:51:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:51:24,295 127.0.0.1 - - [01/Jun/2026 03:51:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:51:24,326 127.0.0.1 - - [01/Jun/2026 03:51:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:51:24,378 127.0.0.1 - - [01/Jun/2026 03:51:24] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:52:20,965 2FA enabled for user: test@1.com
+2026-06-01 03:52:20,966 127.0.0.1 - - [01/Jun/2026 03:52:20] "[32mPOST /setup_2fa.html?mandatory=true HTTP/1.1[0m" 302 -
+2026-06-01 03:52:21,022 127.0.0.1 - - [01/Jun/2026 03:52:21] "[35m[1mGET /loghome.html HTTP/1.1[0m" 500 -
+2026-06-01 03:52:21,101 127.0.0.1 - - [01/Jun/2026 03:52:21] "GET /loghome.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-01 03:52:21,103 127.0.0.1 - - [01/Jun/2026 03:52:21] "GET /loghome.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-01 03:52:21,163 127.0.0.1 - - [01/Jun/2026 03:52:21] "GET /loghome.html?__debugger__=yes&cmd=resource&f=console.png&s=wrvHwcEjhRBL1YosOxKR HTTP/1.1" 200 -
+2026-06-01 03:52:21,208 127.0.0.1 - - [01/Jun/2026 03:52:21] "GET /loghome.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-01 03:54:25,786 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.91:5000
+2026-06-01 03:54:25,786 [33mPress CTRL+C to quit[0m
+2026-06-01 03:54:25,787  * Restarting with stat
+2026-06-01 03:54:26,101  * Debugger is active!
+2026-06-01 03:54:26,102  * Debugger PIN: 830-862-356
+2026-06-01 03:54:27,475 127.0.0.1 - - [01/Jun/2026 03:54:27] "GET / HTTP/1.1" 200 -
+2026-06-01 03:54:27,797 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:54:27,797 127.0.0.1 - - [01/Jun/2026 03:54:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:27,818 127.0.0.1 - - [01/Jun/2026 03:54:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:27,822 127.0.0.1 - - [01/Jun/2026 03:54:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:27,823 127.0.0.1 - - [01/Jun/2026 03:54:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:27,826 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:54:27,826 127.0.0.1 - - [01/Jun/2026 03:54:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:27,888 127.0.0.1 - - [01/Jun/2026 03:54:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:27,913 127.0.0.1 - - [01/Jun/2026 03:54:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:27,936 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:54:27,937 127.0.0.1 - - [01/Jun/2026 03:54:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:27,946 127.0.0.1 - - [01/Jun/2026 03:54:27] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:54:29,874 127.0.0.1 - - [01/Jun/2026 03:54:29] "[33mGET /loghome.html HTTP/1.1[0m" 404 -
+2026-06-01 03:54:29,918 127.0.0.1 - - [01/Jun/2026 03:54:29] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-01 03:54:31,722 127.0.0.1 - - [01/Jun/2026 03:54:31] "GET / HTTP/1.1" 200 -
+2026-06-01 03:54:31,763 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:54:31,763 127.0.0.1 - - [01/Jun/2026 03:54:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:31,776 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:54:31,776 127.0.0.1 - - [01/Jun/2026 03:54:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:31,795 127.0.0.1 - - [01/Jun/2026 03:54:31] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:54:31,797 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:54:31,798 127.0.0.1 - - [01/Jun/2026 03:54:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:35,857 127.0.0.1 - - [01/Jun/2026 03:54:35] "[33mGET /loghome.html HTTP/1.1[0m" 404 -
+2026-06-01 03:54:38,650 127.0.0.1 - - [01/Jun/2026 03:54:38] "GET /logout.html HTTP/1.1" 200 -
+2026-06-01 03:54:38,698 127.0.0.1 - - [01/Jun/2026 03:54:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:38,703 127.0.0.1 - - [01/Jun/2026 03:54:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:38,706 127.0.0.1 - - [01/Jun/2026 03:54:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:38,736 127.0.0.1 - - [01/Jun/2026 03:54:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:38,756 127.0.0.1 - - [01/Jun/2026 03:54:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:38,777 127.0.0.1 - - [01/Jun/2026 03:54:38] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:54:40,074 User logged out
+2026-06-01 03:54:40,074 127.0.0.1 - - [01/Jun/2026 03:54:40] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-01 03:54:40,093 127.0.0.1 - - [01/Jun/2026 03:54:40] "GET / HTTP/1.1" 200 -
+2026-06-01 03:54:40,147 127.0.0.1 - - [01/Jun/2026 03:54:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:40,153 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:54:40,153 127.0.0.1 - - [01/Jun/2026 03:54:40] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:40,155 127.0.0.1 - - [01/Jun/2026 03:54:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:40,158 127.0.0.1 - - [01/Jun/2026 03:54:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:40,162 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:54:40,163 127.0.0.1 - - [01/Jun/2026 03:54:40] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:40,190 127.0.0.1 - - [01/Jun/2026 03:54:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:40,209 127.0.0.1 - - [01/Jun/2026 03:54:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:40,235 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:54:40,235 127.0.0.1 - - [01/Jun/2026 03:54:40] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:54:40,238 127.0.0.1 - - [01/Jun/2026 03:54:40] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:54:41,562 127.0.0.1 - - [01/Jun/2026 03:54:41] "GET /login.html HTTP/1.1" 200 -
+2026-06-01 03:54:41,612 127.0.0.1 - - [01/Jun/2026 03:54:41] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:41,615 127.0.0.1 - - [01/Jun/2026 03:54:41] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:41,618 127.0.0.1 - - [01/Jun/2026 03:54:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:41,649 127.0.0.1 - - [01/Jun/2026 03:54:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:41,676 127.0.0.1 - - [01/Jun/2026 03:54:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:41,707 127.0.0.1 - - [01/Jun/2026 03:54:41] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:54:50,904 127.0.0.1 - - [01/Jun/2026 03:54:50] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-01 03:54:50,945 127.0.0.1 - - [01/Jun/2026 03:54:50] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-01 03:54:51,005 127.0.0.1 - - [01/Jun/2026 03:54:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:51,007 127.0.0.1 - - [01/Jun/2026 03:54:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:54:51,009 127.0.0.1 - - [01/Jun/2026 03:54:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:51,042 127.0.0.1 - - [01/Jun/2026 03:54:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:51,061 127.0.0.1 - - [01/Jun/2026 03:54:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:54:51,087 127.0.0.1 - - [01/Jun/2026 03:54:51] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:55:05,731 127.0.0.1 - - [01/Jun/2026 03:55:05] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-01 03:55:05,753 127.0.0.1 - - [01/Jun/2026 03:55:05] "[33mGET /loghome.html HTTP/1.1[0m" 404 -
+2026-06-01 03:55:52,301  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-01 03:55:52,352  * Restarting with stat
+2026-06-01 03:55:52,676  * Debugger is active!
+2026-06-01 03:55:52,676  * Debugger PIN: 830-862-356
+2026-06-01 03:56:12,086 127.0.0.1 - - [01/Jun/2026 03:56:12] "[33mGET /loghome.html HTTP/1.1[0m" 404 -
+2026-06-01 03:56:19,544 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.91:5000
+2026-06-01 03:56:19,544 [33mPress CTRL+C to quit[0m
+2026-06-01 03:56:19,545  * Restarting with stat
+2026-06-01 03:56:19,881  * Debugger is active!
+2026-06-01 03:56:19,881  * Debugger PIN: 830-862-356
+2026-06-01 03:56:20,771 127.0.0.1 - - [01/Jun/2026 03:56:20] "GET / HTTP/1.1" 200 -
+2026-06-01 03:56:20,843 127.0.0.1 - - [01/Jun/2026 03:56:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:20,844 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:56:20,844 127.0.0.1 - - [01/Jun/2026 03:56:20] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:56:20,847 127.0.0.1 - - [01/Jun/2026 03:56:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:20,941 127.0.0.1 - - [01/Jun/2026 03:56:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:20,957 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:56:20,957 127.0.0.1 - - [01/Jun/2026 03:56:20] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:56:20,996 127.0.0.1 - - [01/Jun/2026 03:56:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:21,018 127.0.0.1 - - [01/Jun/2026 03:56:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:21,040 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:56:21,040 127.0.0.1 - - [01/Jun/2026 03:56:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:56:21,056 127.0.0.1 - - [01/Jun/2026 03:56:21] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:56:22,633 127.0.0.1 - - [01/Jun/2026 03:56:22] "GET /logout.html HTTP/1.1" 200 -
+2026-06-01 03:56:22,684 127.0.0.1 - - [01/Jun/2026 03:56:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:22,690 127.0.0.1 - - [01/Jun/2026 03:56:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:22,690 127.0.0.1 - - [01/Jun/2026 03:56:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:22,718 127.0.0.1 - - [01/Jun/2026 03:56:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:22,742 127.0.0.1 - - [01/Jun/2026 03:56:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:22,770 127.0.0.1 - - [01/Jun/2026 03:56:22] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:56:23,257 User logged out
+2026-06-01 03:56:23,258 127.0.0.1 - - [01/Jun/2026 03:56:23] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-01 03:56:23,279 127.0.0.1 - - [01/Jun/2026 03:56:23] "GET / HTTP/1.1" 200 -
+2026-06-01 03:56:23,337 127.0.0.1 - - [01/Jun/2026 03:56:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:23,338 127.0.0.1 - - [01/Jun/2026 03:56:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:23,341 127.0.0.1 - - [01/Jun/2026 03:56:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:23,344 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:56:23,344 127.0.0.1 - - [01/Jun/2026 03:56:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:56:23,359 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:56:23,359 127.0.0.1 - - [01/Jun/2026 03:56:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:56:23,376 127.0.0.1 - - [01/Jun/2026 03:56:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:23,398 127.0.0.1 - - [01/Jun/2026 03:56:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:23,422 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:56:23,423 127.0.0.1 - - [01/Jun/2026 03:56:23] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:56:23,425 127.0.0.1 - - [01/Jun/2026 03:56:23] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:56:24,184 127.0.0.1 - - [01/Jun/2026 03:56:24] "GET /login.html HTTP/1.1" 200 -
+2026-06-01 03:56:24,230 127.0.0.1 - - [01/Jun/2026 03:56:24] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:24,231 127.0.0.1 - - [01/Jun/2026 03:56:24] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:24,233 127.0.0.1 - - [01/Jun/2026 03:56:24] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:24,261 127.0.0.1 - - [01/Jun/2026 03:56:24] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:24,283 127.0.0.1 - - [01/Jun/2026 03:56:24] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:24,309 127.0.0.1 - - [01/Jun/2026 03:56:24] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:56:31,686 127.0.0.1 - - [01/Jun/2026 03:56:31] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-01 03:56:31,710 127.0.0.1 - - [01/Jun/2026 03:56:31] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-01 03:56:31,757 127.0.0.1 - - [01/Jun/2026 03:56:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:31,759 127.0.0.1 - - [01/Jun/2026 03:56:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:31,763 127.0.0.1 - - [01/Jun/2026 03:56:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:56:31,803 127.0.0.1 - - [01/Jun/2026 03:56:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:31,838 127.0.0.1 - - [01/Jun/2026 03:56:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:56:31,890 127.0.0.1 - - [01/Jun/2026 03:56:31] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:56:41,017 127.0.0.1 - - [01/Jun/2026 03:56:41] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-01 03:56:41,043 127.0.0.1 - - [01/Jun/2026 03:56:41] "[35m[1mGET /dashboard.html HTTP/1.1[0m" 500 -
+2026-06-01 03:56:41,087 127.0.0.1 - - [01/Jun/2026 03:56:41] "GET /dashboard.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+2026-06-01 03:56:41,091 127.0.0.1 - - [01/Jun/2026 03:56:41] "GET /dashboard.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+2026-06-01 03:56:41,131 127.0.0.1 - - [01/Jun/2026 03:56:41] "GET /dashboard.html?__debugger__=yes&cmd=resource&f=console.png&s=zeKAXsqXL7HWDOAd6u3V HTTP/1.1" 200 -
+2026-06-01 03:56:41,154 127.0.0.1 - - [01/Jun/2026 03:56:41] "GET /dashboard.html?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+2026-06-01 03:57:46,078  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-01 03:57:46,121  * Restarting with stat
+2026-06-01 03:57:46,484  * Debugger is active!
+2026-06-01 03:57:46,485  * Debugger PIN: 830-862-356
+2026-06-01 03:57:53,374 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.91:5000
+2026-06-01 03:57:53,374 [33mPress CTRL+C to quit[0m
+2026-06-01 03:57:53,375  * Restarting with stat
+2026-06-01 03:57:53,710  * Debugger is active!
+2026-06-01 03:57:53,711  * Debugger PIN: 830-862-356
+2026-06-01 03:58:03,248 127.0.0.1 - - [01/Jun/2026 03:58:03] "GET / HTTP/1.1" 200 -
+2026-06-01 03:58:03,318 127.0.0.1 - - [01/Jun/2026 03:58:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:03,340 127.0.0.1 - - [01/Jun/2026 03:58:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:03,447 127.0.0.1 - - [01/Jun/2026 03:58:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:03,452 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:58:03,453 127.0.0.1 - - [01/Jun/2026 03:58:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:58:03,463 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:58:03,463 127.0.0.1 - - [01/Jun/2026 03:58:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:58:03,508 127.0.0.1 - - [01/Jun/2026 03:58:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:03,533 127.0.0.1 - - [01/Jun/2026 03:58:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:03,559 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:58:03,559 127.0.0.1 - - [01/Jun/2026 03:58:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:58:03,563 127.0.0.1 - - [01/Jun/2026 03:58:03] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:58:07,000 127.0.0.1 - - [01/Jun/2026 03:58:07] "GET /logout.html HTTP/1.1" 200 -
+2026-06-01 03:58:07,050 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,063 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,073 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,115 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,136 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,158 127.0.0.1 - - [01/Jun/2026 03:58:07] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:58:07,754 User logged out
+2026-06-01 03:58:07,754 127.0.0.1 - - [01/Jun/2026 03:58:07] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-01 03:58:07,775 127.0.0.1 - - [01/Jun/2026 03:58:07] "GET / HTTP/1.1" 200 -
+2026-06-01 03:58:07,839 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:58:07,839 127.0.0.1 - - [01/Jun/2026 03:58:07] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:58:07,843 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,845 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,847 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,853 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 03:58:07,853 127.0.0.1 - - [01/Jun/2026 03:58:07] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:58:07,880 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,900 127.0.0.1 - - [01/Jun/2026 03:58:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:07,923 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 03:58:07,923 127.0.0.1 - - [01/Jun/2026 03:58:07] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 03:58:07,932 127.0.0.1 - - [01/Jun/2026 03:58:07] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:58:08,608 127.0.0.1 - - [01/Jun/2026 03:58:08] "GET /login.html HTTP/1.1" 200 -
+2026-06-01 03:58:08,658 127.0.0.1 - - [01/Jun/2026 03:58:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:08,662 127.0.0.1 - - [01/Jun/2026 03:58:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:08,663 127.0.0.1 - - [01/Jun/2026 03:58:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:08,689 127.0.0.1 - - [01/Jun/2026 03:58:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:08,715 127.0.0.1 - - [01/Jun/2026 03:58:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:08,748 127.0.0.1 - - [01/Jun/2026 03:58:08] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:58:15,159 127.0.0.1 - - [01/Jun/2026 03:58:15] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-01 03:58:15,188 127.0.0.1 - - [01/Jun/2026 03:58:15] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-01 03:58:15,238 127.0.0.1 - - [01/Jun/2026 03:58:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:15,242 127.0.0.1 - - [01/Jun/2026 03:58:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:15,246 127.0.0.1 - - [01/Jun/2026 03:58:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:15,286 127.0.0.1 - - [01/Jun/2026 03:58:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:15,307 127.0.0.1 - - [01/Jun/2026 03:58:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:15,332 127.0.0.1 - - [01/Jun/2026 03:58:15] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 03:58:20,937 127.0.0.1 - - [01/Jun/2026 03:58:20] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-01 03:58:20,962 127.0.0.1 - - [01/Jun/2026 03:58:20] "[35m[1mGET /dashboard.html HTTP/1.1[0m" 500 -
+2026-06-01 03:58:21,001 127.0.0.1 - - [01/Jun/2026 03:58:21] "[36mGET /dashboard.html?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+2026-06-01 03:58:21,011 127.0.0.1 - - [01/Jun/2026 03:58:21] "[36mGET /dashboard.html?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+2026-06-01 03:58:21,051 127.0.0.1 - - [01/Jun/2026 03:58:21] "GET /dashboard.html?__debugger__=yes&cmd=resource&f=console.png&s=oKDpX9QzNdu6U78TiQz4 HTTP/1.1" 200 -
+2026-06-01 03:59:37,106  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-01 03:59:37,146  * Restarting with stat
+2026-06-01 03:59:37,472  * Debugger is active!
+2026-06-01 03:59:37,472  * Debugger PIN: 830-862-356
+2026-06-01 04:00:26,193  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-01 04:00:26,241  * Restarting with stat
+2026-06-01 04:00:26,627  * Debugger is active!
+2026-06-01 04:00:26,628  * Debugger PIN: 830-862-356
+2026-06-01 04:03:22,109  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-01 04:03:22,144  * Restarting with stat
+2026-06-01 04:03:22,472  * Debugger is active!
+2026-06-01 04:03:22,472  * Debugger PIN: 830-862-356
+2026-06-01 04:03:25,957 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.91:5000
+2026-06-01 04:03:25,957 [33mPress CTRL+C to quit[0m
+2026-06-01 04:03:25,958  * Restarting with stat
+2026-06-01 04:03:26,263  * Debugger is active!
+2026-06-01 04:03:26,264  * Debugger PIN: 830-862-356
+2026-06-01 04:03:27,065 127.0.0.1 - - [01/Jun/2026 04:03:27] "GET / HTTP/1.1" 200 -
+2026-06-01 04:03:27,332 127.0.0.1 - - [01/Jun/2026 04:03:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:27,337 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 04:03:27,337 127.0.0.1 - - [01/Jun/2026 04:03:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:27,344 127.0.0.1 - - [01/Jun/2026 04:03:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:27,359 127.0.0.1 - - [01/Jun/2026 04:03:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:27,380 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 04:03:27,380 127.0.0.1 - - [01/Jun/2026 04:03:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:27,430 127.0.0.1 - - [01/Jun/2026 04:03:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:27,451 127.0.0.1 - - [01/Jun/2026 04:03:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:27,475 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 04:03:27,475 127.0.0.1 - - [01/Jun/2026 04:03:27] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:27,486 127.0.0.1 - - [01/Jun/2026 04:03:27] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 04:03:29,678 127.0.0.1 - - [01/Jun/2026 04:03:29] "[33mGET /loghome.html HTTP/1.1[0m" 404 -
+2026-06-01 04:03:31,119 127.0.0.1 - - [01/Jun/2026 04:03:31] "GET / HTTP/1.1" 200 -
+2026-06-01 04:03:31,154 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 04:03:31,154 127.0.0.1 - - [01/Jun/2026 04:03:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:31,175 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 04:03:31,175 127.0.0.1 - - [01/Jun/2026 04:03:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:31,180 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 04:03:31,181 127.0.0.1 - - [01/Jun/2026 04:03:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:31,185 127.0.0.1 - - [01/Jun/2026 04:03:31] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 04:03:31,877 127.0.0.1 - - [01/Jun/2026 04:03:31] "GET /logout.html HTTP/1.1" 200 -
+2026-06-01 04:03:31,923 127.0.0.1 - - [01/Jun/2026 04:03:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:31,928 127.0.0.1 - - [01/Jun/2026 04:03:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:31,929 127.0.0.1 - - [01/Jun/2026 04:03:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:31,960 127.0.0.1 - - [01/Jun/2026 04:03:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:31,981 127.0.0.1 - - [01/Jun/2026 04:03:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:32,005 127.0.0.1 - - [01/Jun/2026 04:03:32] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 04:03:32,484 User logged out
+2026-06-01 04:03:32,484 127.0.0.1 - - [01/Jun/2026 04:03:32] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-01 04:03:32,504 127.0.0.1 - - [01/Jun/2026 04:03:32] "GET / HTTP/1.1" 200 -
+2026-06-01 04:03:32,558 127.0.0.1 - - [01/Jun/2026 04:03:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:32,562 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 04:03:32,563 127.0.0.1 - - [01/Jun/2026 04:03:32] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:32,565 127.0.0.1 - - [01/Jun/2026 04:03:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:32,567 127.0.0.1 - - [01/Jun/2026 04:03:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:32,570 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-01 04:03:32,570 127.0.0.1 - - [01/Jun/2026 04:03:32] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:32,598 127.0.0.1 - - [01/Jun/2026 04:03:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:32,619 127.0.0.1 - - [01/Jun/2026 04:03:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:32,651 {"csp-report":{"document-uri":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","referrer":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/logout.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://curly-happiness-x66g9jgqwq5h6r5q-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-01 04:03:32,652 127.0.0.1 - - [01/Jun/2026 04:03:32] "POST /csp_report HTTP/1.1" 200 -
+2026-06-01 04:03:32,655 127.0.0.1 - - [01/Jun/2026 04:03:32] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 04:03:33,740 127.0.0.1 - - [01/Jun/2026 04:03:33] "GET /login.html HTTP/1.1" 200 -
+2026-06-01 04:03:33,780 127.0.0.1 - - [01/Jun/2026 04:03:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:33,783 127.0.0.1 - - [01/Jun/2026 04:03:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:33,788 127.0.0.1 - - [01/Jun/2026 04:03:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:33,810 127.0.0.1 - - [01/Jun/2026 04:03:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:33,832 127.0.0.1 - - [01/Jun/2026 04:03:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:33,858 127.0.0.1 - - [01/Jun/2026 04:03:33] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 04:03:44,040 127.0.0.1 - - [01/Jun/2026 04:03:44] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-01 04:03:44,068 127.0.0.1 - - [01/Jun/2026 04:03:44] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-01 04:03:44,113 127.0.0.1 - - [01/Jun/2026 04:03:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:44,116 127.0.0.1 - - [01/Jun/2026 04:03:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:44,119 127.0.0.1 - - [01/Jun/2026 04:03:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:44,152 127.0.0.1 - - [01/Jun/2026 04:03:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:44,175 127.0.0.1 - - [01/Jun/2026 04:03:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:44,206 127.0.0.1 - - [01/Jun/2026 04:03:44] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-01 04:03:54,596 127.0.0.1 - - [01/Jun/2026 04:03:54] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-01 04:03:54,618 127.0.0.1 - - [01/Jun/2026 04:03:54] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-01 04:03:54,673 127.0.0.1 - - [01/Jun/2026 04:03:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:54,680 127.0.0.1 - - [01/Jun/2026 04:03:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:54,683 127.0.0.1 - - [01/Jun/2026 04:03:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-01 04:03:54,722 127.0.0.1 - - [01/Jun/2026 04:03:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:54,745 127.0.0.1 - - [01/Jun/2026 04:03:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-01 04:03:54,770 127.0.0.1 - - [01/Jun/2026 04:03:54] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -

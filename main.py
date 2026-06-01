@@ -160,7 +160,7 @@ def verify_tfa():
                     identity=str(email),
                     additional_claims={"email": email, "name": name},
                 )
-                response = make_response(redirect("/loghome.html"))
+                response = make_response(redirect("/dashboard.html"))
                 response.set_cookie(
                     "access_token_cookie",
                     access_token,
@@ -192,38 +192,11 @@ def signup():
     return render_template("/signup.html")
 
 
-@app.route("/loghome.html", methods=["GET"])
+@app.route("/dashboard.html", methods=["GET"])
 @jwt_required()
-def loghome():
+def dashboard():
     user_id = get_jwt_identity()
-    order_by = request.args.get("order_by", "created")
-    order_dir = request.args.get("order_dir", "DESC")
-    filter_author = request.args.get("filter_author", "")
-    filter_project = request.args.get("filter_project", "")
-    filter_date = request.args.get("filter_date", "")
-    entries = dbHandler.getLogs(
-        order_by=order_by,
-        order_dir=order_dir,
-        filter_author=filter_author if filter_author else None,
-        filter_project=filter_project if filter_project else None,
-        filter_date=filter_date if filter_date else None,
-    )
-    for entry in entries:
-        if isinstance(entry["created"], str):
-            entry["created"] = datetime.strptime(entry["created"], "%Y-%m-%d %H:%M:%S")
-        if isinstance(entry["starttime"], str):
-            entry["starttime"] = datetime.strptime(entry["starttime"], "%Y-%m-%dT%H:%M")
-        if isinstance(entry["endtime"], str):
-            entry["endtime"] = datetime.strptime(entry["endtime"], "%Y-%m-%dT%H:%M")
-    return render_template(
-        "/loghome.html",
-        entries=entries,
-        order_by=order_by,
-        order_dir=order_dir,
-        filter_author=filter_author,
-        filter_project=filter_project,
-        filter_date=filter_date,
-    )
+    return render_template("/dashboard.html")
 
 
 @app.route("/createlog.html", methods=["GET", "POST"])
@@ -260,71 +233,6 @@ def logout():
     return response
 
 
-@app.route("/log/<int:log_id>")
-@jwt_required()
-def view_log(log_id):
-    entry = dbHandler.getLog(log_id)
-    if entry:
-        if isinstance(entry["created"], str):
-            entry["created"] = datetime.strptime(entry["created"], "%Y-%m-%d %H:%M:%S")
-        if isinstance(entry["starttime"], str):
-            entry["starttime"] = datetime.strptime(entry["starttime"], "%Y-%m-%dT%H:%M")
-        if isinstance(entry["endtime"], str):
-            entry["endtime"] = datetime.strptime(entry["endtime"], "%Y-%m-%dT%H:%M")
-        return render_template("logdetail.html", entry=entry)
-    else:
-        return "Log not found", 404
-
-
-@app.route("/logdetail/<int:log_id>", methods=["GET", "POST"])
-@jwt_required()
-def editlog(log_id):
-    user_id = get_jwt_identity()
-    if request.method == "POST":
-        id = log_id
-        project = request.form["project"]
-        starttime = request.form["date_started"]
-        endtime = request.form["date_finished"]
-        message = request.form["message"]
-        editlog = dbHandler.editLog(id, project, starttime, endtime, message)
-        if editlog:
-            return redirect("/loghome.html")
-        else:
-            # Get fresh entry from database to re-populate form
-            entry = dbHandler.getLog(log_id)
-            if entry:
-                # Format datetime fields for datetime-local input
-                if isinstance(entry["starttime"], str):
-                    entry["starttime"] = datetime.strptime(
-                        entry["starttime"], "%Y-%m-%dT%H:%M"
-                    ).strftime("%Y-%m-%dT%H:%M")
-                else:
-                    entry["starttime"] = entry["starttime"].strftime("%Y-%m-%dT%H:%M")
-                if isinstance(entry["endtime"], str):
-                    entry["endtime"] = datetime.strptime(
-                        entry["endtime"], "%Y-%m-%dT%H:%M"
-                    ).strftime("%Y-%m-%dT%H:%M")
-                else:
-                    entry["endtime"] = entry["endtime"].strftime("%Y-%m-%dT%H:%M")
-            return render_template("/editlog.html", error=True, entry=entry)
-    entry = dbHandler.getLog(log_id)
-    if not entry:
-        return render_template("/editlog.html", error=True, entry=None)
-    if isinstance(entry["starttime"], str):
-        entry["starttime"] = datetime.strptime(
-            entry["starttime"], "%Y-%m-%dT%H:%M"
-        ).strftime("%Y-%m-%dT%H:%M")
-    else:
-        entry["starttime"] = entry["starttime"].strftime("%Y-%m-%dT%H:%M")
-    if isinstance(entry["endtime"], str):
-        entry["endtime"] = datetime.strptime(
-            entry["endtime"], "%Y-%m-%dT%H:%M"
-        ).strftime("%Y-%m-%dT%H:%M")
-    else:
-        entry["endtime"] = entry["endtime"].strftime("%Y-%m-%dT%H:%M")
-    return render_template("/editlog.html", entry=entry)
-
-
 @app.route("/setup_2fa.html", methods=["GET", "POST"])
 def setup_2fa():
     # Check if this is mandatory setup or logged-in user
@@ -338,7 +246,7 @@ def setup_2fa():
         name = session["pending_2fa_name"]
     else:
         # This shouldn't happen anymore, but keep for safety
-        return redirect("/loghome.html")
+        return redirect("/dashboard.html")
 
     if request.method == "POST":
         otp_input = request.form["otp"]
@@ -360,7 +268,7 @@ def setup_2fa():
                         identity=str(email),
                         additional_claims={"email": email, "name": name},
                     )
-                    response = make_response(redirect("/loghome.html"))
+                    response = make_response(redirect("/dashboard.html"))
                     response.set_cookie(
                         "access_token_cookie",
                         access_token,
