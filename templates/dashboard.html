@@ -1,7 +1,79 @@
 {% extends 'layout.html' %} {% block content %}
-<div class="container">
-  <div class="column">
-    <h1>Welcome but lowk dashboard</h1>
+<div class="container mt-4">
+  <div class="row mb-4">
+    <div class="col">
+      <h1>Dashboard</h1>
+    </div>
+  </div>
+
+  <!-- Live Matches Section (top) -->
+  <div class="row mb-4">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">Live Matches</h5>
+        </div>
+        <div class="card-body">
+          <!-- Placeholder until live data is connected -->
+          <div
+            class="border rounded p-3 text-center text-muted"
+            style="
+              min-height: 150px;
+              display: flex;
+              align-items: center;
+              justify-content: center;
+            "
+          >
+            <div>
+              <p class="mb-1">Live Data</p>
+              <small>(current matches/scores)</small>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex flex-column justify-content-center">
+      <h5>Live Matches</h5>
+      <p class="text-muted">View all current matches and live scores.</p>
+      <a href="/live.html" class="btn btn-primary">Matches Page</a>
+    </div>
+  </div>
+
+  <!-- Rankings Section (below, larger) -->
+  <div class="row mb-4">
+    <div class="col-md-8">
+      <div class="card">
+        <div class="card-header">
+          <h5 class="mb-0">Rankings</h5>
+        </div>
+        <div class="card-body">
+          <!-- Placeholder until rankings data is connected -->
+          <table class="table table-striped mb-0">
+            <thead>
+              <tr>
+                <th>#</th>
+                <th>Player</th>
+                <th>Country</th>
+                <th>Points</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Populated once data source connected -->
+              <tr>
+                <td colspan="4" class="text-center text-muted">
+                  Ranking Preview (top X)
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="col-md-4 d-flex flex-column justify-content-center">
+      <h5>Rankings</h5>
+      <p class="text-muted">View the full player rankings leaderboard.</p>
+      <a href="/rankings.html" class="btn btn-primary">Rankings Page</a>
+    </div>
   </div>
 </div>
 {% endblock %}

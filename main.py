@@ -42,7 +42,7 @@ logging.basicConfig(
 
 # Generate a unique basic 16 key: https://acte.ltd/utils/randomkeygen
 app = Flask(__name__)
-app.secret_key = b"_53oi3uriq9pifpff;apl"
+app.secret_key = b"6967fd71516df39beac5d1f5d58ab1ed46c31b150d211ed87cad9241545388a5"
 app.config["JWT_SECRET_KEY"] = app.secret_key
 app.config["JWT_TOKEN_LOCATION"] = ["cookies"]
 app.config["JWT_COOKIE_SECURE"] = True
@@ -195,27 +195,20 @@ def signup():
 @app.route("/dashboard.html", methods=["GET"])
 @jwt_required()
 def dashboard():
-    user_id = get_jwt_identity()
+    # user_id = get_jwt_identity()
     return render_template("/dashboard.html")
 
 
-@app.route("/createlog.html", methods=["GET", "POST"])
+@app.route("/live.html", methods=["GET"])
 @jwt_required()
-def createlog():
-    user_id = get_jwt_identity()
-    if request.method == "POST":
-        project = request.form["project"]
-        starttime = request.form["date_started"]
-        endtime = request.form["date_finished"]
-        message = request.form["message"]
-        claims = get_jwt()
-        author = claims.get("name")
-        createlog = dbHandler.createLog(project, author, starttime, endtime, message)
-        if createlog:
-            return redirect("loghome.html")
-        else:
-            return render_template("/createlog.html", error=True)
-    return render_template("/createlog.html")
+def live():
+    return render_template("/live.html")
+
+
+@app.route("/rankings.html", methods=["GET"])
+@jwt_required()
+def rankings():
+    return render_template("/rankings.html")
 
 
 @app.route("/logout.html", methods=["GET"])
@@ -328,6 +321,28 @@ def form():
 def csp_report():
     app.logger.critical(request.data.decode())
     return "done"
+
+
+@app.route("/player.html", methods=["GET"])
+@jwt_required()
+def player():
+    player_id = request.args.get("id")
+    player_name = request.args.get("name")
+
+    if not player_id and not player_name:
+        return render_template("/player.html", error="No player specified", player=None)
+
+    # TODO: Replace with actual API call or DB query
+    # API:
+    # response = requests.get(f"https://api.example.com/players/{player_id}")
+    # player = response.json()
+
+    # DB:
+    # player = dbHandler.getPlayer(player_id)
+
+    player = None  # Placeholder until data source is connected
+
+    return render_template("/player.html", player=player, player_id=player_id)
 
 
 if __name__ == "__main__":

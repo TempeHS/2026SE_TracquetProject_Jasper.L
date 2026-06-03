@@ -7174,3 +7174,882 @@
 2026-06-01 04:03:54,722 127.0.0.1 - - [01/Jun/2026 04:03:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2026-06-01 04:03:54,745 127.0.0.1 - - [01/Jun/2026 04:03:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2026-06-01 04:03:54,770 127.0.0.1 - - [01/Jun/2026 04:03:54] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:10:24,799 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.126:5000
+2026-06-03 01:10:24,800 [33mPress CTRL+C to quit[0m
+2026-06-03 01:10:24,801  * Restarting with stat
+2026-06-03 01:10:25,164  * Debugger is active!
+2026-06-03 01:10:25,165  * Debugger PIN: 103-978-289
+2026-06-03 01:10:28,941 127.0.0.1 - - [03/Jun/2026 01:10:28] "GET / HTTP/1.1" 200 -
+2026-06-03 01:10:29,218 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:10:29,219 127.0.0.1 - - [03/Jun/2026 01:10:29] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:10:29,262 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:10:29,263 127.0.0.1 - - [03/Jun/2026 01:10:29] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:10:29,289 127.0.0.1 - - [03/Jun/2026 01:10:29] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-03 01:10:29,290 127.0.0.1 - - [03/Jun/2026 01:10:29] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-03 01:10:29,290 127.0.0.1 - - [03/Jun/2026 01:10:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-03 01:10:29,392 127.0.0.1 - - [03/Jun/2026 01:10:29] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2026-06-03 01:10:29,419 127.0.0.1 - - [03/Jun/2026 01:10:29] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-03 01:10:29,456 127.0.0.1 - - [03/Jun/2026 01:10:29] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-03 01:10:29,460 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":87,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:10:29,460 127.0.0.1 - - [03/Jun/2026 01:10:29] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:10:29,461 127.0.0.1 - - [03/Jun/2026 01:10:29] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:10:30,780 127.0.0.1 - - [03/Jun/2026 01:10:30] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 01:10:30,832 127.0.0.1 - - [03/Jun/2026 01:10:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:10:30,841 127.0.0.1 - - [03/Jun/2026 01:10:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:10:30,844 127.0.0.1 - - [03/Jun/2026 01:10:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:10:30,880 127.0.0.1 - - [03/Jun/2026 01:10:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:10:30,903 127.0.0.1 - - [03/Jun/2026 01:10:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:10:30,931 127.0.0.1 - - [03/Jun/2026 01:10:30] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:18,185 127.0.0.1 - - [03/Jun/2026 01:14:18] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 01:14:18,371 127.0.0.1 - - [03/Jun/2026 01:14:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:18,388 127.0.0.1 - - [03/Jun/2026 01:14:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:18,400 127.0.0.1 - - [03/Jun/2026 01:14:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:18,494 127.0.0.1 - - [03/Jun/2026 01:14:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:18,580 127.0.0.1 - - [03/Jun/2026 01:14:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:18,615 127.0.0.1 - - [03/Jun/2026 01:14:18] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:18,618 127.0.0.1 - - [03/Jun/2026 01:14:18] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:14:19,577 127.0.0.1 - - [03/Jun/2026 01:14:19] "GET / HTTP/1.1" 200 -
+2026-06-03 01:14:19,632 127.0.0.1 - - [03/Jun/2026 01:14:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:19,634 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:14:19,634 127.0.0.1 - - [03/Jun/2026 01:14:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:19,637 127.0.0.1 - - [03/Jun/2026 01:14:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:19,639 127.0.0.1 - - [03/Jun/2026 01:14:19] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:19,641 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:14:19,642 127.0.0.1 - - [03/Jun/2026 01:14:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:19,670 127.0.0.1 - - [03/Jun/2026 01:14:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:19,696 127.0.0.1 - - [03/Jun/2026 01:14:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:19,723 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":91,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:14:19,724 127.0.0.1 - - [03/Jun/2026 01:14:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:19,726 127.0.0.1 - - [03/Jun/2026 01:14:19] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:21,984 127.0.0.1 - - [03/Jun/2026 01:14:21] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 01:14:22,029 127.0.0.1 - - [03/Jun/2026 01:14:22] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:22,031 127.0.0.1 - - [03/Jun/2026 01:14:22] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:22,034 127.0.0.1 - - [03/Jun/2026 01:14:22] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:22,063 127.0.0.1 - - [03/Jun/2026 01:14:22] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:22,085 127.0.0.1 - - [03/Jun/2026 01:14:22] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:22,112 127.0.0.1 - - [03/Jun/2026 01:14:22] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:23,548 127.0.0.1 - - [03/Jun/2026 01:14:23] "GET /signup.html HTTP/1.1" 200 -
+2026-06-03 01:14:23,603 127.0.0.1 - - [03/Jun/2026 01:14:23] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:23,605 127.0.0.1 - - [03/Jun/2026 01:14:23] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:23,610 127.0.0.1 - - [03/Jun/2026 01:14:23] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:23,636 127.0.0.1 - - [03/Jun/2026 01:14:23] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:23,658 127.0.0.1 - - [03/Jun/2026 01:14:23] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:23,683 127.0.0.1 - - [03/Jun/2026 01:14:23] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:25,553 127.0.0.1 - - [03/Jun/2026 01:14:25] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 01:14:25,594 127.0.0.1 - - [03/Jun/2026 01:14:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:25,597 127.0.0.1 - - [03/Jun/2026 01:14:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:25,600 127.0.0.1 - - [03/Jun/2026 01:14:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:25,631 127.0.0.1 - - [03/Jun/2026 01:14:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:25,662 127.0.0.1 - - [03/Jun/2026 01:14:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:25,691 127.0.0.1 - - [03/Jun/2026 01:14:25] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:26,905 127.0.0.1 - - [03/Jun/2026 01:14:26] "GET /signup.html HTTP/1.1" 200 -
+2026-06-03 01:14:26,954 127.0.0.1 - - [03/Jun/2026 01:14:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:26,957 127.0.0.1 - - [03/Jun/2026 01:14:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:26,960 127.0.0.1 - - [03/Jun/2026 01:14:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:26,987 127.0.0.1 - - [03/Jun/2026 01:14:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:27,010 127.0.0.1 - - [03/Jun/2026 01:14:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:27,036 127.0.0.1 - - [03/Jun/2026 01:14:27] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:28,547 127.0.0.1 - - [03/Jun/2026 01:14:28] "GET / HTTP/1.1" 200 -
+2026-06-03 01:14:28,602 127.0.0.1 - - [03/Jun/2026 01:14:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:28,604 127.0.0.1 - - [03/Jun/2026 01:14:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:28,606 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:14:28,606 127.0.0.1 - - [03/Jun/2026 01:14:28] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:28,608 127.0.0.1 - - [03/Jun/2026 01:14:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:28,611 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:14:28,611 127.0.0.1 - - [03/Jun/2026 01:14:28] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:28,641 127.0.0.1 - - [03/Jun/2026 01:14:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:28,661 127.0.0.1 - - [03/Jun/2026 01:14:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:28,685 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":91,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:14:28,685 127.0.0.1 - - [03/Jun/2026 01:14:28] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:28,692 127.0.0.1 - - [03/Jun/2026 01:14:28] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:37,194 127.0.0.1 - - [03/Jun/2026 01:14:37] "GET / HTTP/1.1" 200 -
+2026-06-03 01:14:37,245 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:14:37,245 127.0.0.1 - - [03/Jun/2026 01:14:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:37,251 127.0.0.1 - - [03/Jun/2026 01:14:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:37,254 127.0.0.1 - - [03/Jun/2026 01:14:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:37,256 127.0.0.1 - - [03/Jun/2026 01:14:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:14:37,261 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:14:37,262 127.0.0.1 - - [03/Jun/2026 01:14:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:37,289 127.0.0.1 - - [03/Jun/2026 01:14:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:37,309 127.0.0.1 - - [03/Jun/2026 01:14:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:14:37,338 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":91,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:14:37,339 127.0.0.1 - - [03/Jun/2026 01:14:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:14:37,341 127.0.0.1 - - [03/Jun/2026 01:14:37] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:14:37,344 127.0.0.1 - - [03/Jun/2026 01:14:37] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:15:31,424 127.0.0.1 - - [03/Jun/2026 01:15:31] "GET / HTTP/1.1" 200 -
+2026-06-03 01:15:31,480 127.0.0.1 - - [03/Jun/2026 01:15:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:15:31,484 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:15:31,484 127.0.0.1 - - [03/Jun/2026 01:15:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:15:31,490 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:15:31,491 127.0.0.1 - - [03/Jun/2026 01:15:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:15:31,491 127.0.0.1 - - [03/Jun/2026 01:15:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:15:31,491 127.0.0.1 - - [03/Jun/2026 01:15:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:15:31,528 127.0.0.1 - - [03/Jun/2026 01:15:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:15:31,551 127.0.0.1 - - [03/Jun/2026 01:15:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:15:31,580 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":95,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:15:31,580 127.0.0.1 - - [03/Jun/2026 01:15:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:15:31,588 127.0.0.1 - - [03/Jun/2026 01:15:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:15:31,591 127.0.0.1 - - [03/Jun/2026 01:15:31] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:15:48,696 127.0.0.1 - - [03/Jun/2026 01:15:48] "GET / HTTP/1.1" 200 -
+2026-06-03 01:15:48,748 127.0.0.1 - - [03/Jun/2026 01:15:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:15:48,755 127.0.0.1 - - [03/Jun/2026 01:15:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:15:48,759 127.0.0.1 - - [03/Jun/2026 01:15:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:15:48,763 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:15:48,764 127.0.0.1 - - [03/Jun/2026 01:15:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:15:48,769 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:15:48,769 127.0.0.1 - - [03/Jun/2026 01:15:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:15:48,799 127.0.0.1 - - [03/Jun/2026 01:15:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:15:48,823 127.0.0.1 - - [03/Jun/2026 01:15:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:15:48,850 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":95,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:15:48,850 127.0.0.1 - - [03/Jun/2026 01:15:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:15:48,858 127.0.0.1 - - [03/Jun/2026 01:15:48] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:15:48,863 127.0.0.1 - - [03/Jun/2026 01:15:48] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:16:48,115 127.0.0.1 - - [03/Jun/2026 01:16:48] "GET / HTTP/1.1" 200 -
+2026-06-03 01:16:48,194 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:16:48,194 127.0.0.1 - - [03/Jun/2026 01:16:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:16:48,202 127.0.0.1 - - [03/Jun/2026 01:16:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:16:48,206 127.0.0.1 - - [03/Jun/2026 01:16:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:16:48,210 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:16:48,210 127.0.0.1 - - [03/Jun/2026 01:16:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:16:48,214 127.0.0.1 - - [03/Jun/2026 01:16:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:16:48,249 127.0.0.1 - - [03/Jun/2026 01:16:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:16:48,275 127.0.0.1 - - [03/Jun/2026 01:16:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:16:48,306 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":96,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:16:48,307 127.0.0.1 - - [03/Jun/2026 01:16:48] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:16:48,310 127.0.0.1 - - [03/Jun/2026 01:16:48] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:16:48,313 127.0.0.1 - - [03/Jun/2026 01:16:48] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:17:02,495 127.0.0.1 - - [03/Jun/2026 01:17:02] "GET / HTTP/1.1" 200 -
+2026-06-03 01:17:02,552 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:17:02,552 127.0.0.1 - - [03/Jun/2026 01:17:02] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:17:02,555 127.0.0.1 - - [03/Jun/2026 01:17:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:17:02,558 127.0.0.1 - - [03/Jun/2026 01:17:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:17:02,560 127.0.0.1 - - [03/Jun/2026 01:17:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:17:02,562 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:17:02,563 127.0.0.1 - - [03/Jun/2026 01:17:02] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:17:02,593 127.0.0.1 - - [03/Jun/2026 01:17:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:17:02,614 127.0.0.1 - - [03/Jun/2026 01:17:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:17:02,644 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:17:02,644 127.0.0.1 - - [03/Jun/2026 01:17:02] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:17:02,652 127.0.0.1 - - [03/Jun/2026 01:17:02] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:17:02,656 127.0.0.1 - - [03/Jun/2026 01:17:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:17:42,831 127.0.0.1 - - [03/Jun/2026 01:17:42] "GET / HTTP/1.1" 200 -
+2026-06-03 01:17:42,886 127.0.0.1 - - [03/Jun/2026 01:17:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:17:42,891 127.0.0.1 - - [03/Jun/2026 01:17:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:17:42,893 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:17:42,893 127.0.0.1 - - [03/Jun/2026 01:17:42] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:17:42,897 127.0.0.1 - - [03/Jun/2026 01:17:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:17:42,900 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:17:42,900 127.0.0.1 - - [03/Jun/2026 01:17:42] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:17:42,928 127.0.0.1 - - [03/Jun/2026 01:17:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:17:42,950 127.0.0.1 - - [03/Jun/2026 01:17:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:17:42,978 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:17:42,978 127.0.0.1 - - [03/Jun/2026 01:17:42] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:17:42,985 127.0.0.1 - - [03/Jun/2026 01:17:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:17:42,990 127.0.0.1 - - [03/Jun/2026 01:17:42] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:18:31,318 127.0.0.1 - - [03/Jun/2026 01:18:31] "GET / HTTP/1.1" 200 -
+2026-06-03 01:18:31,376 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:31,377 127.0.0.1 - - [03/Jun/2026 01:18:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:31,381 127.0.0.1 - - [03/Jun/2026 01:18:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:31,383 127.0.0.1 - - [03/Jun/2026 01:18:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:18:31,385 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:31,386 127.0.0.1 - - [03/Jun/2026 01:18:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:31,388 127.0.0.1 - - [03/Jun/2026 01:18:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:18:31,391 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:18:31,391 127.0.0.1 - - [03/Jun/2026 01:18:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:31,428 127.0.0.1 - - [03/Jun/2026 01:18:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:31,450 127.0.0.1 - - [03/Jun/2026 01:18:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:31,480 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:31,481 127.0.0.1 - - [03/Jun/2026 01:18:31] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:31,484 127.0.0.1 - - [03/Jun/2026 01:18:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:18:31,486 127.0.0.1 - - [03/Jun/2026 01:18:31] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:18:36,120 127.0.0.1 - - [03/Jun/2026 01:18:36] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 01:18:36,161 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,169 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,172 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,201 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,225 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,256 127.0.0.1 - - [03/Jun/2026 01:18:36] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:18:36,743 127.0.0.1 - - [03/Jun/2026 01:18:36] "GET / HTTP/1.1" 200 -
+2026-06-03 01:18:36,806 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,810 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,812 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:36,813 127.0.0.1 - - [03/Jun/2026 01:18:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:36,815 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,818 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:36,819 127.0.0.1 - - [03/Jun/2026 01:18:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:36,821 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:18:36,822 127.0.0.1 - - [03/Jun/2026 01:18:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:36,855 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,879 127.0.0.1 - - [03/Jun/2026 01:18:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:36,903 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:36,903 127.0.0.1 - - [03/Jun/2026 01:18:36] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:36,913 127.0.0.1 - - [03/Jun/2026 01:18:36] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:18:37,927 127.0.0.1 - - [03/Jun/2026 01:18:37] "GET / HTTP/1.1" 200 -
+2026-06-03 01:18:37,986 127.0.0.1 - - [03/Jun/2026 01:18:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:18:37,988 127.0.0.1 - - [03/Jun/2026 01:18:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:37,992 127.0.0.1 - - [03/Jun/2026 01:18:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:18:37,994 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:37,995 127.0.0.1 - - [03/Jun/2026 01:18:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:37,996 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:18:37,997 127.0.0.1 - - [03/Jun/2026 01:18:37] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:38,001 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:38,001 127.0.0.1 - - [03/Jun/2026 01:18:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:38,031 127.0.0.1 - - [03/Jun/2026 01:18:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:38,053 127.0.0.1 - - [03/Jun/2026 01:18:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:18:38,082 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:18:38,082 127.0.0.1 - - [03/Jun/2026 01:18:38] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:18:38,085 127.0.0.1 - - [03/Jun/2026 01:18:38] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:19:13,574 127.0.0.1 - - [03/Jun/2026 01:19:13] "GET / HTTP/1.1" 200 -
+2026-06-03 01:19:13,634 127.0.0.1 - - [03/Jun/2026 01:19:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:19:13,636 127.0.0.1 - - [03/Jun/2026 01:19:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:19:13,642 127.0.0.1 - - [03/Jun/2026 01:19:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:19:13,644 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:19:13,644 127.0.0.1 - - [03/Jun/2026 01:19:13] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:19:13,646 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":67,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:19:13,646 127.0.0.1 - - [03/Jun/2026 01:19:13] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:19:13,650 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:19:13,650 127.0.0.1 - - [03/Jun/2026 01:19:13] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:19:13,679 127.0.0.1 - - [03/Jun/2026 01:19:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:19:13,701 127.0.0.1 - - [03/Jun/2026 01:19:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:19:13,726 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:19:13,726 127.0.0.1 - - [03/Jun/2026 01:19:13] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:19:13,737 127.0.0.1 - - [03/Jun/2026 01:19:13] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:19:13,742 127.0.0.1 - - [03/Jun/2026 01:19:13] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:19:45,419 127.0.0.1 - - [03/Jun/2026 01:19:45] "GET / HTTP/1.1" 200 -
+2026-06-03 01:19:45,473 127.0.0.1 - - [03/Jun/2026 01:19:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:19:45,477 127.0.0.1 - - [03/Jun/2026 01:19:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:19:45,479 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:19:45,479 127.0.0.1 - - [03/Jun/2026 01:19:45] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:19:45,482 127.0.0.1 - - [03/Jun/2026 01:19:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:19:45,484 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:19:45,484 127.0.0.1 - - [03/Jun/2026 01:19:45] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:19:45,513 127.0.0.1 - - [03/Jun/2026 01:19:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:19:45,534 127.0.0.1 - - [03/Jun/2026 01:19:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:19:45,562 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:19:45,562 127.0.0.1 - - [03/Jun/2026 01:19:45] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:19:45,573 127.0.0.1 - - [03/Jun/2026 01:19:45] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:19:45,576 127.0.0.1 - - [03/Jun/2026 01:19:45] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:20:09,889 127.0.0.1 - - [03/Jun/2026 01:20:09] "GET / HTTP/1.1" 200 -
+2026-06-03 01:20:09,945 127.0.0.1 - - [03/Jun/2026 01:20:09] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:09,949 127.0.0.1 - - [03/Jun/2026 01:20:09] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:09,951 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:09,952 127.0.0.1 - - [03/Jun/2026 01:20:09] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:09,955 127.0.0.1 - - [03/Jun/2026 01:20:09] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:09,957 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:20:09,957 127.0.0.1 - - [03/Jun/2026 01:20:09] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:09,987 127.0.0.1 - - [03/Jun/2026 01:20:09] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:10,008 127.0.0.1 - - [03/Jun/2026 01:20:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:10,038 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:10,038 127.0.0.1 - - [03/Jun/2026 01:20:10] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:10,043 127.0.0.1 - - [03/Jun/2026 01:20:10] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:20:10,047 127.0.0.1 - - [03/Jun/2026 01:20:10] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:20:13,806 127.0.0.1 - - [03/Jun/2026 01:20:13] "GET / HTTP/1.1" 200 -
+2026-06-03 01:20:13,856 127.0.0.1 - - [03/Jun/2026 01:20:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:13,861 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:13,861 127.0.0.1 - - [03/Jun/2026 01:20:13] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:13,864 127.0.0.1 - - [03/Jun/2026 01:20:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:13,866 127.0.0.1 - - [03/Jun/2026 01:20:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:13,872 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:20:13,872 127.0.0.1 - - [03/Jun/2026 01:20:13] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:13,905 127.0.0.1 - - [03/Jun/2026 01:20:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:13,926 127.0.0.1 - - [03/Jun/2026 01:20:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:13,961 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:13,961 127.0.0.1 - - [03/Jun/2026 01:20:13] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:13,964 127.0.0.1 - - [03/Jun/2026 01:20:13] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:20:13,968 127.0.0.1 - - [03/Jun/2026 01:20:13] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:20:20,979 127.0.0.1 - - [03/Jun/2026 01:20:20] "GET / HTTP/1.1" 200 -
+2026-06-03 01:20:21,030 127.0.0.1 - - [03/Jun/2026 01:20:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:21,036 127.0.0.1 - - [03/Jun/2026 01:20:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:21,039 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:21,039 127.0.0.1 - - [03/Jun/2026 01:20:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:21,041 127.0.0.1 - - [03/Jun/2026 01:20:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:21,044 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:20:21,044 127.0.0.1 - - [03/Jun/2026 01:20:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:21,080 127.0.0.1 - - [03/Jun/2026 01:20:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:21,101 127.0.0.1 - - [03/Jun/2026 01:20:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:21,131 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:21,132 127.0.0.1 - - [03/Jun/2026 01:20:21] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:21,137 127.0.0.1 - - [03/Jun/2026 01:20:21] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:20:21,140 127.0.0.1 - - [03/Jun/2026 01:20:21] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:20:34,590 127.0.0.1 - - [03/Jun/2026 01:20:34] "GET / HTTP/1.1" 200 -
+2026-06-03 01:20:34,645 127.0.0.1 - - [03/Jun/2026 01:20:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:34,648 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:34,648 127.0.0.1 - - [03/Jun/2026 01:20:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:34,653 127.0.0.1 - - [03/Jun/2026 01:20:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:34,655 127.0.0.1 - - [03/Jun/2026 01:20:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:34,658 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:20:34,658 127.0.0.1 - - [03/Jun/2026 01:20:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:34,686 127.0.0.1 - - [03/Jun/2026 01:20:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:34,708 127.0.0.1 - - [03/Jun/2026 01:20:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:34,733 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:34,733 127.0.0.1 - - [03/Jun/2026 01:20:34] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:34,744 127.0.0.1 - - [03/Jun/2026 01:20:34] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:20:34,748 127.0.0.1 - - [03/Jun/2026 01:20:34] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:20:39,062 127.0.0.1 - - [03/Jun/2026 01:20:39] "[33mGET /login HTTP/1.1[0m" 404 -
+2026-06-03 01:20:39,096 127.0.0.1 - - [03/Jun/2026 01:20:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-03 01:20:51,156 127.0.0.1 - - [03/Jun/2026 01:20:51] "GET / HTTP/1.1" 200 -
+2026-06-03 01:20:51,218 127.0.0.1 - - [03/Jun/2026 01:20:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:51,223 127.0.0.1 - - [03/Jun/2026 01:20:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:51,225 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:51,226 127.0.0.1 - - [03/Jun/2026 01:20:51] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:51,228 127.0.0.1 - - [03/Jun/2026 01:20:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:51,230 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:20:51,231 127.0.0.1 - - [03/Jun/2026 01:20:51] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:51,262 127.0.0.1 - - [03/Jun/2026 01:20:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:51,286 127.0.0.1 - - [03/Jun/2026 01:20:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:51,318 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:51,318 127.0.0.1 - - [03/Jun/2026 01:20:51] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:51,322 127.0.0.1 - - [03/Jun/2026 01:20:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:20:51,324 127.0.0.1 - - [03/Jun/2026 01:20:51] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:20:52,102 127.0.0.1 - - [03/Jun/2026 01:20:52] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 01:20:52,148 127.0.0.1 - - [03/Jun/2026 01:20:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:52,151 127.0.0.1 - - [03/Jun/2026 01:20:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:52,153 127.0.0.1 - - [03/Jun/2026 01:20:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:52,179 127.0.0.1 - - [03/Jun/2026 01:20:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:52,200 127.0.0.1 - - [03/Jun/2026 01:20:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:52,229 127.0.0.1 - - [03/Jun/2026 01:20:52] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:20:53,237 127.0.0.1 - - [03/Jun/2026 01:20:53] "GET / HTTP/1.1" 200 -
+2026-06-03 01:20:53,295 127.0.0.1 - - [03/Jun/2026 01:20:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:53,301 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:53,301 127.0.0.1 - - [03/Jun/2026 01:20:53] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:53,306 127.0.0.1 - - [03/Jun/2026 01:20:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:53,309 127.0.0.1 - - [03/Jun/2026 01:20:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:53,318 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:20:53,319 127.0.0.1 - - [03/Jun/2026 01:20:53] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:53,353 127.0.0.1 - - [03/Jun/2026 01:20:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:53,375 127.0.0.1 - - [03/Jun/2026 01:20:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:53,403 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:53,404 127.0.0.1 - - [03/Jun/2026 01:20:53] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:53,407 127.0.0.1 - - [03/Jun/2026 01:20:53] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:20:54,156 127.0.0.1 - - [03/Jun/2026 01:20:54] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 01:20:54,207 127.0.0.1 - - [03/Jun/2026 01:20:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:54,210 127.0.0.1 - - [03/Jun/2026 01:20:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:54,213 127.0.0.1 - - [03/Jun/2026 01:20:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:54,239 127.0.0.1 - - [03/Jun/2026 01:20:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:54,260 127.0.0.1 - - [03/Jun/2026 01:20:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:54,286 127.0.0.1 - - [03/Jun/2026 01:20:54] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:20:56,629 127.0.0.1 - - [03/Jun/2026 01:20:56] "GET / HTTP/1.1" 200 -
+2026-06-03 01:20:56,689 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:56,689 127.0.0.1 - - [03/Jun/2026 01:20:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:56,692 127.0.0.1 - - [03/Jun/2026 01:20:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:56,695 127.0.0.1 - - [03/Jun/2026 01:20:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:20:56,698 127.0.0.1 - - [03/Jun/2026 01:20:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:56,700 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 01:20:56,700 127.0.0.1 - - [03/Jun/2026 01:20:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:56,730 127.0.0.1 - - [03/Jun/2026 01:20:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:56,751 127.0.0.1 - - [03/Jun/2026 01:20:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:20:56,778 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/login.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":97,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 01:20:56,779 127.0.0.1 - - [03/Jun/2026 01:20:56] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 01:20:56,781 127.0.0.1 - - [03/Jun/2026 01:20:56] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:21:01,338 127.0.0.1 - - [03/Jun/2026 01:21:01] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 01:21:01,386 127.0.0.1 - - [03/Jun/2026 01:21:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:21:01,389 127.0.0.1 - - [03/Jun/2026 01:21:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:21:01,391 127.0.0.1 - - [03/Jun/2026 01:21:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:01,417 127.0.0.1 - - [03/Jun/2026 01:21:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:01,439 127.0.0.1 - - [03/Jun/2026 01:21:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:01,465 127.0.0.1 - - [03/Jun/2026 01:21:01] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:21:10,487 127.0.0.1 - - [03/Jun/2026 01:21:10] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-03 01:21:10,512 127.0.0.1 - - [03/Jun/2026 01:21:10] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-03 01:21:10,560 127.0.0.1 - - [03/Jun/2026 01:21:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:10,564 127.0.0.1 - - [03/Jun/2026 01:21:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:21:10,566 127.0.0.1 - - [03/Jun/2026 01:21:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:21:10,600 127.0.0.1 - - [03/Jun/2026 01:21:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:10,625 127.0.0.1 - - [03/Jun/2026 01:21:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:10,669 127.0.0.1 - - [03/Jun/2026 01:21:10] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:21:40,335 127.0.0.1 - - [03/Jun/2026 01:21:40] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-03 01:21:40,359 127.0.0.1 - - [03/Jun/2026 01:21:40] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:21:40,411 127.0.0.1 - - [03/Jun/2026 01:21:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:21:40,414 127.0.0.1 - - [03/Jun/2026 01:21:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:21:40,417 127.0.0.1 - - [03/Jun/2026 01:21:40] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:40,442 127.0.0.1 - - [03/Jun/2026 01:21:40] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:40,462 127.0.0.1 - - [03/Jun/2026 01:21:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:21:40,490 127.0.0.1 - - [03/Jun/2026 01:21:40] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:22:16,038 127.0.0.1 - - [03/Jun/2026 01:22:16] "[33mGET /loghome.html HTTP/1.1[0m" 404 -
+2026-06-03 01:27:39,642 127.0.0.1 - - [03/Jun/2026 01:27:39] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:27:39,835 127.0.0.1 - - [03/Jun/2026 01:27:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:27:39,859 127.0.0.1 - - [03/Jun/2026 01:27:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:27:39,876 127.0.0.1 - - [03/Jun/2026 01:27:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:27:39,967 127.0.0.1 - - [03/Jun/2026 01:27:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:27:40,059 127.0.0.1 - - [03/Jun/2026 01:27:40] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:27:40,095 127.0.0.1 - - [03/Jun/2026 01:27:40] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:27:40,099 127.0.0.1 - - [03/Jun/2026 01:27:40] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:29:47,411 127.0.0.1 - - [03/Jun/2026 01:29:47] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:29:47,575 127.0.0.1 - - [03/Jun/2026 01:29:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:29:47,588 127.0.0.1 - - [03/Jun/2026 01:29:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:29:47,597 127.0.0.1 - - [03/Jun/2026 01:29:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:29:47,699 127.0.0.1 - - [03/Jun/2026 01:29:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:29:47,804 127.0.0.1 - - [03/Jun/2026 01:29:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:29:47,840 127.0.0.1 - - [03/Jun/2026 01:29:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:29:47,842 127.0.0.1 - - [03/Jun/2026 01:29:47] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:30:08,786 127.0.0.1 - - [03/Jun/2026 01:30:08] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:30:08,845 127.0.0.1 - - [03/Jun/2026 01:30:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:08,850 127.0.0.1 - - [03/Jun/2026 01:30:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:08,854 127.0.0.1 - - [03/Jun/2026 01:30:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:08,888 127.0.0.1 - - [03/Jun/2026 01:30:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:08,919 127.0.0.1 - - [03/Jun/2026 01:30:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:08,945 127.0.0.1 - - [03/Jun/2026 01:30:08] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:30:10,840 127.0.0.1 - - [03/Jun/2026 01:30:10] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:30:10,887 127.0.0.1 - - [03/Jun/2026 01:30:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:10,891 127.0.0.1 - - [03/Jun/2026 01:30:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:10,893 127.0.0.1 - - [03/Jun/2026 01:30:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:10,932 127.0.0.1 - - [03/Jun/2026 01:30:10] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:10,957 127.0.0.1 - - [03/Jun/2026 01:30:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:10,984 127.0.0.1 - - [03/Jun/2026 01:30:10] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:30:51,416 127.0.0.1 - - [03/Jun/2026 01:30:51] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:30:51,459 127.0.0.1 - - [03/Jun/2026 01:30:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:51,462 127.0.0.1 - - [03/Jun/2026 01:30:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:51,465 127.0.0.1 - - [03/Jun/2026 01:30:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:51,490 127.0.0.1 - - [03/Jun/2026 01:30:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:51,511 127.0.0.1 - - [03/Jun/2026 01:30:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:51,542 127.0.0.1 - - [03/Jun/2026 01:30:51] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:30:51,545 127.0.0.1 - - [03/Jun/2026 01:30:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:30:52,362 127.0.0.1 - - [03/Jun/2026 01:30:52] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:30:52,405 127.0.0.1 - - [03/Jun/2026 01:30:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:52,408 127.0.0.1 - - [03/Jun/2026 01:30:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:52,411 127.0.0.1 - - [03/Jun/2026 01:30:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:52,436 127.0.0.1 - - [03/Jun/2026 01:30:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:52,459 127.0.0.1 - - [03/Jun/2026 01:30:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:52,484 127.0.0.1 - - [03/Jun/2026 01:30:52] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:30:54,720 127.0.0.1 - - [03/Jun/2026 01:30:54] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:30:54,764 127.0.0.1 - - [03/Jun/2026 01:30:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:54,767 127.0.0.1 - - [03/Jun/2026 01:30:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:54,769 127.0.0.1 - - [03/Jun/2026 01:30:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:54,795 127.0.0.1 - - [03/Jun/2026 01:30:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:54,818 127.0.0.1 - - [03/Jun/2026 01:30:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:54,843 127.0.0.1 - - [03/Jun/2026 01:30:54] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:30:56,724 127.0.0.1 - - [03/Jun/2026 01:30:56] "GET /logout.html HTTP/1.1" 200 -
+2026-06-03 01:30:56,766 127.0.0.1 - - [03/Jun/2026 01:30:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:56,769 127.0.0.1 - - [03/Jun/2026 01:30:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:56,772 127.0.0.1 - - [03/Jun/2026 01:30:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:56,807 127.0.0.1 - - [03/Jun/2026 01:30:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:56,830 127.0.0.1 - - [03/Jun/2026 01:30:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:56,860 127.0.0.1 - - [03/Jun/2026 01:30:56] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:30:57,855 127.0.0.1 - - [03/Jun/2026 01:30:57] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:30:57,900 127.0.0.1 - - [03/Jun/2026 01:30:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:57,903 127.0.0.1 - - [03/Jun/2026 01:30:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:57,905 127.0.0.1 - - [03/Jun/2026 01:30:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:57,932 127.0.0.1 - - [03/Jun/2026 01:30:57] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:57,955 127.0.0.1 - - [03/Jun/2026 01:30:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:57,981 127.0.0.1 - - [03/Jun/2026 01:30:57] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:30:59,559 127.0.0.1 - - [03/Jun/2026 01:30:59] "GET /logout.html HTTP/1.1" 200 -
+2026-06-03 01:30:59,606 127.0.0.1 - - [03/Jun/2026 01:30:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:59,609 127.0.0.1 - - [03/Jun/2026 01:30:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:59,611 127.0.0.1 - - [03/Jun/2026 01:30:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:30:59,639 127.0.0.1 - - [03/Jun/2026 01:30:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:59,658 127.0.0.1 - - [03/Jun/2026 01:30:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:30:59,685 127.0.0.1 - - [03/Jun/2026 01:30:59] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:31:00,366 127.0.0.1 - - [03/Jun/2026 01:31:00] "[33mGET /loghome.html HTTP/1.1[0m" 404 -
+2026-06-03 01:31:31,553 127.0.0.1 - - [03/Jun/2026 01:31:31] "GET /logout.html HTTP/1.1" 200 -
+2026-06-03 01:31:31,603 127.0.0.1 - - [03/Jun/2026 01:31:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:31:31,609 127.0.0.1 - - [03/Jun/2026 01:31:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:31:31,609 127.0.0.1 - - [03/Jun/2026 01:31:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:31:31,646 127.0.0.1 - - [03/Jun/2026 01:31:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:31:31,677 127.0.0.1 - - [03/Jun/2026 01:31:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:31:31,707 127.0.0.1 - - [03/Jun/2026 01:31:31] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:31:32,321 127.0.0.1 - - [03/Jun/2026 01:31:32] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:31:32,368 127.0.0.1 - - [03/Jun/2026 01:31:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:31:32,371 127.0.0.1 - - [03/Jun/2026 01:31:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:31:32,373 127.0.0.1 - - [03/Jun/2026 01:31:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:31:32,402 127.0.0.1 - - [03/Jun/2026 01:31:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:31:32,426 127.0.0.1 - - [03/Jun/2026 01:31:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:31:32,451 127.0.0.1 - - [03/Jun/2026 01:31:32] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:35:42,881 127.0.0.1 - - [03/Jun/2026 01:35:42] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:35:43,107 127.0.0.1 - - [03/Jun/2026 01:35:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:35:43,134 127.0.0.1 - - [03/Jun/2026 01:35:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:35:43,136 127.0.0.1 - - [03/Jun/2026 01:35:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:35:43,245 127.0.0.1 - - [03/Jun/2026 01:35:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:35:43,346 127.0.0.1 - - [03/Jun/2026 01:35:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:35:43,381 127.0.0.1 - - [03/Jun/2026 01:35:43] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:35:43,385 127.0.0.1 - - [03/Jun/2026 01:35:43] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:35:44,521 127.0.0.1 - - [03/Jun/2026 01:35:44] "[33mGET /live.html HTTP/1.1[0m" 404 -
+2026-06-03 01:35:46,370 127.0.0.1 - - [03/Jun/2026 01:35:46] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:35:46,421 127.0.0.1 - - [03/Jun/2026 01:35:46] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:37:04,990  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-03 01:37:05,042  * Restarting with stat
+2026-06-03 01:37:05,376  * Debugger is active!
+2026-06-03 01:37:05,376  * Debugger PIN: 103-978-289
+2026-06-03 01:37:55,108  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-03 01:37:55,148  * Restarting with stat
+2026-06-03 01:37:55,530  * Debugger is active!
+2026-06-03 01:37:55,531  * Debugger PIN: 103-978-289
+2026-06-03 01:37:55,548 127.0.0.1 - - [03/Jun/2026 01:37:55] "[32mGET /dashboard.html HTTP/1.1[0m" 302 -
+2026-06-03 01:37:55,679 127.0.0.1 - - [03/Jun/2026 01:37:55] "GET /login.html?error=Please%20log%20in%20again HTTP/1.1" 200 -
+2026-06-03 01:37:55,872 127.0.0.1 - - [03/Jun/2026 01:37:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:37:55,894 127.0.0.1 - - [03/Jun/2026 01:37:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:37:55,901 127.0.0.1 - - [03/Jun/2026 01:37:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:37:55,929 127.0.0.1 - - [03/Jun/2026 01:37:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:37:55,955 127.0.0.1 - - [03/Jun/2026 01:37:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:37:55,992 127.0.0.1 - - [03/Jun/2026 01:37:55] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:37:55,995 127.0.0.1 - - [03/Jun/2026 01:37:55] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:38:12,509 127.0.0.1 - - [03/Jun/2026 01:38:12] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-03 01:38:12,534 127.0.0.1 - - [03/Jun/2026 01:38:12] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-03 01:38:12,590 127.0.0.1 - - [03/Jun/2026 01:38:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:12,594 127.0.0.1 - - [03/Jun/2026 01:38:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:12,597 127.0.0.1 - - [03/Jun/2026 01:38:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:12,624 127.0.0.1 - - [03/Jun/2026 01:38:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:12,645 127.0.0.1 - - [03/Jun/2026 01:38:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:12,676 127.0.0.1 - - [03/Jun/2026 01:38:12] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:38:28,442 127.0.0.1 - - [03/Jun/2026 01:38:28] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-03 01:38:28,466 127.0.0.1 - - [03/Jun/2026 01:38:28] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:38:28,534 127.0.0.1 - - [03/Jun/2026 01:38:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:28,542 127.0.0.1 - - [03/Jun/2026 01:38:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:28,603 127.0.0.1 - - [03/Jun/2026 01:38:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:28,636 127.0.0.1 - - [03/Jun/2026 01:38:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:28,658 127.0.0.1 - - [03/Jun/2026 01:38:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:28,692 127.0.0.1 - - [03/Jun/2026 01:38:28] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:38:32,121 127.0.0.1 - - [03/Jun/2026 01:38:32] "GET /live.html HTTP/1.1" 200 -
+2026-06-03 01:38:32,166 127.0.0.1 - - [03/Jun/2026 01:38:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:32,168 127.0.0.1 - - [03/Jun/2026 01:38:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:32,170 127.0.0.1 - - [03/Jun/2026 01:38:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:32,198 127.0.0.1 - - [03/Jun/2026 01:38:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:32,221 127.0.0.1 - - [03/Jun/2026 01:38:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:32,255 127.0.0.1 - - [03/Jun/2026 01:38:32] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:38:34,173 127.0.0.1 - - [03/Jun/2026 01:38:34] "GET /live.html HTTP/1.1" 200 -
+2026-06-03 01:38:34,218 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,221 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,223 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,252 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,274 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,301 127.0.0.1 - - [03/Jun/2026 01:38:34] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:38:34,871 127.0.0.1 - - [03/Jun/2026 01:38:34] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:38:34,918 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,921 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,922 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,952 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:34,975 127.0.0.1 - - [03/Jun/2026 01:38:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:38:35,000 127.0.0.1 - - [03/Jun/2026 01:38:35] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:40:07,385  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-03 01:40:07,423  * Restarting with stat
+2026-06-03 01:40:07,813  * Debugger is active!
+2026-06-03 01:40:07,814  * Debugger PIN: 103-978-289
+2026-06-03 01:40:10,464 127.0.0.1 - - [03/Jun/2026 01:40:10] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-03 01:40:14,032 127.0.0.1 - - [03/Jun/2026 01:40:14] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:40:14,088 127.0.0.1 - - [03/Jun/2026 01:40:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:14,176 127.0.0.1 - - [03/Jun/2026 01:40:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:40:14,189 127.0.0.1 - - [03/Jun/2026 01:40:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:40:14,289 127.0.0.1 - - [03/Jun/2026 01:40:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:14,319 127.0.0.1 - - [03/Jun/2026 01:40:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:14,351 127.0.0.1 - - [03/Jun/2026 01:40:14] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:40:28,015 127.0.0.1 - - [03/Jun/2026 01:40:28] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-03 01:40:28,059 127.0.0.1 - - [03/Jun/2026 01:40:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:40:28,062 127.0.0.1 - - [03/Jun/2026 01:40:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:40:28,064 127.0.0.1 - - [03/Jun/2026 01:40:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:28,091 127.0.0.1 - - [03/Jun/2026 01:40:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:28,116 127.0.0.1 - - [03/Jun/2026 01:40:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:28,141 127.0.0.1 - - [03/Jun/2026 01:40:28] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:40:29,062 127.0.0.1 - - [03/Jun/2026 01:40:29] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:40:29,110 127.0.0.1 - - [03/Jun/2026 01:40:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:40:29,113 127.0.0.1 - - [03/Jun/2026 01:40:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:40:29,118 127.0.0.1 - - [03/Jun/2026 01:40:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:29,143 127.0.0.1 - - [03/Jun/2026 01:40:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:29,164 127.0.0.1 - - [03/Jun/2026 01:40:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:40:29,191 127.0.0.1 - - [03/Jun/2026 01:40:29] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:47:45,702  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-03 01:47:45,812  * Restarting with stat
+2026-06-03 01:47:46,534  * Debugger is active!
+2026-06-03 01:47:46,535  * Debugger PIN: 103-978-289
+2026-06-03 01:47:47,590  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-03 01:47:47,635  * Restarting with stat
+2026-06-03 01:47:47,977  * Debugger is active!
+2026-06-03 01:47:47,977  * Debugger PIN: 103-978-289
+2026-06-03 01:48:19,414  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-03 01:48:19,451  * Restarting with stat
+2026-06-03 01:48:19,759  * Debugger is active!
+2026-06-03 01:48:19,759  * Debugger PIN: 103-978-289
+2026-06-03 01:48:47,077 127.0.0.1 - - [03/Jun/2026 01:48:47] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:48:47,259 127.0.0.1 - - [03/Jun/2026 01:48:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:48:47,290 127.0.0.1 - - [03/Jun/2026 01:48:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:48:47,307 127.0.0.1 - - [03/Jun/2026 01:48:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:48:47,416 127.0.0.1 - - [03/Jun/2026 01:48:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:48:47,509 127.0.0.1 - - [03/Jun/2026 01:48:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:48:47,541 127.0.0.1 - - [03/Jun/2026 01:48:47] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:48:47,544 127.0.0.1 - - [03/Jun/2026 01:48:47] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:48:49,749 127.0.0.1 - - [03/Jun/2026 01:48:49] "GET /player.html?name=sss HTTP/1.1" 200 -
+2026-06-03 01:48:49,799 127.0.0.1 - - [03/Jun/2026 01:48:49] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:48:49,802 127.0.0.1 - - [03/Jun/2026 01:48:49] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:48:49,806 127.0.0.1 - - [03/Jun/2026 01:48:49] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:48:49,835 127.0.0.1 - - [03/Jun/2026 01:48:49] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:48:49,859 127.0.0.1 - - [03/Jun/2026 01:48:49] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:48:49,899 127.0.0.1 - - [03/Jun/2026 01:48:49] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:49:42,244 127.0.0.1 - - [03/Jun/2026 01:49:42] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:49:42,309 127.0.0.1 - - [03/Jun/2026 01:49:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:49:42,312 127.0.0.1 - - [03/Jun/2026 01:49:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:49:42,314 127.0.0.1 - - [03/Jun/2026 01:49:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:49:42,345 127.0.0.1 - - [03/Jun/2026 01:49:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:49:42,370 127.0.0.1 - - [03/Jun/2026 01:49:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:49:42,400 127.0.0.1 - - [03/Jun/2026 01:49:42] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:54:47,762  * Detected change in '/workspaces/2026SE_TracquetProject_Jasper.L/main.py', reloading
+2026-06-03 01:54:47,799  * Restarting with stat
+2026-06-03 01:54:48,157  * Debugger is active!
+2026-06-03 01:54:48,158  * Debugger PIN: 103-978-289
+2026-06-03 01:55:01,912 127.0.0.1 - - [03/Jun/2026 01:55:01] "[32mGET /dashboard.html HTTP/1.1[0m" 302 -
+2026-06-03 01:55:02,020 127.0.0.1 - - [03/Jun/2026 01:55:02] "GET /login.html?error=Please%20log%20in%20again HTTP/1.1" 200 -
+2026-06-03 01:55:02,233 127.0.0.1 - - [03/Jun/2026 01:55:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:55:02,235 127.0.0.1 - - [03/Jun/2026 01:55:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:55:02,246 127.0.0.1 - - [03/Jun/2026 01:55:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:02,340 127.0.0.1 - - [03/Jun/2026 01:55:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:02,367 127.0.0.1 - - [03/Jun/2026 01:55:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:02,398 127.0.0.1 - - [03/Jun/2026 01:55:02] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:55:02,401 127.0.0.1 - - [03/Jun/2026 01:55:02] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 01:55:11,045 127.0.0.1 - - [03/Jun/2026 01:55:11] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-03 01:55:11,073 127.0.0.1 - - [03/Jun/2026 01:55:11] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-03 01:55:11,120 127.0.0.1 - - [03/Jun/2026 01:55:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:55:11,124 127.0.0.1 - - [03/Jun/2026 01:55:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:55:11,126 127.0.0.1 - - [03/Jun/2026 01:55:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:11,155 127.0.0.1 - - [03/Jun/2026 01:55:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:11,177 127.0.0.1 - - [03/Jun/2026 01:55:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:11,217 127.0.0.1 - - [03/Jun/2026 01:55:11] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:55:18,063 127.0.0.1 - - [03/Jun/2026 01:55:18] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-03 01:55:18,093 127.0.0.1 - - [03/Jun/2026 01:55:18] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:55:18,144 127.0.0.1 - - [03/Jun/2026 01:55:18] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:55:18,146 127.0.0.1 - - [03/Jun/2026 01:55:18] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:55:18,149 127.0.0.1 - - [03/Jun/2026 01:55:18] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:18,175 127.0.0.1 - - [03/Jun/2026 01:55:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:18,197 127.0.0.1 - - [03/Jun/2026 01:55:18] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:55:18,222 127.0.0.1 - - [03/Jun/2026 01:55:18] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:59:37,087 127.0.0.1 - - [03/Jun/2026 01:59:37] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-03 01:59:37,312 127.0.0.1 - - [03/Jun/2026 01:59:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:59:37,323 127.0.0.1 - - [03/Jun/2026 01:59:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:59:37,342 127.0.0.1 - - [03/Jun/2026 01:59:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:37,458 127.0.0.1 - - [03/Jun/2026 01:59:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:37,549 127.0.0.1 - - [03/Jun/2026 01:59:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:37,577 127.0.0.1 - - [03/Jun/2026 01:59:37] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:59:38,818 127.0.0.1 - - [03/Jun/2026 01:59:38] "GET /live.html HTTP/1.1" 200 -
+2026-06-03 01:59:38,872 127.0.0.1 - - [03/Jun/2026 01:59:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:59:38,877 127.0.0.1 - - [03/Jun/2026 01:59:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:38,877 127.0.0.1 - - [03/Jun/2026 01:59:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:59:38,915 127.0.0.1 - - [03/Jun/2026 01:59:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:38,938 127.0.0.1 - - [03/Jun/2026 01:59:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:38,967 127.0.0.1 - - [03/Jun/2026 01:59:38] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:59:39,676 127.0.0.1 - - [03/Jun/2026 01:59:39] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 01:59:39,726 127.0.0.1 - - [03/Jun/2026 01:59:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:59:39,729 127.0.0.1 - - [03/Jun/2026 01:59:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:39,732 127.0.0.1 - - [03/Jun/2026 01:59:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:59:39,759 127.0.0.1 - - [03/Jun/2026 01:59:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:39,782 127.0.0.1 - - [03/Jun/2026 01:59:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:39,807 127.0.0.1 - - [03/Jun/2026 01:59:39] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 01:59:43,192 127.0.0.1 - - [03/Jun/2026 01:59:43] "GET /player.html?name=a HTTP/1.1" 200 -
+2026-06-03 01:59:43,241 127.0.0.1 - - [03/Jun/2026 01:59:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:43,244 127.0.0.1 - - [03/Jun/2026 01:59:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 01:59:43,247 127.0.0.1 - - [03/Jun/2026 01:59:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 01:59:43,278 127.0.0.1 - - [03/Jun/2026 01:59:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:43,302 127.0.0.1 - - [03/Jun/2026 01:59:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 01:59:43,334 127.0.0.1 - - [03/Jun/2026 01:59:43] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:00:58,240 127.0.0.1 - - [03/Jun/2026 02:00:58] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 02:00:58,289 127.0.0.1 - - [03/Jun/2026 02:00:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:00:58,292 127.0.0.1 - - [03/Jun/2026 02:00:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:00:58,295 127.0.0.1 - - [03/Jun/2026 02:00:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:00:58,386 127.0.0.1 - - [03/Jun/2026 02:00:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:00:58,487 127.0.0.1 - - [03/Jun/2026 02:00:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:00:58,517 127.0.0.1 - - [03/Jun/2026 02:00:58] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:03:08,038 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request syntax ('\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03fJÝÍ4,4\x97Dëm¸\x8a·Ä°u"X§(uPºï\'È!A\x05&f\x00\x00\x84\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À\xadÀ£À\x9fÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À\'\x00g\x00@ÀrÀv\x00¾\x00½À')
+2026-06-03 02:03:08,038 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x01\x00÷\x01\x00\x00ó\x03\x03fJÝÍ4,4\x97Dëm¸\x8a·Ä°u"X§(uPºï'È!A\x05&f\x00\x00\x84\x003\x009\x005\x00/À,À0\x00£\x00\x9fÌ©Ì¨ÌªÀ¯À­À£À\x9fÀ+À/\x00¢\x00\x9eÀ®À¬À¢À\x9eÀ$À(\x00k\x00jÀsÀw\x00Ä\x00ÃÀ#À'\x00g\x00@ÀrÀv\x00¾\x00½À[0m" 400 -
+2026-06-03 02:03:08,082 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j')
+2026-06-03 02:03:08,082 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j\x1f\x8b\\0qý\x90{Ûö¨Ì\x08iþ\x9d°J[0m" 400 -
+2026-06-03 02:03:08,083 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,084 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,084 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,085 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j\x1f\x8b\\\x99\x81IÞ]\x19\x12çFaÒÉçÕ\x97\x97E%\x83\x89E8TM¦õã8\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,084 127.0.0.1 - - [03/Jun/2026 02:03:08] "HEAD / HTTP/1.1" 200 -
+2026-06-03 02:03:08,084 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x03\x00\x8c\x01\x00\x00\x88\x03\x03j\x1f\x8b\\ÅÍ¥mV\x14wà«ð\x91a\x94Çë\x13ºÎ¤ÉYÑEäÂ\x13\x9cò\x00\x00\x1a\x13\x05\x13\x04\x13\x01\x13\x02\x13\x03À´Àµ\x00Ç\x00ÆÀ²À°À³À±\x01\x00\x00E\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,085 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j\x1f\x8b\\åMÉh\x0eS\x181{î´\x9cÊ\x89A®sHß<ªû>kÃ\x89cë\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,084 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('ú×\x87Ü\x8cà\x93PÔ\x7f;¼\x84\x80M\x8e§\x887ð[ç=IczÔ\x00\x00')
+2026-06-03 02:03:08,086 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x01\x00W\x01\x00\x00S\x03\x03j\x1f\x8b\\\x1fú×\x87Ü\x8cà\x93PÔ\x7f;¼\x84\x80M\x8e§\x887ð[ç=IczÔ\x00\x00[0m" 400 -
+2026-06-03 02:03:08,186 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j')
+2026-06-03 02:03:08,186 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00/\x00')
+2026-06-03 02:03:08,187 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,187 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,187 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j\x1f\x8b\\ÍØéÊ\x9d9\x8c[0m" 400 -
+2026-06-03 02:03:08,187 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x00\x00i\x01\x00\x00e\x03\x03U\x1c§ärandom1random2random3random4\x00\x00\x0c\x00/\x00[0m" 400 -
+2026-06-03 02:03:08,187 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j\x1f\x8b\\G'³æZ\x9a\x83Ñ¥QR±ÛCð\x83}ÈÜä\x9e>üñ1ÕË\x93\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,187 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j\x1f\x8b\\\x03\x9c5Ú-°X\x99lCAéVw@Ø\x97#\x0d[bîL Ê\x0bÑW\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00\x006\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,335 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-03 02:03:08,335 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-03 02:03:08,335 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-03 02:03:08,335 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j\x1f\x8b\\ /VË-÷]\x0dèõ¼zá\x8f\x80\x1f&ËP{\x14\x95_²\x9e\x9bGå\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-03 02:03:08,335 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j\x1f\x8b\\\x00v\x88¸éä\x07\x86\x1f'l\x0fûuÇ±_ ê²­\x91ÍÆ«©¸\x92\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-03 02:03:08,335 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j\x1f\x8b\\\x9f\x0f«G\x0fkM@6N\x81²zµÒö76\x15ø\x87!Êß\x81=8\x0e\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-03 02:03:08,483 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,484 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j\x1f\x8b\\Ü¹\x8c\x00Z]À\x81Þ§ôV\x8bEãärx+\x98\x07lªrÍu\x9dU\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,484 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,484 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,485 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j\x1f\x8b\\¶¡»\x9bbçZ\x13\x97X\x88>¨Rmÿ&ª²\x92B;-q\x10\x9fM\x05\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,485 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j\x1f\x8b\\×gdåé\x0f÷²Û\x1a/í\x87ý=p\x1b\x04øsÙå´\x8dµn\x15\x02\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00\x006\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,632 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,632 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,632 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('\x00\x02\x01\x00\x00')
+2026-06-03 02:03:08,632 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x01\x00Ã\x01\x00\x00¿\x03\x01j\x1f\x8b\\H LÁÏ\x8er\x1elaá'ÊD\x1a®\x9baë¨hâe\x0ca©\x04z\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,632 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x02\x00Ã\x01\x00\x00¿\x03\x02j\x1f\x8b\\Mñ/$á\x88\x07\x07°h>C\x1dÁ\x01\x93ÑÉØy«ÒôOÔÍ\x1eb\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x00\x16\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,633 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x03\x00ã\x01\x00\x00ß\x03\x03j\x1f\x8b\\ñ\x13FYj£r#nÒu\x00(\x07.¢Y\x03ò_û\x04O\x97Ù@öå\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00\x006\x00\x0b\x00\x02\x01\x00\x00[0m" 400 -
+2026-06-03 02:03:08,780 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('MfÂ¸\x07\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00')
+2026-06-03 02:03:08,780 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('÷;\x05\x8dào*\x8f\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00')
+2026-06-03 02:03:08,780 127.0.0.1 - - [03/Jun/2026 02:03:08] code 400, message Bad request version ('Û5\x11\x94Îû\x97\x1bîz\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00')
+2026-06-03 02:03:08,780 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x01\x00½\x01\x00\x00¹\x03\x01j\x1f\x8b\\¢]\x8eFà\x9foÑé³ÖAÈd\x857k3\x0d|Ù=\x0bMfÂ¸\x07\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-03 02:03:08,781 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x02\x00½\x01\x00\x00¹\x03\x02j\x1f\x8b\\Ù\x15°\x00v\x9a§\x13i:H\x9b6i´¼¼8\x9e ÷;\x05\x8dào*\x8f\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-03 02:03:08,781 127.0.0.1 - - [03/Jun/2026 02:03:08] "[31m[1m\x16\x03\x03\x00Ý\x01\x00\x00Ù\x03\x03j\x1f\x8b\\\x83£í,\x09\x83XT\x11\x8e\x1dNr]>üG\x0bÛ5\x11\x94Îû\x97\x1bîz\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-03 02:03:13,186 127.0.0.1 - - [03/Jun/2026 02:03:13] code 400, message Bad request version ('þÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì\xad\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00')
+2026-06-03 02:03:13,186 127.0.0.1 - - [03/Jun/2026 02:03:13] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j\x1f\x8b\\ÝÅû¼É®¸2«=½\x9a\x04ª÷âM8mu\x85ñ ®©Ò\x94J\x00\x00\x80\x00\x1d\x00\x1cþÿþþ\x00c\x00e\x00\x11\x00r\x00\x13\x00s\x002\x00@\x00¢\x00t\x008\x00j\x00£ÀBÀVÀCÀW\x00D\x00½À\x80\x00\x87\x00ÃÀ\x81\x00\x12\x00f\x00\x99\x00\x8f\x00\x90\x00²À¦\x00ª\x00\x91\x00³À§\x00«ÀfÀlÀgÀmÀ\x96À\x90À\x97À\x91Ì­\x00-\x00´\x00µ\x00\x8e\x00\x14\x00w\x00\x16\x00x\x003\x00gÀ\x9eÀ¢\x00\x9e\x00y\x009\x00k\x01\x00[0m" 400 -
+2026-06-03 02:03:18,286 127.0.0.1 - - [03/Jun/2026 02:03:18] code 400, message Bad request version ('\x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00')
+2026-06-03 02:03:18,287 127.0.0.1 - - [03/Jun/2026 02:03:18] code 400, message Bad request version ('À#À¬À®À+À')
+2026-06-03 02:03:18,287 127.0.0.1 - - [03/Jun/2026 02:03:18] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j\x1f\x8ba\x8d\x83¯sóáÕá¹õ\x8c\x13DÎÙ\x1c°3dedC"!|TaZ\x00\x00\x80À\x9fÀ£\x00\x9fÀDÀRÀEÀS\x00E\x00¾À|\x00\x88\x00ÄÀ}ÌªÌ\x15\x00\x15\x00\x9a\x00\x0b\x00\x0d\x000\x00>\x00¤\x006\x00h\x00¥À>ÀXÀ?ÀY\x00B\x00»À\x82\x00\x85\x00ÁÀ\x83\x00\x0c\x00\x97\x00\x0e\x00\x10\x001\x00?\x00 \x007\x00i\x00¡À@ÀTÀAÀU\x00C\x00¼À~\x00\x86\x00ÂÀ\x7f\x00\x0f\x00\x98\x00\x19\x00\x17\x00\x1b\x004\x00l\x00¦\x00:\x01\x00[0m" 400 -
+2026-06-03 02:03:18,287 127.0.0.1 - - [03/Jun/2026 02:03:18] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j\x1f\x8bfôÃfwÞ\x90&\x85\x1c­\x82Hûè\x84E8\x17ä)!ç\x19/9ü´\x91\x00\x00\x80\x00m\x00§ÀFÀZÀGÀ[\x00F\x00¿À\x84\x00\x89\x00ÅÀ\x85\x00\x1a\x00\x18\x00\x9bÀ²À°À³À±À\x08À\x09À#À¬À®À+À[0m" 400 -
+2026-06-03 02:03:23,388 127.0.0.1 - - [03/Jun/2026 02:03:23] code 400, message Bad request version ('\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00')
+2026-06-03 02:03:23,389 127.0.0.1 - - [03/Jun/2026 02:03:23] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j\x1f\x8bf9\x10áßÛÐkÑñëÏ\x93~T\x90\x9bG\x0e"ºõ?\\>8ÄæF\x00\x00\x80À\x14À(À0ÀLÀ`ÀMÀaÀvÀ\x8aÀwÀ\x8bÌ¨Ì\x13À\x10À\x11À\x03\x00JÀ\x04\x00KÀ%À-À\x05\x00LÀ&À.ÀJÀ^ÀKÀ_ÀtÀ\x88ÀuÀ\x89\x00IÀ\x01\x00GÀ\x02\x00H\x00N\x00MÀ\x0dÀ\x0eÀ)À1À\x0fÀ*À2ÀNÀbÀOÀcÀxÀ\x8cÀyÀ\x8dÀ\x0bÀ\x0c\x00[\x00\\\x00WÀ\x17\x00ZÀ\x18À\x19\x01\x00[0m" 400 -
+2026-06-03 02:03:28,488 127.0.0.1 - - [03/Jun/2026 02:03:28] code 400, message Bad request version ('\x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00')
+2026-06-03 02:03:28,489 127.0.0.1 - - [03/Jun/2026 02:03:28] code 400, message Bad request version ('ÿ\x17o\x7fÁ\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00\xadÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00')
+2026-06-03 02:03:28,489 127.0.0.1 - - [03/Jun/2026 02:03:28] "[31m[1m\x16\x03\x00\x00«\x01\x00\x00§\x03\x00j\x1f\x8bk8\x9eamÐÑò\x0c4¡¦\x9b\x85ÉÝ\x12\x9fÚ!Ô¬<Q\x99QÜ\x0d\x86\x00\x00\x80\x00YÀ\x15À\x16\x00X\x00O\x00R\x00Q\x00P\x00S\x00V\x00U\x00T\x00\x81\x00\x83\x00\x80\x00\x82\x00)\x00&\x00*\x00'\x00+\x00(\x00#\x00\x1f\x00"\x00\x1e\x00%\x00!\x00$\x00 \x00\x00ÀªÀ«\x00\x8b\x00\x8c\x00®À¤À¨\x00¨\x00\x8d\x00¯À¥À©\x00©ÀdÀjÀeÀkÀ\x94À\x8eÀ\x95À\x8fÌ«\x00,\x00°\x00±\x00\x8a\x00b\x00a\x00`\x00d\x00\x08\x00\x06\x00\x03\x01\x00[0m" 400 -
+2026-06-03 02:03:28,489 127.0.0.1 - - [03/Jun/2026 02:03:28] "[31m[1m\x16\x03\x00\x00¥\x01\x00\x00¡\x03\x00j\x1f\x8bpHë÷ÅFmqT¦ügñ:÷\x7f%> ü¼Yw\x85ÿ\x17o\x7fÁ\x00\x00z\x00\x93\x00\x94\x00¶\x00¬\x00\x95\x00·\x00­ÀhÀnÀiÀoÀ\x98À\x92À\x99À\x93Ì®\x00.\x00¸\x00¹\x00\x92\x00|\x00[0m" 400 -
+2026-06-03 02:08:28,579 127.0.0.1 - - [03/Jun/2026 02:08:28] "GET /logout.html HTTP/1.1" 200 -
+2026-06-03 02:08:28,760 127.0.0.1 - - [03/Jun/2026 02:08:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:28,771 127.0.0.1 - - [03/Jun/2026 02:08:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:28,789 127.0.0.1 - - [03/Jun/2026 02:08:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:28,890 127.0.0.1 - - [03/Jun/2026 02:08:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:28,996 127.0.0.1 - - [03/Jun/2026 02:08:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:29,024 127.0.0.1 - - [03/Jun/2026 02:08:29] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:08:29,611 User logged out
+2026-06-03 02:08:29,611 127.0.0.1 - - [03/Jun/2026 02:08:29] "[32mGET /logout HTTP/1.1[0m" 302 -
+2026-06-03 02:08:29,632 127.0.0.1 - - [03/Jun/2026 02:08:29] "GET / HTTP/1.1" 200 -
+2026-06-03 02:08:29,692 127.0.0.1 - - [03/Jun/2026 02:08:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:29,696 127.0.0.1 - - [03/Jun/2026 02:08:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:29,700 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/logout.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 02:08:29,700 127.0.0.1 - - [03/Jun/2026 02:08:29] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:29,702 127.0.0.1 - - [03/Jun/2026 02:08:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:29,704 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/logout.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 02:08:29,704 127.0.0.1 - - [03/Jun/2026 02:08:29] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:29,734 127.0.0.1 - - [03/Jun/2026 02:08:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:29,757 127.0.0.1 - - [03/Jun/2026 02:08:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:29,784 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/logout.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":99,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 02:08:29,784 127.0.0.1 - - [03/Jun/2026 02:08:29] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:29,788 127.0.0.1 - - [03/Jun/2026 02:08:29] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:08:30,483 127.0.0.1 - - [03/Jun/2026 02:08:30] "GET /signup.html HTTP/1.1" 200 -
+2026-06-03 02:08:30,531 127.0.0.1 - - [03/Jun/2026 02:08:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:30,534 127.0.0.1 - - [03/Jun/2026 02:08:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:30,536 127.0.0.1 - - [03/Jun/2026 02:08:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:30,566 127.0.0.1 - - [03/Jun/2026 02:08:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:30,591 127.0.0.1 - - [03/Jun/2026 02:08:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:30,622 127.0.0.1 - - [03/Jun/2026 02:08:30] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:08:31,450 127.0.0.1 - - [03/Jun/2026 02:08:31] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 02:08:31,494 127.0.0.1 - - [03/Jun/2026 02:08:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:31,497 127.0.0.1 - - [03/Jun/2026 02:08:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:31,500 127.0.0.1 - - [03/Jun/2026 02:08:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:31,525 127.0.0.1 - - [03/Jun/2026 02:08:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:31,547 127.0.0.1 - - [03/Jun/2026 02:08:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:31,572 127.0.0.1 - - [03/Jun/2026 02:08:31] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:08:32,327 127.0.0.1 - - [03/Jun/2026 02:08:32] "GET /signup.html HTTP/1.1" 200 -
+2026-06-03 02:08:32,372 127.0.0.1 - - [03/Jun/2026 02:08:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:32,376 127.0.0.1 - - [03/Jun/2026 02:08:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:32,378 127.0.0.1 - - [03/Jun/2026 02:08:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:32,408 127.0.0.1 - - [03/Jun/2026 02:08:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:32,430 127.0.0.1 - - [03/Jun/2026 02:08:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:32,462 127.0.0.1 - - [03/Jun/2026 02:08:32] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:08:32,976 127.0.0.1 - - [03/Jun/2026 02:08:32] "GET / HTTP/1.1" 200 -
+2026-06-03 02:08:33,029 127.0.0.1 - - [03/Jun/2026 02:08:33] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:33,036 127.0.0.1 - - [03/Jun/2026 02:08:33] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:33,039 127.0.0.1 - - [03/Jun/2026 02:08:33] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:33,042 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 02:08:33,042 127.0.0.1 - - [03/Jun/2026 02:08:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:33,046 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 02:08:33,047 127.0.0.1 - - [03/Jun/2026 02:08:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:33,071 127.0.0.1 - - [03/Jun/2026 02:08:33] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:33,096 127.0.0.1 - - [03/Jun/2026 02:08:33] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:33,125 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":99,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 02:08:33,126 127.0.0.1 - - [03/Jun/2026 02:08:33] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:33,128 127.0.0.1 - - [03/Jun/2026 02:08:33] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:08:34,120 127.0.0.1 - - [03/Jun/2026 02:08:34] "GET /signup.html HTTP/1.1" 200 -
+2026-06-03 02:08:34,172 127.0.0.1 - - [03/Jun/2026 02:08:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:34,177 127.0.0.1 - - [03/Jun/2026 02:08:34] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:34,180 127.0.0.1 - - [03/Jun/2026 02:08:34] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:34,223 127.0.0.1 - - [03/Jun/2026 02:08:34] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:34,248 127.0.0.1 - - [03/Jun/2026 02:08:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:34,276 127.0.0.1 - - [03/Jun/2026 02:08:34] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:08:34,953 127.0.0.1 - - [03/Jun/2026 02:08:34] "GET / HTTP/1.1" 200 -
+2026-06-03 02:08:35,006 127.0.0.1 - - [03/Jun/2026 02:08:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:35,009 127.0.0.1 - - [03/Jun/2026 02:08:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:35,012 127.0.0.1 - - [03/Jun/2026 02:08:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:35,015 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 02:08:35,015 127.0.0.1 - - [03/Jun/2026 02:08:35] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:35,019 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-03 02:08:35,019 127.0.0.1 - - [03/Jun/2026 02:08:35] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:35,044 127.0.0.1 - - [03/Jun/2026 02:08:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:35,066 127.0.0.1 - - [03/Jun/2026 02:08:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:35,095 {"csp-report":{"document-uri":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","referrer":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/signup.html","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":99,"source-file":"https://reimagined-pancake-x66g9jg4j69hqw5-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-03 02:08:35,095 127.0.0.1 - - [03/Jun/2026 02:08:35] "POST /csp_report HTTP/1.1" 200 -
+2026-06-03 02:08:35,098 127.0.0.1 - - [03/Jun/2026 02:08:35] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:08:37,471 127.0.0.1 - - [03/Jun/2026 02:08:37] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 02:08:37,518 127.0.0.1 - - [03/Jun/2026 02:08:37] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:37,521 127.0.0.1 - - [03/Jun/2026 02:08:37] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:08:37,524 127.0.0.1 - - [03/Jun/2026 02:08:37] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:37,549 127.0.0.1 - - [03/Jun/2026 02:08:37] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:37,574 127.0.0.1 - - [03/Jun/2026 02:08:37] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:08:37,609 127.0.0.1 - - [03/Jun/2026 02:08:37] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:12:31,460 127.0.0.1 - - [03/Jun/2026 02:12:31] "GET /login.html HTTP/1.1" 200 -
+2026-06-03 02:12:31,629 127.0.0.1 - - [03/Jun/2026 02:12:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:12:31,664 127.0.0.1 - - [03/Jun/2026 02:12:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:12:31,674 127.0.0.1 - - [03/Jun/2026 02:12:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:31,764 127.0.0.1 - - [03/Jun/2026 02:12:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:31,789 127.0.0.1 - - [03/Jun/2026 02:12:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:31,823 127.0.0.1 - - [03/Jun/2026 02:12:31] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:12:31,827 127.0.0.1 - - [03/Jun/2026 02:12:31] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 02:12:46,879 127.0.0.1 - - [03/Jun/2026 02:12:46] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-03 02:12:46,975 127.0.0.1 - - [03/Jun/2026 02:12:46] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-03 02:12:47,027 127.0.0.1 - - [03/Jun/2026 02:12:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:12:47,030 127.0.0.1 - - [03/Jun/2026 02:12:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:12:47,033 127.0.0.1 - - [03/Jun/2026 02:12:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:47,066 127.0.0.1 - - [03/Jun/2026 02:12:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:47,096 127.0.0.1 - - [03/Jun/2026 02:12:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:47,126 127.0.0.1 - - [03/Jun/2026 02:12:47] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:12:53,711 127.0.0.1 - - [03/Jun/2026 02:12:53] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-03 02:12:53,740 127.0.0.1 - - [03/Jun/2026 02:12:53] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 02:12:53,798 127.0.0.1 - - [03/Jun/2026 02:12:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:53,803 127.0.0.1 - - [03/Jun/2026 02:12:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:12:53,808 127.0.0.1 - - [03/Jun/2026 02:12:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:12:53,854 127.0.0.1 - - [03/Jun/2026 02:12:53] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:53,885 127.0.0.1 - - [03/Jun/2026 02:12:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:12:53,912 127.0.0.1 - - [03/Jun/2026 02:12:53] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:14:12,611 127.0.0.1 - - [03/Jun/2026 02:14:12] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 02:14:12,663 127.0.0.1 - - [03/Jun/2026 02:14:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:14:12,665 127.0.0.1 - - [03/Jun/2026 02:14:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:14:12,735 127.0.0.1 - - [03/Jun/2026 02:14:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:14:12,857 127.0.0.1 - - [03/Jun/2026 02:14:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:14:12,950 127.0.0.1 - - [03/Jun/2026 02:14:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:14:12,989 127.0.0.1 - - [03/Jun/2026 02:14:12] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:14:12,993 127.0.0.1 - - [03/Jun/2026 02:14:12] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-03 02:17:42,212 127.0.0.1 - - [03/Jun/2026 02:17:42] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-03 02:17:42,392 127.0.0.1 - - [03/Jun/2026 02:17:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:17:42,411 127.0.0.1 - - [03/Jun/2026 02:17:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:42,419 127.0.0.1 - - [03/Jun/2026 02:17:42] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:17:42,529 127.0.0.1 - - [03/Jun/2026 02:17:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:42,643 127.0.0.1 - - [03/Jun/2026 02:17:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:42,669 127.0.0.1 - - [03/Jun/2026 02:17:42] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:17:45,842 127.0.0.1 - - [03/Jun/2026 02:17:45] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 02:17:45,886 127.0.0.1 - - [03/Jun/2026 02:17:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:17:45,888 127.0.0.1 - - [03/Jun/2026 02:17:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:45,893 127.0.0.1 - - [03/Jun/2026 02:17:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:17:45,921 127.0.0.1 - - [03/Jun/2026 02:17:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:45,942 127.0.0.1 - - [03/Jun/2026 02:17:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:45,967 127.0.0.1 - - [03/Jun/2026 02:17:45] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:17:55,063 127.0.0.1 - - [03/Jun/2026 02:17:55] "GET /live.html HTTP/1.1" 200 -
+2026-06-03 02:17:55,123 127.0.0.1 - - [03/Jun/2026 02:17:55] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:17:55,129 127.0.0.1 - - [03/Jun/2026 02:17:55] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:55,134 127.0.0.1 - - [03/Jun/2026 02:17:55] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:17:55,169 127.0.0.1 - - [03/Jun/2026 02:17:55] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:55,196 127.0.0.1 - - [03/Jun/2026 02:17:55] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:55,220 127.0.0.1 - - [03/Jun/2026 02:17:55] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:17:56,657 127.0.0.1 - - [03/Jun/2026 02:17:56] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 02:17:56,703 127.0.0.1 - - [03/Jun/2026 02:17:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:56,706 127.0.0.1 - - [03/Jun/2026 02:17:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:17:56,709 127.0.0.1 - - [03/Jun/2026 02:17:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:17:56,739 127.0.0.1 - - [03/Jun/2026 02:17:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:56,762 127.0.0.1 - - [03/Jun/2026 02:17:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:17:56,795 127.0.0.1 - - [03/Jun/2026 02:17:56] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:18:32,302 127.0.0.1 - - [03/Jun/2026 02:18:32] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-03 02:18:32,345 127.0.0.1 - - [03/Jun/2026 02:18:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-03 02:18:32,348 127.0.0.1 - - [03/Jun/2026 02:18:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-03 02:18:32,351 127.0.0.1 - - [03/Jun/2026 02:18:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-03 02:18:32,378 127.0.0.1 - - [03/Jun/2026 02:18:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-03 02:18:32,404 127.0.0.1 - - [03/Jun/2026 02:18:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-03 02:18:32,435 127.0.0.1 - - [03/Jun/2026 02:18:32] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-03 02:18:32,438 127.0.0.1 - - [03/Jun/2026 02:18:32] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
