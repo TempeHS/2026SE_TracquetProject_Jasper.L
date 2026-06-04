@@ -4,15 +4,15 @@ Tracquet is a Flask Progressive Web App (PWA) that provides tennis fans with a c
 
 ## Status
 
-- **Current Sprint:** Sprint 2 — API Connection
-- **Last Increment:** Sprint 1 — PWA Skeleton. Completed working login with password hashing and Google Authenticator 2FA, navbar with page routing, and frontend placeholder pages for all sections.
-- **Next Planned Increment:** Connect to a live tennis API and make data accessible for integration.
+- **Current Sprint:** Sprint 1 — PWA Skeleton
+- **Last Increment:** Phase 2 complete — all planning, documentation, system modelling and UAT draft finalised.
+- **Next Planned Increment:** Working login, dashboard and navbar, with placeholder pages for all sections.
 
 ## How to Run
 
 1. Clone the repository
 2. Install dependencies: `pip install -r requirements.txt`
-3. Run the app: `python app.py`
+3. Run the app: `python main.py`
 4. Navigate to `http://localhost:5000` in your browser
 
 ## Backlogs
