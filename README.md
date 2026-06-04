@@ -1,57 +1,21 @@
-# Secure Flask Bootstrap PWA Template
+# Tracquet
 
-This Flask template has been built from the ground up to be a secure Progressive Web App. It includes a secure form and Bootstrap sample components ready to be connected to a SQLite3 database. All minimum PWA standards have been integrated, and placeholder images have been provided for all the icon and image components.
+Tracquet is a Flask Progressive Web App (PWA) that provides tennis fans with a centralised space to view live tennis data including match scores, player rankings, and individual player information for both men's and women's tennis.
 
-## Dependencies
+## Status
 
-- VSCode or GitHub Codespaces (preconfigured for docker)
-- Python 3+
-- pip install Flask
-- pip install SQLite3
-- pip install bcrypt
-- pip install flask_wtf
+- **Current Sprint:** Sprint 1 — PWA Skeleton
+- **Last Increment:** Phase 2 complete — all planning, documentation, system modelling and UAT draft finalised.
+- **Next Planned Increment:** Working login, dashboard and navbar, with placeholder pages for all sections.
 
-## Secure Features
+## How to Run
 
-- Strict Content Security Policy
-  - No inline `<script></script>`.
-  - Restricted `<iframe>` loading
-  - CORS JS blocked
-- HTML Languaged declared.
-- Meta character set declared.
-- Private folders use .folderName syntax.
-- [Bootstrap 5.3](https://getbootstrap.com/) components served local files.
-- CSRFProtect applied to form.
-- Form Pattern expression declared.
+1. Clone the repository
+2. Install dependencies: `pip install -r requirements.txt`
+3. Run the app: `python main.py`
+4. Navigate to `http://localhost:5000` in your browser
 
-## To be implemented by developers
+## Backlogs
 
-- Web content, [Bootstrap 5.3](https://getbootstrap.com/) ready
-- [SQLite](https://docs.python.org/3/library/sqlite3.html) database design and integration
-- Input sanitisation
-- Login, authentication or session management
-- Password encryption using [bcrypt](https://pypi.org/project/bcrypt/)
-- SSL Encryption
-
-## Privacy advice for developers
-
-- The app should have a privacy handling policy
-- Only data essential for the app should be collected
-- Users should be given the option to download or delete their data
-- Passwords should be encrypted, including a salt, before hashing
-
-## Security advice for developers
-
-- All inputs should be sanitised before processing or storing
-- If including login, authentication and session management should be implemented
-- SSL Encryption and HTTPS should be implemented
-- Use Jinga2 components when passing variables to the frontend
-- Use query parameters for all SQL queries
-
-## Content advice for developers
-
-- All templates are [Bootstrap 5.3](https://getbootstrap.com/) ready
-- [SQLite](https://docs.python.org/3/library/sqlite3.html) has been provided for database design
-
-> [!TIP]
-> Developers should [monitor Bootstrap 5.3.3 for discovered vulnerabilities](https://security.snyk.io/package/npm/bootstrap) and patch or update as needed.
+- [Product Backlog](PRODUCTBACKLOG.md)
+- [Sprint Backlog](SPRINTBACKLOG.md)

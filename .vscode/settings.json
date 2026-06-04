@@ -13,8 +13,8 @@
   "[python]": {
     "editor.defaultFormatter": "ms-python.black-formatter"
   },
-  "workbench.colorTheme": "Dark-Dracula",
-  "workbench.iconTheme": "vscode-icons",
+  "workbench.colorTheme": "Dracula Theme",
+  "workbench.iconTheme": "icons",
   "github.copilot.enable": {
     "python": false,
     "html": false,
