@@ -4,7 +4,14 @@
 
 ## Sprint 1 - PWA Skeleton
 
-**Sprint Goal:** Build a working skeleton PWA with secure login, 2FA, a functional navbar, and placeholder pages for all sections.
+**Sprint Goal:** Successfully decide on and connect an API for tennis data.  
+Possible API's:
+
+- https://tennis-api.com/
+
+- https://rapidapi.com/jjrm365-kIFr3Nx_odV/api/tennis-api-atp-wta-itf
+
+- https://api-tennis.com/
 
 **Committed Items:**
 
