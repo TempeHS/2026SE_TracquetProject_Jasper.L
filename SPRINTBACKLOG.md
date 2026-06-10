@@ -2,9 +2,10 @@
 
 ---
 
-## Sprint 1 - PWA Skeleton
+## Sprint 2 - API Connection
 
-**Sprint Goal:** Successfully decide on and connect an API for tennis data.  
+**Sprint Goal:** Connect a live tennis API so live match and ranking data is accessible and ready for page-level integration.
+
 Possible API's:
 
 - https://tennis-api.com/
@@ -15,37 +16,34 @@ Possible API's:
 
 **Committed Items:**
 
-| PB ID  | User Story                                                                                                 |
-| ------ | ---------------------------------------------------------------------------------------------------------- |
-| PB-001 | As a user, I want to securely log in so that my account is protected.                                      |
-| PB-002 | As a user, I want to be brought to a dashboard after login so that I can navigate to different data pages. |
-| PB-003 | As a user, I want a navbar on every page so that I can navigate the site easily.                           |
+| PB ID  | User Story                                                                                |
+| ------ | ----------------------------------------------------------------------------------------- |
+| PB-004 | As a user, I want the app to connect to a live tennis API so that I can see current data. |
 
 **Sprint Plan:**
 
-| Task                                | Description                                                                              |
-| ----------------------------------- | ---------------------------------------------------------------------------------------- |
-| Set up Flask project structure      | Initialise Flask app, configure folders for templates, static files and database.        |
-| Build login page and authentication | Create login form, implement password hashing, set up user session management.           |
-| Implement Google Authenticator 2FA  | Integrate Google Auth as a second factor on the login flow.                              |
-| Build navbar                        | Create a consistent navbar across all pages with links to each section.                  |
-| Create placeholder pages            | Build frontend templates for Dashboard, Live Matches, Rankings, and Player Search pages. |
-| Connect page routing                | Set up Flask routes so all navbar links and page transitions function correctly.         |
+| Task                             | Description                                                                |
+| -------------------------------- | -------------------------------------------------------------------------- |
+| Evaluate and select API provider | Compare candidate tennis APIs and confirm one provider for Sprint 2 usage. |
+| Configure API credentials        | Store API key and base URL securely via environment variables.             |
+| Build API service module         | Create reusable Flask service functions for API requests and parsing.      |
+| Add connectivity test routes     | Add temporary/internal endpoints to verify live match/ranking payloads.    |
+| Implement error handling/logging | Handle auth/network/API errors and return safe fallback responses.         |
+| Validate data readiness          | Confirm required fields are available for Sprint 3 frontend integration.   |
 
 **Unit Test Summary Table:**
 
-| Test ID | Test Name                   | What It Tests                             | Input                                 | Expected Output                                      | Actual Output                                   | Pass/Fail |
-| ------- | --------------------------- | ----------------------------------------- | ------------------------------------- | ---------------------------------------------------- | ----------------------------------------------- | --------- |
-| T1-01   | Valid login                 | PB-001 - login with correct credentials   | Valid email and password              | User is redirected to Google Auth prompt             | User redirected to 2FA prompt                   | Pass      |
-| T1-02   | Invalid login               | PB-001 - login with incorrect credentials | Incorrect password                    | Error message displayed, user not logged in          | Error message shown, login rejected             | Pass      |
-| T1-03   | Password hashing            | PB-001 - passwords stored securely        | New user registration                 | Password is stored as a hash, not plain text         | Hash visible in database, plain text not stored | Pass      |
-| T1-04   | Google Auth 2FA             | PB-001 - 2FA required on login            | Valid credentials + correct auth code | User is granted access to dashboard                  | Dashboard loaded after successful 2FA           | Pass      |
-| T1-05   | Dashboard loads             | PB-002 - dashboard accessible after login | Successful login and 2FA              | Dashboard page loads with navigation options visible | Dashboard displayed correctly                   | Pass      |
-| T1-06   | Navbar present on all pages | PB-003 - navbar consistent across site    | Navigate to each page                 | Navbar visible on every page                         | Navbar displayed on all pages                   | Pass      |
-| T1-07   | Navbar routing              | PB-003 - navbar links function correctly  | Click each navbar link                | Correct page loads for each link                     | All pages loaded correctly                      | Pass      |
+| Test ID | Test Name                    | What It Tests                            | Input                                   | Expected Output                                                         | Actual Output | Pass/Fail |
+| ------- | ---------------------------- | ---------------------------------------- | --------------------------------------- | ----------------------------------------------------------------------- | ------------- | --------- |
+| T2-01   | API key loaded from env      | PB-004 - secure API configuration        | Valid `.env` with API key               | App reads API key successfully and initialises API client/service       | Pending       | Pending   |
+| T2-02   | Live matches request success | PB-004 - live data endpoint reachable    | Valid request to live matches endpoint  | HTTP 200 and structured live match data returned                        | Pending       | Pending   |
+| T2-03   | Rankings request success     | PB-004 - rankings endpoint reachable     | Valid request to rankings endpoint      | HTTP 200 and structured ranking data returned                           | Pending       | Pending   |
+| T2-04   | API auth failure handling    | PB-004 - invalid credential handling     | Invalid/expired API key                 | Graceful error response (no crash), clear error logged/message returned | Pending       | Pending   |
+| T2-05   | Network timeout handling     | PB-004 - resilience to connection issues | Simulated timeout from provider         | Request timeout handled gracefully with fallback/error response         | Pending       | Pending   |
+| T2-06   | Required field availability  | PB-004 - data ready for Sprint 3 pages   | Sample live match and ranking responses | Required fields (names, scores/ranks, country, points, etc.) available  | Pending       | Pending   |
 
-**Sprint Review:**
-All Sprint 1 committed items were completed. Login with password hashing and Google Authenticator 2FA is functional. The navbar is consistent across all pages and all routes are connected. Placeholder pages are in place and ready for API data integration in Sprint 2.
+**Sprint Review:**  
+To be completed at the end of Sprint 2.
 
-**Sprint Retrospective:**
-Sprint 1 went smoothly with all planned features completed within the sprint window. The login and 2FA implementation was straightforward given existing Flask experience. Going forward, the sprint backlog and unit test table will be filled in before coding begins as required by the WAgile process.
+**Sprint Retrospective:**  
+To be completed at the end of Sprint 2.

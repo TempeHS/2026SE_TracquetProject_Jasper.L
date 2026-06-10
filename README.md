@@ -4,9 +4,9 @@ Tracquet is a Flask Progressive Web App (PWA) that provides tennis fans with a c
 
 ## Status
 
-- **Current Sprint:** Sprint 1 — PWA Skeleton
-- **Last Increment:** Phase 2 complete — all planning, documentation, system modelling and UAT draft finalised.
-- **Next Planned Increment:** Working login, dashboard and navbar, with placeholder pages for all sections.
+- **Current Sprint:** Sprint 2 — API Connection
+- **Last Increment:** Sprint 1 complete — working login, dashboard, navbar, and placeholder pages delivered.
+- **Next Planned Increment:** Sprint 3 — API integration into Live Matches, Rankings, and Player Profile pages.
 
 ## How to Run
 
