@@ -6,13 +6,7 @@
 
 **Sprint Goal:** Connect a live tennis API so live match and ranking data is accessible and ready for page-level integration.
 
-Possible API's:
-
-- https://tennis-api.com/
-
-- https://rapidapi.com/jjrm365-kIFr3Nx_odV/api/tennis-api-atp-wta-itf
-
-- https://api-tennis.com/
+API: https://tennis-api.com/
 
 **Committed Items:**
 
