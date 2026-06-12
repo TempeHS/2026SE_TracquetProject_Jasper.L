@@ -8,4 +8,4 @@ pyotp
 pyqrcode
 flask_jwt_extended
 pypng
-omthemes
+python-dotenv

@@ -8112,3 +8112,25 @@
 2026-06-11 07:07:38,196 127.0.0.1 - - [11/Jun/2026 07:07:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2026-06-11 07:07:38,230 127.0.0.1 - - [11/Jun/2026 07:07:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2026-06-11 07:07:38,264 127.0.0.1 - - [11/Jun/2026 07:07:38] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-12 03:05:14,021 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.93:5000
+2026-06-12 03:05:14,021 [33mPress CTRL+C to quit[0m
+2026-06-12 03:05:14,022  * Restarting with stat
+2026-06-12 03:05:14,337  * Debugger is active!
+2026-06-12 03:05:14,338  * Debugger PIN: 131-306-238
+2026-06-12 03:05:18,847 127.0.0.1 - - [12/Jun/2026 03:05:18] "GET / HTTP/1.1" 200 -
+2026-06-12 03:05:19,112 127.0.0.1 - - [12/Jun/2026 03:05:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-12 03:05:19,142 127.0.0.1 - - [12/Jun/2026 03:05:19] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-12 03:05:19,144 {"csp-report":{"document-uri":"https://scaling-fiesta-444pgxprxr637p6p-5000.app.github.dev/","referrer":"https://scaling-fiesta-444pgxprxr637p6p.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://scaling-fiesta-444pgxprxr637p6p-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-12 03:05:19,144 127.0.0.1 - - [12/Jun/2026 03:05:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-12 03:05:19,161 127.0.0.1 - - [12/Jun/2026 03:05:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-12 03:05:19,176 {"csp-report":{"document-uri":"https://scaling-fiesta-444pgxprxr637p6p-5000.app.github.dev/","referrer":"https://scaling-fiesta-444pgxprxr637p6p.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://scaling-fiesta-444pgxprxr637p6p-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-12 03:05:19,177 127.0.0.1 - - [12/Jun/2026 03:05:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-12 03:05:19,240 127.0.0.1 - - [12/Jun/2026 03:05:19] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2026-06-12 03:05:19,261 127.0.0.1 - - [12/Jun/2026 03:05:19] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-12 03:05:19,279 {"csp-report":{"document-uri":"https://scaling-fiesta-444pgxprxr637p6p-5000.app.github.dev/","referrer":"https://scaling-fiesta-444pgxprxr637p6p.github.dev/","violated-directive":"script-src-elem","effective-directive":"script-src-elem","original-policy":"script-src 'self'; img-src 'self' data:; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":99,"source-file":"https://scaling-fiesta-444pgxprxr637p6p-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-12 03:05:19,280 127.0.0.1 - - [12/Jun/2026 03:05:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-12 03:05:19,300 127.0.0.1 - - [12/Jun/2026 03:05:19] "[33mGET /js/serviceWorker.js HTTP/1.1[0m" 404 -
+2026-06-12 03:05:19,312 127.0.0.1 - - [12/Jun/2026 03:05:19] "GET /static/images/favicon.png HTTP/1.1" 200 -
