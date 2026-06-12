@@ -27,10 +27,8 @@ from flask_jwt_extended import (
 )
 from datetime import datetime
 
-import DB_Handler as dbHandler
 
-# Code snippet for logging a message
-# app.logger.critical("message")
+import DB_Handler as dbHandler
 
 app_log = logging.getLogger(__name__)
 logging.basicConfig(
