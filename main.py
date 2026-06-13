@@ -29,6 +29,7 @@ from datetime import datetime
 
 
 import DB_Handler as dbHandler
+import API_Handler as apiHandler
 
 app_log = logging.getLogger(__name__)
 logging.basicConfig(
@@ -193,20 +194,39 @@ def signup():
 @app.route("/dashboard.html", methods=["GET"])
 @jwt_required()
 def dashboard():
-    # user_id = get_jwt_identity()
-    return render_template("/dashboard.html")
+    preview = apiHandler.get_dashboard_preview()
+    return render_template(
+        "/dashboard.html",
+        matches=preview["matches"],
+        rankings=preview["rankings"],
+    )
 
 
 @app.route("/live.html", methods=["GET"])
 @jwt_required()
 def live():
-    return render_template("/live.html")
+    matches = apiHandler.get_live_matches()
+    error = None
+    if matches is None:
+        error = "Unable to load live matches. Please try again later."
+        matches = []
+    return render_template("/live.html", matches=matches, error=error)
 
 
 @app.route("/rankings.html", methods=["GET"])
 @jwt_required()
 def rankings():
-    return render_template("/rankings.html")
+    atp = apiHandler.get_rankings("ATP")
+    wta = apiHandler.get_rankings("WTA")
+    error = None
+    if atp is None and wta is None:
+        error = "Unable to load rankings. Please try again later."
+    return render_template(
+        "/rankings.html",
+        atp_rankings=atp or [],
+        wta_rankings=wta or [],
+        error=error,
+    )
 
 
 @app.route("/logout.html", methods=["GET"])
@@ -325,22 +345,34 @@ def csp_report():
 @jwt_required()
 def player():
     player_id = request.args.get("id")
-    player_name = request.args.get("name")
 
-    if not player_id and not player_name:
+    if not player_id:
         return render_template("/player.html", error="No player specified", player=None)
 
-    # TODO: Replace with actual API call or DB query
-    # API:
-    # response = requests.get(f"https://api.example.com/players/{player_id}")
-    # player = response.json()
+    player_data = apiHandler.get_player(player_id)
 
-    # DB:
-    # player = dbHandler.getPlayer(player_id)
+    if player_data is None:
+        return render_template(
+            "/player.html",
+            error="Unable to load player data.",
+            player=None,
+        )
 
-    player = None  # Placeholder until data source is connected
+    return render_template("/player.html", player=player_data)
 
-    return render_template("/player.html", player=player, player_id=player_id)
+
+@app.route("/search.html", methods=["GET"])
+@jwt_required()
+def search():
+    query = request.args.get("name", "").strip()
+    results = []
+    error = None
+    if query:
+        results = apiHandler.search_players(query)
+        if results is None:
+            error = "Search is currently unavailable. Please try again later."
+            results = []
+    return render_template("/search.html", results=results, query=query, error=error)
 
 
 if __name__ == "__main__":
