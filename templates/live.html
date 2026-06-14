@@ -11,7 +11,12 @@
   {% endif %}
 
   <div class="row">
-    {% if matches %} {% for match in matches %}
+    {% if matches %} {% for tournament, group in matches | groupby('tournament')
+    %}
+    <div class="col-12 mt-3">
+      <h4 class="border-bottom pb-2">{{ tournament }}</h4>
+    </div>
+    {% for match in group %}
     <div class="col-md-6 mb-4">
       <div class="card">
         <div
@@ -21,22 +26,50 @@
           <span class="badge bg-danger">● LIVE</span>
         </div>
         <div class="card-body">
-          <div class="d-flex justify-content-between align-items-center">
-            <div class="text-center">
-              <p class="mb-1 fw-bold">{{ match.player1 }}</p>
-            </div>
-            <div class="text-center px-3">
-              <h4>{{ match.score1 }} - {{ match.score2 }}</h4>
-              <small class="text-muted">{{ match.set }}</small>
-            </div>
-            <div class="text-center">
-              <p class="mb-1 fw-bold">{{ match.player2 }}</p>
-            </div>
-          </div>
+          <table class="table table-sm mb-2">
+            <thead>
+              <tr>
+                <th>Player</th>
+                {% for s in match.set_scores %}
+                <th class="text-center">S{{ s.set }}</th>
+                {% endfor %}
+                <th class="text-center">Pts</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="fw-bold">
+                  {% if match.serve1 %}<span class="text-success">●</span>{%
+                  endif %} {{ match.player1 }}
+                </td>
+                {% for s in match.set_scores %}
+                <td class="text-center">{{ s.first }}</td>
+                {% endfor %}
+                <td class="text-center fw-bold">
+                  {{ match.game_points.split(' - ')[0] if ' - ' in
+                  match.game_points else '-' }}
+                </td>
+              </tr>
+              <tr>
+                <td class="fw-bold">
+                  {% if match.serve2 %}<span class="text-success">●</span>{%
+                  endif %} {{ match.player2 }}
+                </td>
+                {% for s in match.set_scores %}
+                <td class="text-center">{{ s.second }}</td>
+                {% endfor %}
+                <td class="text-center fw-bold">
+                  {{ match.game_points.split(' - ')[1] if ' - ' in
+                  match.game_points else '-' }}
+                </td>
+              </tr>
+            </tbody>
+          </table>
+          <small class="text-muted">{{ match.status }}</small>
         </div>
       </div>
     </div>
-    {% endfor %} {% else %}
+    {% endfor %} {% endfor %} {% else %}
     <!-- Placeholder until data source is connected -->
     <div class="col">
       <div class="card">

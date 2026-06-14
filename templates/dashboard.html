@@ -14,7 +14,18 @@
           <h5 class="mb-0">Live Matches</h5>
         </div>
         <div class="card-body">
-          <!-- Placeholder until live data is connected -->
+          {% if matches %} {% for match in matches %}
+          <div
+            class="d-flex justify-content-between align-items-center border-bottom py-2"
+          >
+            <span class="fw-bold">{{ match.player1 }}</span>
+            <span class="text-muted small">
+              {% for s in match.set_scores %}{{ s.first }}-{{ s.second }} {%
+              endfor %}
+            </span>
+            <span class="fw-bold">{{ match.player2 }}</span>
+          </div>
+          {% endfor %} {% else %}
           <div
             class="border rounded p-3 text-center text-muted"
             style="
@@ -25,10 +36,11 @@
             "
           >
             <div>
-              <p class="mb-1">Live Data</p>
-              <small>(current matches/scores)</small>
+              <p class="mb-1">No live matches</p>
+              <small>(check back soon)</small>
             </div>
           </div>
+          {% endif %}
         </div>
       </div>
     </div>
@@ -47,25 +59,72 @@
           <h5 class="mb-0">Rankings</h5>
         </div>
         <div class="card-body">
-          <!-- Placeholder until rankings data is connected -->
-          <table class="table table-striped mb-0">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Player</th>
-                <th>Country</th>
-                <th>Points</th>
-              </tr>
-            </thead>
-            <tbody>
-              <!-- Populated once data source connected -->
-              <tr>
-                <td colspan="4" class="text-center text-muted">
-                  Ranking Preview (top X)
-                </td>
-              </tr>
-            </tbody>
-          </table>
+          <div class="row">
+            <!-- ATP (Men) -->
+            <div class="col-md-6 border-end">
+              <h6 class="text-primary">ATP (Men)</h6>
+              <table class="table table-striped table-sm mb-0">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Player</th>
+                    <th>Pts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% if atp_rankings %} {% for player in atp_rankings %}
+                  <tr>
+                    <td>{{ player.rank }}</td>
+                    <td>
+                      <a href="/player.html?id={{ player.id }}"
+                        >{{ player.name }}</a
+                      >
+                    </td>
+                    <td>{{ player.points }}</td>
+                  </tr>
+                  {% endfor %} {% else %}
+                  <tr>
+                    <td colspan="3" class="text-center text-muted">
+                      Not available
+                    </td>
+                  </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+            <!-- WTA (Women) -->
+            <div class="col-md-6">
+              <h6 class="text-danger">WTA (Women)</h6>
+              <table class="table table-striped table-sm mb-0">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Player</th>
+                    <th>Pts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% if wta_rankings %} {% for player in wta_rankings %}
+                  <tr>
+                    <td>{{ player.rank }}</td>
+                    <td>
+                      <a href="/player.html?id={{ player.id }}"
+                        >{{ player.name }}</a
+                      >
+                    </td>
+                    <td>{{ player.points }}</td>
+                  </tr>
+                  {% endfor %} {% else %}
+                  <tr>
+                    <td colspan="3" class="text-center text-muted">
+                      Not available
+                    </td>
+                  </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </div>
