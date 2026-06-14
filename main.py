@@ -98,6 +98,7 @@ def unauthorized_callback(error):
         "child-src": "'self'",
         "connect-src": "'self'",
         "worker-src": "'self'",
+        "manifest-src": "'self'",
         "report-uri": "/csp_report",
         "frame-ancestors": "'none'",
         "form-action": "'self'",
@@ -310,7 +311,7 @@ def setup_2fa():
     # Generate new secret
     user_secret = pyotp.random_base32()
     totp = pyotp.TOTP(user_secret)
-    otp_uri = totp.provisioning_uri(name=email, issuer_name="Devlog App")
+    otp_uri = totp.provisioning_uri(name=email, issuer_name="Tracquet")
     qr_code = pyqrcode.create(otp_uri)
     stream = BytesIO()
     qr_code.png(stream, scale=5)

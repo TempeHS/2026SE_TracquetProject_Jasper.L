@@ -43,7 +43,10 @@ def _request(params):
         data = response.json()
         if data.get("success") == 1:
             return data.get("result", [])
-        api_log.warning(f"API call unsuccessful: {params.get('method')}")
+        api_log.warning(
+            f"API call unsuccessful: {params.get('method')} "
+            f"(event_type={params.get('event_type')}) -> {data.get('error', data)}"
+        )
         return None
     except requests.exceptions.RequestException as e:
         api_log.error(f"API request failed: {e}")
@@ -103,13 +106,16 @@ def get_live_matches():
 
 
 def get_rankings(event_type="ATP"):
-    """For rankings.html - returns list of ranked player dicts (or None on error).
+    """For rankings.html - returns list of ranked player dicts.
 
-    Cached for 1 hour. On API failure, falls back to stale cache if available.
+    Cached for 1 hour. Returns:
+      - list of players on success
+      - stale cached list if API fails but cache exists
+      - empty list [] if the provider returns no data (temporarily unavailable)
+      - None only on hard request failure with no cache
     """
     cache_key = f"standings_{event_type}"
 
-    # Return fresh cache if available
     cached = _get_cached(cache_key, _CACHE_TTL["standings"])
     if cached is not None:
         return cached
@@ -117,7 +123,6 @@ def get_rankings(event_type="ATP"):
     result = _request({"method": "get_standings", "event_type": event_type})
 
     if result is None:
-        # API failed - serve stale cache rather than nothing (fixes disappearing rankings)
         stale = _cache.get(cache_key)
         if stale:
             api_log.warning(f"Standings API failed, serving stale cache: {event_type}")
@@ -137,7 +142,18 @@ def get_rankings(event_type="ATP"):
             }
         )
 
-    _set_cache(cache_key, rankings)
+    if not rankings:
+        api_log.warning(
+            f"{event_type} standings returned empty - provider may be updating rankings."
+        )
+        # If we have a previous good result, serve it instead of empty
+        stale = _cache.get(cache_key)
+        if stale and stale["data"]:
+            api_log.info(f"Serving last-known {event_type} rankings during empty window.")
+            return stale["data"]
+
+    if rankings:
+        _set_cache(cache_key, rankings)
     return rankings
 
 
@@ -171,19 +187,17 @@ def get_player(player_key):
     played = won + lost
     win_rate = f"{round((won / played) * 100)}%" if played else "N/A"
 
-    # Look up rank/points from standings - check BOTH ATP and WTA
+    # Look up rank/points from CACHED standings - check both ATP and WTA
     rank = "N/A"
     points = "N/A"
     for event_type in ("ATP", "WTA"):
-        standings = _request(
-            {"method": "get_standings", "event_type": event_type}
-        ) or []
+        standings = get_rankings(event_type) or []
         for entry in standings:
-            if str(entry.get("player_key", "")) == str(player_key):
-                rank = entry.get("place", "N/A")
+            if str(entry.get("id", "")) == str(player_key):
+                rank = entry.get("rank", "N/A")
                 points = entry.get("points", "N/A")
                 break
-        if rank != "N/A":  # Found them, stop searching
+        if rank != "N/A":
             break
 
     return {
@@ -202,28 +216,23 @@ def get_player(player_key):
 
 
 def search_players(query):
-    """Search ranked players by name across ATP and WTA standings.
-
-    Returns a list of matching player dicts (may be empty).
-    """
+    """Search ranked players by name across ATP and WTA standings (cached)."""
     query = query.strip().lower()
     if not query:
         return []
 
     results = []
     for event_type in ("ATP", "WTA"):
-        standings = (
-            _request({"method": "get_standings", "event_type": event_type}) or []
-        )
+        standings = get_rankings(event_type) or []
         for entry in standings:
-            name = entry.get("player", "")
+            name = entry.get("name", "")
             if query in name.lower():
                 results.append(
                     {
-                        "id": entry.get("player_key", ""),
+                        "id": entry.get("id", ""),
                         "name": name,
                         "country": entry.get("country", "N/A"),
-                        "rank": entry.get("place", "N/A"),
+                        "rank": entry.get("rank", "N/A"),
                         "points": entry.get("points", "N/A"),
                         "tour": event_type,
                     }

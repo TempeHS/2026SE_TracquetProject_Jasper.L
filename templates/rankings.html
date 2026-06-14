@@ -40,10 +40,13 @@ players, badge_class) %}
           </td>
         </tr>
         {% endfor %} {% else %}
-        <!-- Placeholder until data source is connected -->
         <tr>
           <td colspan="5" class="text-center text-muted py-4">
-            Rankings data not yet available
+            Rankings temporarily unavailable.<br />
+            <small
+              >The provider may be updating rankings — please check back
+              later.</small
+            >
           </td>
         </tr>
         {% endif %}

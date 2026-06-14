@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Tracquet",
+    "short_name": "Tracquet",
     "start_url": "/",
     "display": "standalone",
     "background_color": "#000",
@@ -72,3 +72,4 @@
     }
   ]
   }
+}
