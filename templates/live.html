@@ -11,7 +11,12 @@
   {% endif %}
 
   <div class="row">
-    {% if matches %} {% for match in matches %}
+    {% if matches %} {% for tournament, group in matches | groupby('tournament')
+    %}
+    <div class="col-12 mt-3">
+      <h4 class="border-bottom pb-2">{{ tournament }}</h4>
+    </div>
+    {% for match in group %}
     <div class="col-md-6 mb-4">
       <div class="card">
         <div
@@ -64,7 +69,7 @@
         </div>
       </div>
     </div>
-    {% endfor %} {% else %}
+    {% endfor %} {% endfor %} {% else %}
     <!-- Placeholder until data source is connected -->
     <div class="col">
       <div class="card">

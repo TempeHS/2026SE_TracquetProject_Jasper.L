@@ -73,6 +73,9 @@ def get_live_matches():
                 "status": m.get("event_status", ""),
             }
         )
+
+    # Sort alphabetically by tournament so matches group together
+    matches.sort(key=lambda match: match["tournament"].lower())
     return matches
 
 
@@ -107,7 +110,7 @@ def get_dashboard_preview(event_type="ATP", match_limit=3, rank_limit=5):
     }
 
 
-def get_player(player_key, event_type="ATP"):
+def get_player(player_key):
     """For player.html - returns single player dict (or None if not found)."""
     result = _request({"method": "get_players", "player_key": player_key})
     if not result:
@@ -125,15 +128,19 @@ def get_player(player_key, event_type="ATP"):
     played = won + lost
     win_rate = f"{round((won / played) * 100)}%" if played else "N/A"
 
-    # Look up rank/points from standings
-    rank = player.get("player_atp_ranking") or "N/A"
+    # Look up rank/points from standings - check BOTH ATP and WTA
+    rank = "N/A"
     points = "N/A"
-    standings = _request({"method": "get_standings", "event_type": event_type}) or []
-    for entry in standings:
-        if str(entry.get("player_key", "")) == str(player_key):
-            points = entry.get("points", "N/A")
-            if rank == "N/A":
+    for event_type in ("ATP", "WTA"):
+        standings = _request(
+            {"method": "get_standings", "event_type": event_type}
+        ) or []
+        for entry in standings:
+            if str(entry.get("player_key", "")) == str(player_key):
                 rank = entry.get("place", "N/A")
+                points = entry.get("points", "N/A")
+                break
+        if rank != "N/A":  # Found them, stop searching
             break
 
     return {
