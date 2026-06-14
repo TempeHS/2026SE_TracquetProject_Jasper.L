@@ -59,36 +59,72 @@
           <h5 class="mb-0">Rankings</h5>
         </div>
         <div class="card-body">
-          <table class="table table-striped mb-0">
-            <thead>
-              <tr>
-                <th>#</th>
-                <th>Player</th>
-                <th>Country</th>
-                <th>Points</th>
-              </tr>
-            </thead>
-            <tbody>
-              {% if rankings %} {% for player in rankings %}
-              <tr>
-                <td>{{ player.rank }}</td>
-                <td>
-                  <a href="/player.html?id={{ player.id }}"
-                    >{{ player.name }}</a
-                  >
-                </td>
-                <td>{{ player.country }}</td>
-                <td>{{ player.points }}</td>
-              </tr>
-              {% endfor %} {% else %}
-              <tr>
-                <td colspan="4" class="text-center text-muted">
-                  Rankings not yet available
-                </td>
-              </tr>
-              {% endif %}
-            </tbody>
-          </table>
+          <div class="row">
+            <!-- ATP (Men) -->
+            <div class="col-md-6 border-end">
+              <h6 class="text-primary">ATP (Men)</h6>
+              <table class="table table-striped table-sm mb-0">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Player</th>
+                    <th>Pts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% if atp_rankings %} {% for player in atp_rankings %}
+                  <tr>
+                    <td>{{ player.rank }}</td>
+                    <td>
+                      <a href="/player.html?id={{ player.id }}"
+                        >{{ player.name }}</a
+                      >
+                    </td>
+                    <td>{{ player.points }}</td>
+                  </tr>
+                  {% endfor %} {% else %}
+                  <tr>
+                    <td colspan="3" class="text-center text-muted">
+                      Not available
+                    </td>
+                  </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+            <!-- WTA (Women) -->
+            <div class="col-md-6">
+              <h6 class="text-danger">WTA (Women)</h6>
+              <table class="table table-striped table-sm mb-0">
+                <thead>
+                  <tr>
+                    <th>#</th>
+                    <th>Player</th>
+                    <th>Pts</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  {% if wta_rankings %} {% for player in wta_rankings %}
+                  <tr>
+                    <td>{{ player.rank }}</td>
+                    <td>
+                      <a href="/player.html?id={{ player.id }}"
+                        >{{ player.name }}</a
+                      >
+                    </td>
+                    <td>{{ player.points }}</td>
+                  </tr>
+                  {% endfor %} {% else %}
+                  <tr>
+                    <td colspan="3" class="text-center text-muted">
+                      Not available
+                    </td>
+                  </tr>
+                  {% endif %}
+                </tbody>
+              </table>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -1,6 +1,7 @@
 import requests
 import os
 import logging
+import time
 from datetime import datetime, timedelta
 from dotenv import load_dotenv
 
@@ -10,6 +11,28 @@ API_KEY = os.getenv("API_TENNIS_KEY")
 BASE_URL = "https://api.api-tennis.com/tennis/"
 
 api_log = logging.getLogger(__name__)
+
+# Simple in-memory cache: { cache_key: {"data": ..., "timestamp": ...} }
+_cache = {}
+_CACHE_TTL = {
+    "standings": 3600,   # rankings: 1 hour (rarely change)
+    "livescore": 30,     # live matches: 30 seconds (change fast)
+    "players": 86400,    # player profiles: 24 hours (static)
+}
+
+
+def _get_cached(key, ttl):
+    """Return cached data if fresh, else None."""
+    entry = _cache.get(key)
+    if entry and (time.time() - entry["timestamp"]) < ttl:
+        api_log.debug(f"Cache hit: {key}")
+        return entry["data"]
+    return None
+
+
+def _set_cache(key, data):
+    """Store data in cache with current timestamp."""
+    _cache[key] = {"data": data, "timestamp": time.time()}
 
 
 def _request(params):
@@ -80,9 +103,25 @@ def get_live_matches():
 
 
 def get_rankings(event_type="ATP"):
-    """For rankings.html - returns list of ranked player dicts (or None on error)."""
+    """For rankings.html - returns list of ranked player dicts (or None on error).
+
+    Cached for 1 hour. On API failure, falls back to stale cache if available.
+    """
+    cache_key = f"standings_{event_type}"
+
+    # Return fresh cache if available
+    cached = _get_cached(cache_key, _CACHE_TTL["standings"])
+    if cached is not None:
+        return cached
+
     result = _request({"method": "get_standings", "event_type": event_type})
+
     if result is None:
+        # API failed - serve stale cache rather than nothing (fixes disappearing rankings)
+        stale = _cache.get(cache_key)
+        if stale:
+            api_log.warning(f"Standings API failed, serving stale cache: {event_type}")
+            return stale["data"]
         return None
 
     rankings = []
@@ -97,16 +136,20 @@ def get_rankings(event_type="ATP"):
                 "id": entry.get("player_key", ""),
             }
         )
+
+    _set_cache(cache_key, rankings)
     return rankings
 
 
-def get_dashboard_preview(event_type="ATP", match_limit=3, rank_limit=5):
-    """Returns a small subset of live matches and rankings for the dashboard."""
+def get_dashboard_preview(match_limit=3, rank_limit=5):
+    """Returns a small subset of live matches and ATP + WTA rankings."""
     matches = get_live_matches() or []
-    rankings = get_rankings(event_type) or []
+    atp = get_rankings("ATP") or []
+    wta = get_rankings("WTA") or []
     return {
         "matches": matches[:match_limit],
-        "rankings": rankings[:rank_limit],
+        "atp_rankings": atp[:rank_limit],
+        "wta_rankings": wta[:rank_limit],
     }
 
 

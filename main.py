@@ -91,7 +91,7 @@ def unauthorized_callback(error):
         "default-src": "'self'",
         "style-src": "'self'",
         "script-src": "'self'",
-        "img-src": "'self' data:",
+        "img-src": "'self' data: https://api.api-tennis.com",
         "media-src": "'self'",
         "font-src": "'self'",
         "object-src": "'self'",
@@ -198,7 +198,8 @@ def dashboard():
     return render_template(
         "/dashboard.html",
         matches=preview["matches"],
-        rankings=preview["rankings"],
+        atp_rankings=preview["atp_rankings"],
+        wta_rankings=preview["wta_rankings"],
     )
 
 
