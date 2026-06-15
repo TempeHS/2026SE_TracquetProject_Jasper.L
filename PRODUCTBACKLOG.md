@@ -16,7 +16,7 @@ A Flask PWA that gives tennis fans a single place to view live match scores, pla
 | PB-006 | As a user, I want to view player rankings so that I can see who the top players are.                       | High     | Rankings page displays a table of players with rank, name, country, age and points.                                                   | Complete |
 | PB-007 | As a user, I want to click a player name to view their profile so that I can learn more about them.        | High     | Clicking a player name on the Rankings page loads their individual player page with name, image, rank, age, country and description.  | Complete |
 | PB-008 | As a user, I want data on the pages organised so that I can view it logically.                             | Medium   | Live matches are grouped/sorted by tournament; rankings display movement indicators.                                                  | Complete |
-| PB-009 | As a user, I want to favourite pages so that I can quickly access the ones I use most.                     | Low      | Users can favourite pages. Favourited pages are accessible from the dashboard.                                                        | To Do    |
+
 
 ## Changelog
 
