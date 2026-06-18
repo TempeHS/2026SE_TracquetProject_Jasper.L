@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg">
+<nav class="navbar navbar-expand-lg sticky-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="dashboard.html">Tracquet</a>
+    <a class="navbar-brand" href="/">Tracquet</a>
     <button
       class="navbar-toggler"
       type="button"
@@ -15,20 +15,14 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         {% if request.cookies.get('access_token_cookie') %}
-        <li class="nav-item dropdown">
-          <a
-            class="nav-link dropdown-toggle"
-            href="#"
-            role="button"
-            data-bs-toggle="dropdown"
-            aria-expanded="false"
-          >
-            Pages
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="live.html">Live Matches</a></li>
-            <li><a class="dropdown-item" href="rankings.html">Rankings</a></li>
-          </ul>
+        <li class="nav-item">
+          <a class="nav-link" href="/dashboard.html">Dashboard</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/live.html">Live Matches</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="/rankings.html">Rankings</a>
         </li>
         {% else %}
         <li class="nav-item">
@@ -45,23 +39,23 @@
 
       {% if request.cookies.get('access_token_cookie') %}
       <form
-        class="d-flex me-3"
+        class="d-flex me-3 navbar-search"
         role="search"
         action="/search.html"
         method="GET"
       >
         <input
-          class="form-control me-2"
+          class="form-control"
           type="search"
           name="name"
           placeholder="Search players..."
           aria-label="Search"
         />
-        <button class="btn btn-outline-secondary" type="submit">Search</button>
+        <button class="btn btn-search" type="submit">Search</button>
       </form>
       <ul class="navbar-nav mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link" href="/logout.html">Logout</a>
+          <a class="nav-link nav-logout" href="/logout.html">Logout</a>
         </li>
       </ul>
       {% endif %}

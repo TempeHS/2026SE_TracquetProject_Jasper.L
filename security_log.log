@@ -9742,3 +9742,503 @@
 2026-06-16 01:13:34,748 127.0.0.1 - - [16/Jun/2026 01:13:34] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
 2026-06-16 01:13:34,963 127.0.0.1 - - [16/Jun/2026 01:13:34] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2026-06-16 01:13:35,027 127.0.0.1 - - [16/Jun/2026 01:13:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:34:52,644 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.1.12:5000
+2026-06-16 01:34:52,644 [33mPress CTRL+C to quit[0m
+2026-06-16 01:34:52,645  * Restarting with stat
+2026-06-16 01:34:53,007  * Debugger is active!
+2026-06-16 01:34:53,007  * Debugger PIN: 110-848-633
+2026-06-16 01:34:57,006 127.0.0.1 - - [16/Jun/2026 01:34:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-16 01:35:03,501 127.0.0.1 - - [16/Jun/2026 01:35:03] "GET / HTTP/1.1" 200 -
+2026-06-16 01:35:03,643 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-16 01:35:03,644 127.0.0.1 - - [16/Jun/2026 01:35:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-16 01:35:03,718 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-16 01:35:03,718 127.0.0.1 - - [16/Jun/2026 01:35:03] "POST /csp_report HTTP/1.1" 200 -
+2026-06-16 01:35:03,733 127.0.0.1 - - [16/Jun/2026 01:35:03] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-16 01:35:03,736 127.0.0.1 - - [16/Jun/2026 01:35:03] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-16 01:35:03,753 127.0.0.1 - - [16/Jun/2026 01:35:03] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-16 01:35:03,842 127.0.0.1 - - [16/Jun/2026 01:35:03] "GET /static/js/app.js HTTP/1.1" 200 -
+2026-06-16 01:35:03,872 127.0.0.1 - - [16/Jun/2026 01:35:03] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-16 01:35:03,877 127.0.0.1 - - [16/Jun/2026 01:35:03] "GET /static/js/serviceWorker.js HTTP/1.1" 200 -
+2026-06-16 01:35:05,220 127.0.0.1 - - [16/Jun/2026 01:35:05] "GET /login.html HTTP/1.1" 200 -
+2026-06-16 01:35:05,260 127.0.0.1 - - [16/Jun/2026 01:35:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:05,264 127.0.0.1 - - [16/Jun/2026 01:35:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:05,267 127.0.0.1 - - [16/Jun/2026 01:35:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:05,297 127.0.0.1 - - [16/Jun/2026 01:35:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:05,329 127.0.0.1 - - [16/Jun/2026 01:35:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:07,198 127.0.0.1 - - [16/Jun/2026 01:35:07] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-16 01:35:07,226 127.0.0.1 - - [16/Jun/2026 01:35:07] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-16 01:35:07,270 127.0.0.1 - - [16/Jun/2026 01:35:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:07,274 127.0.0.1 - - [16/Jun/2026 01:35:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:07,276 127.0.0.1 - - [16/Jun/2026 01:35:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:07,310 127.0.0.1 - - [16/Jun/2026 01:35:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:07,339 127.0.0.1 - - [16/Jun/2026 01:35:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:17,248 127.0.0.1 - - [16/Jun/2026 01:35:17] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-16 01:35:17,272 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:18,381 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:18,383 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:19,698 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=ATP&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:19,997 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:21,159 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=WTA&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:21,173 127.0.0.1 - - [16/Jun/2026 01:35:21] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-16 01:35:21,222 127.0.0.1 - - [16/Jun/2026 01:35:21] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:21,225 127.0.0.1 - - [16/Jun/2026 01:35:21] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:21,227 127.0.0.1 - - [16/Jun/2026 01:35:21] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:21,258 127.0.0.1 - - [16/Jun/2026 01:35:21] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:21,283 127.0.0.1 - - [16/Jun/2026 01:35:21] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:24,308 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:25,167 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:25,175 127.0.0.1 - - [16/Jun/2026 01:35:25] "GET /live.html HTTP/1.1" 200 -
+2026-06-16 01:35:25,222 127.0.0.1 - - [16/Jun/2026 01:35:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:25,224 127.0.0.1 - - [16/Jun/2026 01:35:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:25,226 127.0.0.1 - - [16/Jun/2026 01:35:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:25,256 127.0.0.1 - - [16/Jun/2026 01:35:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:25,283 127.0.0.1 - - [16/Jun/2026 01:35:25] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:27,535 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:28,406 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:28,407 Cache hit: standings_ATP
+2026-06-16 01:35:28,407 Cache hit: standings_WTA
+2026-06-16 01:35:28,408 127.0.0.1 - - [16/Jun/2026 01:35:28] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-16 01:35:28,457 127.0.0.1 - - [16/Jun/2026 01:35:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:28,460 127.0.0.1 - - [16/Jun/2026 01:35:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:28,462 127.0.0.1 - - [16/Jun/2026 01:35:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:28,496 127.0.0.1 - - [16/Jun/2026 01:35:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:28,526 127.0.0.1 - - [16/Jun/2026 01:35:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:29,955 Cache hit: standings_ATP
+2026-06-16 01:35:29,955 Cache hit: standings_WTA
+2026-06-16 01:35:29,998 127.0.0.1 - - [16/Jun/2026 01:35:29] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-16 01:35:30,047 127.0.0.1 - - [16/Jun/2026 01:35:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:30,049 127.0.0.1 - - [16/Jun/2026 01:35:30] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:30,405 127.0.0.1 - - [16/Jun/2026 01:35:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:30,486 127.0.0.1 - - [16/Jun/2026 01:35:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:30,532 127.0.0.1 - - [16/Jun/2026 01:35:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:45,910 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:46,887 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=2072&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:46,888 Cache hit: standings_ATP
+2026-06-16 01:35:46,892 127.0.0.1 - - [16/Jun/2026 01:35:46] "GET /player.html?id=2072 HTTP/1.1" 200 -
+2026-06-16 01:35:46,953 127.0.0.1 - - [16/Jun/2026 01:35:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:46,959 127.0.0.1 - - [16/Jun/2026 01:35:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:46,959 127.0.0.1 - - [16/Jun/2026 01:35:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:46,999 127.0.0.1 - - [16/Jun/2026 01:35:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:47,719 127.0.0.1 - - [16/Jun/2026 01:35:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:50,005 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:50,877 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:50,878 Cache hit: standings_ATP
+2026-06-16 01:35:50,878 Cache hit: standings_WTA
+2026-06-16 01:35:50,879 127.0.0.1 - - [16/Jun/2026 01:35:50] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-16 01:35:50,929 127.0.0.1 - - [16/Jun/2026 01:35:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:50,933 127.0.0.1 - - [16/Jun/2026 01:35:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:50,936 127.0.0.1 - - [16/Jun/2026 01:35:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:50,968 127.0.0.1 - - [16/Jun/2026 01:35:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:50,991 127.0.0.1 - - [16/Jun/2026 01:35:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:52,592 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:53,585 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=1989&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:53,587 Cache hit: standings_ATP
+2026-06-16 01:35:53,587 Cache hit: standings_WTA
+2026-06-16 01:35:53,588 127.0.0.1 - - [16/Jun/2026 01:35:53] "GET /player.html?id=1989 HTTP/1.1" 200 -
+2026-06-16 01:35:53,641 127.0.0.1 - - [16/Jun/2026 01:35:53] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:53,644 127.0.0.1 - - [16/Jun/2026 01:35:53] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:53,646 127.0.0.1 - - [16/Jun/2026 01:35:53] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:53,674 127.0.0.1 - - [16/Jun/2026 01:35:53] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:54,389 127.0.0.1 - - [16/Jun/2026 01:35:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:57,911 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-16 01:35:58,832 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-16 01:35:58,833 Cache hit: standings_ATP
+2026-06-16 01:35:58,833 Cache hit: standings_WTA
+2026-06-16 01:35:58,834 127.0.0.1 - - [16/Jun/2026 01:35:58] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-16 01:35:58,886 127.0.0.1 - - [16/Jun/2026 01:35:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:58,890 127.0.0.1 - - [16/Jun/2026 01:35:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-16 01:35:58,892 127.0.0.1 - - [16/Jun/2026 01:35:58] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:58,927 127.0.0.1 - - [16/Jun/2026 01:35:58] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-16 01:35:58,950 127.0.0.1 - - [16/Jun/2026 01:35:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:10,370 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.175:5000
+2026-06-18 00:17:10,370 [33mPress CTRL+C to quit[0m
+2026-06-18 00:17:10,371  * Restarting with stat
+2026-06-18 00:17:10,857  * Debugger is active!
+2026-06-18 00:17:10,857  * Debugger PIN: 657-205-564
+2026-06-18 00:17:14,497 127.0.0.1 - - [18/Jun/2026 00:17:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 00:17:19,692 127.0.0.1 - - [18/Jun/2026 00:17:19] "GET / HTTP/1.1" 200 -
+2026-06-18 00:17:19,764 127.0.0.1 - - [18/Jun/2026 00:17:19] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:19,814 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:17:19,814 127.0.0.1 - - [18/Jun/2026 00:17:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:17:19,884 127.0.0.1 - - [18/Jun/2026 00:17:19] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:19,900 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:17:19,901 127.0.0.1 - - [18/Jun/2026 00:17:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:17:19,905 127.0.0.1 - - [18/Jun/2026 00:17:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 00:17:19,967 127.0.0.1 - - [18/Jun/2026 00:17:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:19,996 127.0.0.1 - - [18/Jun/2026 00:17:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:29,836 127.0.0.1 - - [18/Jun/2026 00:17:29] "GET /login.html HTTP/1.1" 200 -
+2026-06-18 00:17:29,880 127.0.0.1 - - [18/Jun/2026 00:17:29] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:29,883 127.0.0.1 - - [18/Jun/2026 00:17:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:29,885 127.0.0.1 - - [18/Jun/2026 00:17:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:29,918 127.0.0.1 - - [18/Jun/2026 00:17:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:29,947 127.0.0.1 - - [18/Jun/2026 00:17:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:31,890 127.0.0.1 - - [18/Jun/2026 00:17:31] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-18 00:17:31,923 127.0.0.1 - - [18/Jun/2026 00:17:31] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-18 00:17:31,975 127.0.0.1 - - [18/Jun/2026 00:17:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:31,978 127.0.0.1 - - [18/Jun/2026 00:17:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:31,980 127.0.0.1 - - [18/Jun/2026 00:17:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:32,017 127.0.0.1 - - [18/Jun/2026 00:17:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:32,051 127.0.0.1 - - [18/Jun/2026 00:17:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:46,100 127.0.0.1 - - [18/Jun/2026 00:17:46] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-18 00:17:46,128 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:17:47,244 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:17:47,249 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:17:48,500 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=ATP&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:17:48,793 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:17:49,952 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=WTA&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:17:49,966 127.0.0.1 - - [18/Jun/2026 00:17:49] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:17:50,016 127.0.0.1 - - [18/Jun/2026 00:17:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:50,018 127.0.0.1 - - [18/Jun/2026 00:17:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:50,021 127.0.0.1 - - [18/Jun/2026 00:17:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:50,068 127.0.0.1 - - [18/Jun/2026 00:17:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:50,094 127.0.0.1 - - [18/Jun/2026 00:17:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:58,852 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:17:59,747 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:17:59,756 127.0.0.1 - - [18/Jun/2026 00:17:59] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 00:17:59,802 127.0.0.1 - - [18/Jun/2026 00:17:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:59,806 127.0.0.1 - - [18/Jun/2026 00:17:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:17:59,809 127.0.0.1 - - [18/Jun/2026 00:17:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:59,840 127.0.0.1 - - [18/Jun/2026 00:17:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:17:59,867 127.0.0.1 - - [18/Jun/2026 00:17:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:25,732 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:19:26,644 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:19:26,647 Cache hit: standings_ATP
+2026-06-18 00:19:26,647 Cache hit: standings_WTA
+2026-06-18 00:19:26,648 127.0.0.1 - - [18/Jun/2026 00:19:26] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:19:26,705 127.0.0.1 - - [18/Jun/2026 00:19:26] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:19:26,707 127.0.0.1 - - [18/Jun/2026 00:19:26] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:26,782 127.0.0.1 - - [18/Jun/2026 00:19:26] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:19:26,881 127.0.0.1 - - [18/Jun/2026 00:19:26] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:26,977 127.0.0.1 - - [18/Jun/2026 00:19:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:28,287 Cache hit: standings_ATP
+2026-06-18 00:19:28,287 Cache hit: standings_WTA
+2026-06-18 00:19:28,330 127.0.0.1 - - [18/Jun/2026 00:19:28] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-18 00:19:28,378 127.0.0.1 - - [18/Jun/2026 00:19:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:19:28,380 127.0.0.1 - - [18/Jun/2026 00:19:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:19:28,738 127.0.0.1 - - [18/Jun/2026 00:19:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:28,803 127.0.0.1 - - [18/Jun/2026 00:19:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:28,837 127.0.0.1 - - [18/Jun/2026 00:19:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:30,589 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:19:31,543 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=2072&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:19:31,544 Cache hit: standings_ATP
+2026-06-18 00:19:31,548 127.0.0.1 - - [18/Jun/2026 00:19:31] "GET /player.html?id=2072 HTTP/1.1" 200 -
+2026-06-18 00:19:31,613 127.0.0.1 - - [18/Jun/2026 00:19:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:31,616 127.0.0.1 - - [18/Jun/2026 00:19:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:19:31,618 127.0.0.1 - - [18/Jun/2026 00:19:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:19:31,646 127.0.0.1 - - [18/Jun/2026 00:19:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:32,376 127.0.0.1 - - [18/Jun/2026 00:19:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:42,615 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:19:43,491 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:19:43,493 Cache hit: standings_ATP
+2026-06-18 00:19:43,493 Cache hit: standings_WTA
+2026-06-18 00:19:43,494 127.0.0.1 - - [18/Jun/2026 00:19:43] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:19:43,545 127.0.0.1 - - [18/Jun/2026 00:19:43] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:19:43,550 127.0.0.1 - - [18/Jun/2026 00:19:43] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:43,551 127.0.0.1 - - [18/Jun/2026 00:19:43] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:19:43,578 127.0.0.1 - - [18/Jun/2026 00:19:43] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:19:43,599 127.0.0.1 - - [18/Jun/2026 00:19:43] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:20:01,569 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.175:5000
+2026-06-18 00:20:01,569 [33mPress CTRL+C to quit[0m
+2026-06-18 00:20:01,570  * Restarting with stat
+2026-06-18 00:20:01,887  * Debugger is active!
+2026-06-18 00:20:01,888  * Debugger PIN: 657-205-564
+2026-06-18 00:20:02,450 127.0.0.1 - - [18/Jun/2026 00:20:02] "GET / HTTP/1.1" 200 -
+2026-06-18 00:20:02,516 127.0.0.1 - - [18/Jun/2026 00:20:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:20:02,519 127.0.0.1 - - [18/Jun/2026 00:20:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:20:02,521 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:20:02,521 127.0.0.1 - - [18/Jun/2026 00:20:02] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:20:02,524 127.0.0.1 - - [18/Jun/2026 00:20:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:20:02,525 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:20:02,525 127.0.0.1 - - [18/Jun/2026 00:20:02] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:20:02,588 127.0.0.1 - - [18/Jun/2026 00:20:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:20:02,613 127.0.0.1 - - [18/Jun/2026 00:20:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:27,115 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.175:5000
+2026-06-18 00:22:27,115 [33mPress CTRL+C to quit[0m
+2026-06-18 00:22:27,116  * Restarting with stat
+2026-06-18 00:22:27,492  * Debugger is active!
+2026-06-18 00:22:27,492  * Debugger PIN: 657-205-564
+2026-06-18 00:22:27,969 127.0.0.1 - - [18/Jun/2026 00:22:27] "GET / HTTP/1.1" 200 -
+2026-06-18 00:22:28,220 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:22:28,220 127.0.0.1 - - [18/Jun/2026 00:22:28] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:22:28,250 127.0.0.1 - - [18/Jun/2026 00:22:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:22:28,288 127.0.0.1 - - [18/Jun/2026 00:22:28] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 00:22:28,302 127.0.0.1 - - [18/Jun/2026 00:22:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:28,325 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:22:28,325 127.0.0.1 - - [18/Jun/2026 00:22:28] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:22:28,381 127.0.0.1 - - [18/Jun/2026 00:22:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:28,419 127.0.0.1 - - [18/Jun/2026 00:22:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:46,271 127.0.0.1 - - [18/Jun/2026 00:22:46] "GET /login.html HTTP/1.1" 200 -
+2026-06-18 00:22:46,313 127.0.0.1 - - [18/Jun/2026 00:22:46] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:46,316 127.0.0.1 - - [18/Jun/2026 00:22:46] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:22:46,320 127.0.0.1 - - [18/Jun/2026 00:22:46] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:22:46,348 127.0.0.1 - - [18/Jun/2026 00:22:46] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:46,376 127.0.0.1 - - [18/Jun/2026 00:22:46] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:48,041 127.0.0.1 - - [18/Jun/2026 00:22:48] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-18 00:22:48,066 127.0.0.1 - - [18/Jun/2026 00:22:48] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-18 00:22:48,118 127.0.0.1 - - [18/Jun/2026 00:22:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:22:48,123 127.0.0.1 - - [18/Jun/2026 00:22:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:48,128 127.0.0.1 - - [18/Jun/2026 00:22:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:22:48,171 127.0.0.1 - - [18/Jun/2026 00:22:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:48,207 127.0.0.1 - - [18/Jun/2026 00:22:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:53,749 127.0.0.1 - - [18/Jun/2026 00:22:53] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-18 00:22:53,771 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:22:54,891 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:22:54,894 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:22:56,276 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=ATP&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:22:56,576 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:22:57,871 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=WTA&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:22:57,885 127.0.0.1 - - [18/Jun/2026 00:22:57] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:22:57,946 127.0.0.1 - - [18/Jun/2026 00:22:57] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:57,950 127.0.0.1 - - [18/Jun/2026 00:22:57] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:22:57,952 127.0.0.1 - - [18/Jun/2026 00:22:57] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:22:57,994 127.0.0.1 - - [18/Jun/2026 00:22:57] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:22:58,037 127.0.0.1 - - [18/Jun/2026 00:22:58] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:27:16,650 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.175:5000
+2026-06-18 00:27:16,651 [33mPress CTRL+C to quit[0m
+2026-06-18 00:27:16,655  * Restarting with stat
+2026-06-18 00:27:17,072  * Debugger is active!
+2026-06-18 00:27:17,072  * Debugger PIN: 657-205-564
+2026-06-18 00:27:19,066 127.0.0.1 - - [18/Jun/2026 00:27:19] "GET / HTTP/1.1" 200 -
+2026-06-18 00:27:19,358 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:27:19,359 127.0.0.1 - - [18/Jun/2026 00:27:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:27:19,371 127.0.0.1 - - [18/Jun/2026 00:27:19] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-18 00:27:19,375 127.0.0.1 - - [18/Jun/2026 00:27:19] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 00:27:19,395 127.0.0.1 - - [18/Jun/2026 00:27:19] "GET /static/js/bootstrap.bundle.min.js HTTP/1.1" 200 -
+2026-06-18 00:27:19,411 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:27:19,411 127.0.0.1 - - [18/Jun/2026 00:27:19] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:27:19,573 127.0.0.1 - - [18/Jun/2026 00:27:19] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:27:19,603 127.0.0.1 - - [18/Jun/2026 00:27:19] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:01,614 127.0.0.1 - - [18/Jun/2026 00:29:01] "GET /login.html HTTP/1.1" 200 -
+2026-06-18 00:29:01,787 127.0.0.1 - - [18/Jun/2026 00:29:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:01,815 127.0.0.1 - - [18/Jun/2026 00:29:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:01,815 127.0.0.1 - - [18/Jun/2026 00:29:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:01,914 127.0.0.1 - - [18/Jun/2026 00:29:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:01,947 127.0.0.1 - - [18/Jun/2026 00:29:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:03,617 127.0.0.1 - - [18/Jun/2026 00:29:03] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-18 00:29:03,644 127.0.0.1 - - [18/Jun/2026 00:29:03] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-18 00:29:03,714 127.0.0.1 - - [18/Jun/2026 00:29:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:03,717 127.0.0.1 - - [18/Jun/2026 00:29:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:03,719 127.0.0.1 - - [18/Jun/2026 00:29:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:03,752 127.0.0.1 - - [18/Jun/2026 00:29:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:03,781 127.0.0.1 - - [18/Jun/2026 00:29:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:14,116 127.0.0.1 - - [18/Jun/2026 00:29:14] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-18 00:29:14,139 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:29:15,156 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:29:15,160 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:29:16,401 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=ATP&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:29:16,695 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:29:17,850 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=WTA&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:29:17,866 127.0.0.1 - - [18/Jun/2026 00:29:17] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:29:17,916 127.0.0.1 - - [18/Jun/2026 00:29:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:17,920 127.0.0.1 - - [18/Jun/2026 00:29:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:17,921 127.0.0.1 - - [18/Jun/2026 00:29:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:17,962 127.0.0.1 - - [18/Jun/2026 00:29:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:18,001 127.0.0.1 - - [18/Jun/2026 00:29:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:31,619 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:29:32,585 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:29:32,601 127.0.0.1 - - [18/Jun/2026 00:29:32] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 00:29:32,651 127.0.0.1 - - [18/Jun/2026 00:29:32] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:32,656 127.0.0.1 - - [18/Jun/2026 00:29:32] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:32,659 127.0.0.1 - - [18/Jun/2026 00:29:32] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:32,693 127.0.0.1 - - [18/Jun/2026 00:29:32] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:32,715 127.0.0.1 - - [18/Jun/2026 00:29:32] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:34,842 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:29:35,702 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:29:35,704 Cache hit: standings_ATP
+2026-06-18 00:29:35,705 Cache hit: standings_WTA
+2026-06-18 00:29:35,705 127.0.0.1 - - [18/Jun/2026 00:29:35] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:29:35,746 127.0.0.1 - - [18/Jun/2026 00:29:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:35,750 127.0.0.1 - - [18/Jun/2026 00:29:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:35,752 127.0.0.1 - - [18/Jun/2026 00:29:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:35,782 127.0.0.1 - - [18/Jun/2026 00:29:35] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:35,808 127.0.0.1 - - [18/Jun/2026 00:29:35] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:38,136 Cache hit: standings_ATP
+2026-06-18 00:29:38,137 Cache hit: standings_WTA
+2026-06-18 00:29:38,179 127.0.0.1 - - [18/Jun/2026 00:29:38] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-18 00:29:38,246 127.0.0.1 - - [18/Jun/2026 00:29:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:38,249 127.0.0.1 - - [18/Jun/2026 00:29:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:38,631 127.0.0.1 - - [18/Jun/2026 00:29:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:38,682 127.0.0.1 - - [18/Jun/2026 00:29:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:38,714 127.0.0.1 - - [18/Jun/2026 00:29:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:43,328 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:29:44,308 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=2072&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:29:44,310 Cache hit: standings_ATP
+2026-06-18 00:29:44,313 127.0.0.1 - - [18/Jun/2026 00:29:44] "GET /player.html?id=2072 HTTP/1.1" 200 -
+2026-06-18 00:29:44,375 127.0.0.1 - - [18/Jun/2026 00:29:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:44,378 127.0.0.1 - - [18/Jun/2026 00:29:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:44,380 127.0.0.1 - - [18/Jun/2026 00:29:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:44,409 127.0.0.1 - - [18/Jun/2026 00:29:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:45,119 127.0.0.1 - - [18/Jun/2026 00:29:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:49,420 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:29:50,279 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:29:50,281 Cache hit: standings_ATP
+2026-06-18 00:29:50,281 Cache hit: standings_WTA
+2026-06-18 00:29:50,282 127.0.0.1 - - [18/Jun/2026 00:29:50] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:29:50,338 127.0.0.1 - - [18/Jun/2026 00:29:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:50,342 127.0.0.1 - - [18/Jun/2026 00:29:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:50,345 127.0.0.1 - - [18/Jun/2026 00:29:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:50,375 127.0.0.1 - - [18/Jun/2026 00:29:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:50,405 127.0.0.1 - - [18/Jun/2026 00:29:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:56,121 Cache hit: standings_ATP
+2026-06-18 00:29:56,121 Cache hit: standings_WTA
+2026-06-18 00:29:56,125 127.0.0.1 - - [18/Jun/2026 00:29:56] "GET /search.html?name=janik HTTP/1.1" 200 -
+2026-06-18 00:29:56,172 127.0.0.1 - - [18/Jun/2026 00:29:56] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:56,175 127.0.0.1 - - [18/Jun/2026 00:29:56] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:56,177 127.0.0.1 - - [18/Jun/2026 00:29:56] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:56,203 127.0.0.1 - - [18/Jun/2026 00:29:56] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:56,227 127.0.0.1 - - [18/Jun/2026 00:29:56] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:58,564 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:29:59,439 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:29:59,441 Cache hit: standings_ATP
+2026-06-18 00:29:59,442 Cache hit: standings_WTA
+2026-06-18 00:29:59,442 127.0.0.1 - - [18/Jun/2026 00:29:59] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:29:59,495 127.0.0.1 - - [18/Jun/2026 00:29:59] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:59,497 127.0.0.1 - - [18/Jun/2026 00:29:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:59,500 127.0.0.1 - - [18/Jun/2026 00:29:59] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:29:59,524 127.0.0.1 - - [18/Jun/2026 00:29:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:29:59,548 127.0.0.1 - - [18/Jun/2026 00:29:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:03,652 Cache hit: standings_ATP
+2026-06-18 00:30:03,652 Cache hit: standings_WTA
+2026-06-18 00:30:03,653 127.0.0.1 - - [18/Jun/2026 00:30:03] "GET /search.html?name=jannik HTTP/1.1" 200 -
+2026-06-18 00:30:03,697 127.0.0.1 - - [18/Jun/2026 00:30:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:30:03,701 127.0.0.1 - - [18/Jun/2026 00:30:03] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:03,704 127.0.0.1 - - [18/Jun/2026 00:30:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:30:03,729 127.0.0.1 - - [18/Jun/2026 00:30:03] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:03,754 127.0.0.1 - - [18/Jun/2026 00:30:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:06,019 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:30:06,985 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=23522&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:30:06,986 Cache hit: standings_ATP
+2026-06-18 00:30:06,987 127.0.0.1 - - [18/Jun/2026 00:30:06] "GET /player.html?id=23522 HTTP/1.1" 200 -
+2026-06-18 00:30:07,037 127.0.0.1 - - [18/Jun/2026 00:30:07] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:07,041 127.0.0.1 - - [18/Jun/2026 00:30:07] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:30:07,048 127.0.0.1 - - [18/Jun/2026 00:30:07] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:30:07,075 127.0.0.1 - - [18/Jun/2026 00:30:07] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:07,774 127.0.0.1 - - [18/Jun/2026 00:30:07] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:12,693 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:30:13,572 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:30:13,575 Cache hit: standings_ATP
+2026-06-18 00:30:13,575 Cache hit: standings_WTA
+2026-06-18 00:30:13,576 127.0.0.1 - - [18/Jun/2026 00:30:13] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:30:13,625 127.0.0.1 - - [18/Jun/2026 00:30:13] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:30:13,628 127.0.0.1 - - [18/Jun/2026 00:30:13] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:13,631 127.0.0.1 - - [18/Jun/2026 00:30:13] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:30:13,657 127.0.0.1 - - [18/Jun/2026 00:30:13] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:13,682 127.0.0.1 - - [18/Jun/2026 00:30:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:16,961 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:30:17,913 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:30:17,916 127.0.0.1 - - [18/Jun/2026 00:30:17] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 00:30:17,965 127.0.0.1 - - [18/Jun/2026 00:30:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:17,969 127.0.0.1 - - [18/Jun/2026 00:30:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:30:17,973 127.0.0.1 - - [18/Jun/2026 00:30:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:30:17,999 127.0.0.1 - - [18/Jun/2026 00:30:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:30:18,039 127.0.0.1 - - [18/Jun/2026 00:30:18] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:31:59,124 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.2.175:5000
+2026-06-18 00:31:59,124 [33mPress CTRL+C to quit[0m
+2026-06-18 00:31:59,125  * Restarting with stat
+2026-06-18 00:31:59,525  * Debugger is active!
+2026-06-18 00:31:59,526  * Debugger PIN: 657-205-564
+2026-06-18 00:32:01,338 127.0.0.1 - - [18/Jun/2026 00:32:01] "GET / HTTP/1.1" 200 -
+2026-06-18 00:32:01,419 127.0.0.1 - - [18/Jun/2026 00:32:01] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:32:01,567 127.0.0.1 - - [18/Jun/2026 00:32:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:32:01,621 127.0.0.1 - - [18/Jun/2026 00:32:01] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:32:01,624 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:32:01,625 127.0.0.1 - - [18/Jun/2026 00:32:01] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:32:01,630 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:32:01,630 127.0.0.1 - - [18/Jun/2026 00:32:01] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:32:01,707 127.0.0.1 - - [18/Jun/2026 00:32:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:32:01,735 127.0.0.1 - - [18/Jun/2026 00:32:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:32:29,659 127.0.0.1 - - [18/Jun/2026 00:32:29] "GET / HTTP/1.1" 200 -
+2026-06-18 00:32:29,707 127.0.0.1 - - [18/Jun/2026 00:32:29] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 00:32:29,710 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:32:29,710 127.0.0.1 - - [18/Jun/2026 00:32:29] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:32:29,713 127.0.0.1 - - [18/Jun/2026 00:32:29] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:32:29,715 127.0.0.1 - - [18/Jun/2026 00:32:29] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:32:29,744 127.0.0.1 - - [18/Jun/2026 00:32:29] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:32:29,765 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:32:29,766 127.0.0.1 - - [18/Jun/2026 00:32:29] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:32:29,777 127.0.0.1 - - [18/Jun/2026 00:32:29] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 00:32:29,780 127.0.0.1 - - [18/Jun/2026 00:32:29] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:30,862 127.0.0.1 - - [18/Jun/2026 00:33:30] "GET / HTTP/1.1" 200 -
+2026-06-18 00:33:30,917 127.0.0.1 - - [18/Jun/2026 00:33:30] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:33:30,920 127.0.0.1 - - [18/Jun/2026 00:33:30] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 00:33:30,923 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:33:30,924 127.0.0.1 - - [18/Jun/2026 00:33:30] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:33:30,925 127.0.0.1 - - [18/Jun/2026 00:33:30] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:30,951 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:33:30,951 127.0.0.1 - - [18/Jun/2026 00:33:30] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:33:30,956 127.0.0.1 - - [18/Jun/2026 00:33:30] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:30,985 127.0.0.1 - - [18/Jun/2026 00:33:30] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:30,987 127.0.0.1 - - [18/Jun/2026 00:33:30] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 00:33:42,773 127.0.0.1 - - [18/Jun/2026 00:33:42] "GET / HTTP/1.1" 200 -
+2026-06-18 00:33:42,827 127.0.0.1 - - [18/Jun/2026 00:33:42] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:42,831 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:33:42,831 127.0.0.1 - - [18/Jun/2026 00:33:42] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:33:42,834 127.0.0.1 - - [18/Jun/2026 00:33:42] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 00:33:42,837 127.0.0.1 - - [18/Jun/2026 00:33:42] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:33:42,843 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:33:42,844 127.0.0.1 - - [18/Jun/2026 00:33:42] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:33:42,884 127.0.0.1 - - [18/Jun/2026 00:33:42] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:42,928 127.0.0.1 - - [18/Jun/2026 00:33:42] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 00:33:42,929 127.0.0.1 - - [18/Jun/2026 00:33:42] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:50,615 127.0.0.1 - - [18/Jun/2026 00:33:50] "GET / HTTP/1.1" 200 -
+2026-06-18 00:33:50,658 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:33:50,658 127.0.0.1 - - [18/Jun/2026 00:33:50] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:33:50,666 127.0.0.1 - - [18/Jun/2026 00:33:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:50,669 127.0.0.1 - - [18/Jun/2026 00:33:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:33:50,671 127.0.0.1 - - [18/Jun/2026 00:33:50] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 00:33:50,683 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:33:50,683 127.0.0.1 - - [18/Jun/2026 00:33:50] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:33:50,711 127.0.0.1 - - [18/Jun/2026 00:33:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:33:50,741 127.0.0.1 - - [18/Jun/2026 00:33:50] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 00:33:50,743 127.0.0.1 - - [18/Jun/2026 00:33:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:34:09,042 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:34:10,023 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:34:10,027 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:34:11,419 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=ATP&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:34:11,718 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 00:34:12,872 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=WTA&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 00:34:12,887 127.0.0.1 - - [18/Jun/2026 00:34:12] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 00:34:12,932 127.0.0.1 - - [18/Jun/2026 00:34:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:34:12,936 127.0.0.1 - - [18/Jun/2026 00:34:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:34:12,938 127.0.0.1 - - [18/Jun/2026 00:34:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:34:12,978 127.0.0.1 - - [18/Jun/2026 00:34:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:34:13,000 127.0.0.1 - - [18/Jun/2026 00:34:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:34:15,142 127.0.0.1 - - [18/Jun/2026 00:34:15] "GET / HTTP/1.1" 200 -
+2026-06-18 00:34:15,193 127.0.0.1 - - [18/Jun/2026 00:34:15] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:34:15,198 127.0.0.1 - - [18/Jun/2026 00:34:15] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:34:15,201 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/dashboard.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:34:15,202 127.0.0.1 - - [18/Jun/2026 00:34:15] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:34:15,204 127.0.0.1 - - [18/Jun/2026 00:34:15] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:34:15,209 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/dashboard.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:34:15,209 127.0.0.1 - - [18/Jun/2026 00:34:15] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:34:15,239 127.0.0.1 - - [18/Jun/2026 00:34:15] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:34:15,264 127.0.0.1 - - [18/Jun/2026 00:34:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:35:14,336 127.0.0.1 - - [18/Jun/2026 00:35:14] "GET / HTTP/1.1" 200 -
+2026-06-18 00:35:14,390 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 00:35:14,395 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 00:35:14,397 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/dashboard.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 00:35:14,397 127.0.0.1 - - [18/Jun/2026 00:35:14] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:35:14,400 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/dashboard.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self'; img-src 'self' data: https://api.api-tennis.com; child-src 'self'; default-src 'self'; style-src 'self'; media-src 'self'; object-src 'self'; connect-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'; frame-src 'none'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 00:35:14,400 127.0.0.1 - - [18/Jun/2026 00:35:14] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 00:35:14,402 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 00:35:14,433 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 00:35:14,462 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 00:35:14,464 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -

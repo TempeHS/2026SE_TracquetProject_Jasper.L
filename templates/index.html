@@ -1,16 +1,46 @@
 {% extends 'layout.html' %} {% block content %}
-<div class="container">
-  <div class="row">
-    <h1>Welcome</h1>
-  </div>
-  <div class="row">
-    <div>
-      <h4>Already have an account?</h4>
-      <h5><a href="/login.html">Login</a></h5>
+<div class="hero">
+  <div class="container">
+    <div class="hero-content">
+      <h1 class="hero-title">Tracquet</h1>
+      <p class="hero-subtitle">
+        Live scores, rankings, and player profiles, all in one place for men's
+        and women's tennis.
+      </p>
+      <div class="hero-actions">
+        <a href="/login.html" class="btn btn-primary btn-lg">Login</a>
+        <a href="/signup.html" class="btn btn-outline-light btn-lg">Sign Up</a>
+      </div>
     </div>
-    <div>
-      <h4>New user?</h4>
-      <h5><a href="/signup.html">Sign up</a></h5>
+  </div>
+</div>
+
+<div class="container my-5">
+  <div class="row g-4">
+    <div class="col-md-4">
+      <div class="feature-card">
+        <div class="feature-icon">🎾</div>
+        <h5>Live Matches</h5>
+        <p>
+          Follow real-time scores with per-set breakdowns and serve indicators.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card">
+        <div class="feature-icon">🏆</div>
+        <h5>Rankings</h5>
+        <p>
+          Browse the latest ATP and WTA leaderboards with movement indicators.
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="feature-card">
+        <div class="feature-icon">👤</div>
+        <h5>Player Profiles</h5>
+        <p>Explore detailed player stats, career titles, and win rates.</p>
+      </div>
     </div>
   </div>
 </div>

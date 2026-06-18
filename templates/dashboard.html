@@ -1,90 +1,72 @@
 {% extends 'layout.html' %} {% block content %}
-<div class="container mt-4">
-  <div class="row mb-4">
-    <div class="col">
-      <h1>Dashboard</h1>
-    </div>
+<div class="container my-4">
+  <div class="page-header">
+    <h1>Dashboard</h1>
+    <p class="page-subtitle">Your tennis overview at a glance.</p>
   </div>
 
-  <!-- Live Matches Section (top) -->
-  <div class="row mb-4">
-    <div class="col-md-8">
-      <div class="card">
-        <div class="card-header">
+  <!-- Live Matches Section -->
+  <div class="row g-4 mb-4">
+    <div class="col-lg-8">
+      <div class="card h-100">
+        <div class="card-header d-flex align-items-center">
+          <span class="live-dot"></span>
           <h5 class="mb-0">Live Matches</h5>
         </div>
         <div class="card-body">
           {% if matches %} {% for match in matches %}
-          <div
-            class="d-flex justify-content-between align-items-center border-bottom py-2"
-          >
-            <span class="fw-bold">{{ match.player1 }}</span>
-            <span class="text-muted small">
+          <div class="match-row">
+            <span class="match-player">{{ match.player1 }}</span>
+            <span class="match-score">
               {% for s in match.set_scores %}{{ s.first }}-{{ s.second }} {%
               endfor %}
             </span>
-            <span class="fw-bold">{{ match.player2 }}</span>
+            <span class="match-player text-end">{{ match.player2 }}</span>
           </div>
           {% endfor %} {% else %}
-          <div
-            class="border rounded p-3 text-center text-muted"
-            style="
-              min-height: 150px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-            "
-          >
-            <div>
-              <p class="mb-1">No live matches</p>
-              <small>(check back soon)</small>
-            </div>
+          <div class="empty-state">
+            <p class="mb-1">No live matches right now</p>
+            <small>Check back soon</small>
           </div>
           {% endif %}
         </div>
       </div>
     </div>
-    <div class="col-md-4 d-flex flex-column justify-content-center">
-      <h5>Live Matches</h5>
-      <p class="text-muted">View all current matches and live scores.</p>
-      <a href="/live.html" class="btn btn-primary">Matches Page</a>
+    <div class="col-lg-4">
+      <div class="cta-panel h-100">
+        <h5>Live Matches</h5>
+        <p>View all current matches and live scores in detail.</p>
+        <a href="/live.html" class="btn btn-primary">View Matches</a>
+      </div>
     </div>
   </div>
 
-  <!-- Rankings Section (below, larger) -->
-  <div class="row mb-4">
-    <div class="col-md-8">
-      <div class="card">
+  <!-- Rankings Section -->
+  <div class="row g-4 mb-4">
+    <div class="col-lg-8">
+      <div class="card h-100">
         <div class="card-header">
           <h5 class="mb-0">Rankings</h5>
         </div>
         <div class="card-body">
           <div class="row">
-            <!-- ATP (Men) -->
             <div class="col-md-6 border-end">
-              <h6 class="text-primary">ATP (Men)</h6>
-              <table class="table table-striped table-sm mb-0">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Player</th>
-                    <th>Pts</th>
-                  </tr>
-                </thead>
+              <h6 class="ranking-label ranking-atp">ATP — Men</h6>
+              <table class="table table-sm mb-0">
                 <tbody>
                   {% if atp_rankings %} {% for player in atp_rankings %}
                   <tr>
-                    <td>{{ player.rank }}</td>
+                    <td class="rank-cell">{{ player.rank }}</td>
                     <td>
                       <a href="/player.html?id={{ player.id }}"
                         >{{ player.name }}</a
                       >
                     </td>
-                    <td>{{ player.points }}</td>
+                    <td class="text-end text-muted">{{ player.points }}</td>
                   </tr>
                   {% endfor %} {% else %}
                   <tr>
-                    <td colspan="3" class="text-center text-muted">
+                    <td colspan="3" class="text-center text-muted py-3">
                       Not available
                     </td>
                   </tr>
@@ -92,31 +74,23 @@
                 </tbody>
               </table>
             </div>
-            <!-- WTA (Women) -->
             <div class="col-md-6">
-              <h6 class="text-danger">WTA (Women)</h6>
-              <table class="table table-striped table-sm mb-0">
-                <thead>
-                  <tr>
-                    <th>#</th>
-                    <th>Player</th>
-                    <th>Pts</th>
-                  </tr>
-                </thead>
+              <h6 class="ranking-label ranking-wta">WTA — Women</h6>
+              <table class="table table-sm mb-0">
                 <tbody>
                   {% if wta_rankings %} {% for player in wta_rankings %}
                   <tr>
-                    <td>{{ player.rank }}</td>
+                    <td class="rank-cell">{{ player.rank }}</td>
                     <td>
                       <a href="/player.html?id={{ player.id }}"
                         >{{ player.name }}</a
                       >
                     </td>
-                    <td>{{ player.points }}</td>
+                    <td class="text-end text-muted">{{ player.points }}</td>
                   </tr>
                   {% endfor %} {% else %}
                   <tr>
-                    <td colspan="3" class="text-center text-muted">
+                    <td colspan="3" class="text-center text-muted py-3">
                       Not available
                     </td>
                   </tr>
@@ -128,10 +102,12 @@
         </div>
       </div>
     </div>
-    <div class="col-md-4 d-flex flex-column justify-content-center">
-      <h5>Rankings</h5>
-      <p class="text-muted">View the full player rankings leaderboard.</p>
-      <a href="/rankings.html" class="btn btn-primary">Rankings Page</a>
+    <div class="col-lg-4">
+      <div class="cta-panel h-100">
+        <h5>Rankings</h5>
+        <p>View the full ATP and WTA leaderboards.</p>
+        <a href="/rankings.html" class="btn btn-primary">View Rankings</a>
+      </div>
     </div>
   </div>
 </div>
