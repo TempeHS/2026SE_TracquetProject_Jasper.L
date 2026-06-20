@@ -10242,3 +10242,349 @@
 2026-06-18 00:35:14,433 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
 2026-06-18 00:35:14,462 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
 2026-06-18 00:35:14,464 127.0.0.1 - - [18/Jun/2026 00:35:14] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 12:02:43,883 [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://10.0.0.186:5000
+2026-06-18 12:02:43,959 [33mPress CTRL+C to quit[0m
+2026-06-18 12:02:43,963  * Restarting with stat
+2026-06-18 12:02:44,651  * Debugger is active!
+2026-06-18 12:02:44,652  * Debugger PIN: 133-838-975
+2026-06-18 12:02:48,904 127.0.0.1 - - [18/Jun/2026 12:02:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-18 12:02:50,956 127.0.0.1 - - [18/Jun/2026 12:02:50] "GET / HTTP/1.1" 200 -
+2026-06-18 12:02:51,147 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; img-src 'self' data: https://api.api-tennis.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; frame-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; default-src 'self'; connect-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; style-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; media-src 'self'; object-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 12:02:51,148 127.0.0.1 - - [18/Jun/2026 12:02:51] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 12:02:51,186 127.0.0.1 - - [18/Jun/2026 12:02:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:02:51,269 127.0.0.1 - - [18/Jun/2026 12:02:51] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 12:02:51,321 127.0.0.1 - - [18/Jun/2026 12:02:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:02:51,326 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; img-src 'self' data: https://api.api-tennis.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; frame-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; default-src 'self'; connect-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; style-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; media-src 'self'; object-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 12:02:51,326 127.0.0.1 - - [18/Jun/2026 12:02:51] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 12:02:51,397 127.0.0.1 - - [18/Jun/2026 12:02:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:02:51,442 127.0.0.1 - - [18/Jun/2026 12:02:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:04,326 127.0.0.1 - - [18/Jun/2026 12:03:04] "GET /login.html HTTP/1.1" 200 -
+2026-06-18 12:03:04,374 127.0.0.1 - - [18/Jun/2026 12:03:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:03:04,386 127.0.0.1 - - [18/Jun/2026 12:03:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:03:04,419 127.0.0.1 - - [18/Jun/2026 12:03:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:04,517 127.0.0.1 - - [18/Jun/2026 12:03:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:04,562 127.0.0.1 - - [18/Jun/2026 12:03:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:12,397 127.0.0.1 - - [18/Jun/2026 12:03:12] "[32mPOST /login.html HTTP/1.1[0m" 302 -
+2026-06-18 12:03:12,529 127.0.0.1 - - [18/Jun/2026 12:03:12] "GET /verify_tfa.html HTTP/1.1" 200 -
+2026-06-18 12:03:12,577 127.0.0.1 - - [18/Jun/2026 12:03:12] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:03:12,580 127.0.0.1 - - [18/Jun/2026 12:03:12] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:03:12,616 127.0.0.1 - - [18/Jun/2026 12:03:12] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:12,649 127.0.0.1 - - [18/Jun/2026 12:03:12] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:12,695 127.0.0.1 - - [18/Jun/2026 12:03:12] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:34,974 127.0.0.1 - - [18/Jun/2026 12:03:34] "[32mPOST /verify_tfa.html HTTP/1.1[0m" 302 -
+2026-06-18 12:03:35,009 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:03:36,323 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:03:36,630 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:03:37,767 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=ATP&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:03:38,059 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:03:39,216 https://api.api-tennis.com:443 "GET /tennis/?method=get_standings&event_type=WTA&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:03:39,226 127.0.0.1 - - [18/Jun/2026 12:03:39] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:03:39,339 127.0.0.1 - - [18/Jun/2026 12:03:39] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:03:39,341 127.0.0.1 - - [18/Jun/2026 12:03:39] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:03:39,373 127.0.0.1 - - [18/Jun/2026 12:03:39] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:39,408 127.0.0.1 - - [18/Jun/2026 12:03:39] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:39,456 127.0.0.1 - - [18/Jun/2026 12:03:39] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:45,529 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:03:46,798 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:03:47,148 127.0.0.1 - - [18/Jun/2026 12:03:47] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 12:03:47,215 127.0.0.1 - - [18/Jun/2026 12:03:47] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:03:47,226 127.0.0.1 - - [18/Jun/2026 12:03:47] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:03:47,261 127.0.0.1 - - [18/Jun/2026 12:03:47] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:47,291 127.0.0.1 - - [18/Jun/2026 12:03:47] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:03:47,325 127.0.0.1 - - [18/Jun/2026 12:03:47] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:39,027 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:04:40,531 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:04:40,844 127.0.0.1 - - [18/Jun/2026 12:04:40] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 12:04:40,993 127.0.0.1 - - [18/Jun/2026 12:04:40] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:04:40,997 127.0.0.1 - - [18/Jun/2026 12:04:40] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:04:41,035 127.0.0.1 - - [18/Jun/2026 12:04:41] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:41,064 127.0.0.1 - - [18/Jun/2026 12:04:41] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:41,107 127.0.0.1 - - [18/Jun/2026 12:04:41] "GET /static/images/favicon.png HTTP/1.1" 200 -
+2026-06-18 12:04:41,109 127.0.0.1 - - [18/Jun/2026 12:04:41] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:43,636 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:04:44,911 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:04:45,223 Cache hit: standings_ATP
+2026-06-18 12:04:45,223 Cache hit: standings_WTA
+2026-06-18 12:04:45,223 127.0.0.1 - - [18/Jun/2026 12:04:45] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:04:45,317 127.0.0.1 - - [18/Jun/2026 12:04:45] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:04:45,320 127.0.0.1 - - [18/Jun/2026 12:04:45] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:04:45,353 127.0.0.1 - - [18/Jun/2026 12:04:45] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:45,386 127.0.0.1 - - [18/Jun/2026 12:04:45] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:45,424 127.0.0.1 - - [18/Jun/2026 12:04:45] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:50,744 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:04:51,971 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:04:52,286 127.0.0.1 - - [18/Jun/2026 12:04:52] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 12:04:52,539 127.0.0.1 - - [18/Jun/2026 12:04:52] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:04:52,541 127.0.0.1 - - [18/Jun/2026 12:04:52] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:04:52,593 127.0.0.1 - - [18/Jun/2026 12:04:52] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:52,627 127.0.0.1 - - [18/Jun/2026 12:04:52] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:04:52,657 127.0.0.1 - - [18/Jun/2026 12:04:52] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:00,889 Cache hit: standings_ATP
+2026-06-18 12:05:00,889 Cache hit: standings_WTA
+2026-06-18 12:05:00,924 127.0.0.1 - - [18/Jun/2026 12:05:00] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-18 12:05:00,979 127.0.0.1 - - [18/Jun/2026 12:05:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:05:00,982 127.0.0.1 - - [18/Jun/2026 12:05:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:05:01,599 127.0.0.1 - - [18/Jun/2026 12:05:01] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:01,633 127.0.0.1 - - [18/Jun/2026 12:05:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:01,670 127.0.0.1 - - [18/Jun/2026 12:05:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:09,045 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:05:10,046 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=2382&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:05:10,048 Cache hit: standings_ATP
+2026-06-18 12:05:10,052 127.0.0.1 - - [18/Jun/2026 12:05:10] "GET /player.html?id=2382 HTTP/1.1" 200 -
+2026-06-18 12:05:10,107 127.0.0.1 - - [18/Jun/2026 12:05:10] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:05:10,110 127.0.0.1 - - [18/Jun/2026 12:05:10] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:05:10,149 127.0.0.1 - - [18/Jun/2026 12:05:10] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:10,179 127.0.0.1 - - [18/Jun/2026 12:05:10] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:13,087 127.0.0.1 - - [18/Jun/2026 12:05:13] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:19,182 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:05:20,378 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:05:20,673 Cache hit: standings_ATP
+2026-06-18 12:05:20,673 Cache hit: standings_WTA
+2026-06-18 12:05:20,673 127.0.0.1 - - [18/Jun/2026 12:05:20] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:05:20,718 127.0.0.1 - - [18/Jun/2026 12:05:20] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:05:20,728 127.0.0.1 - - [18/Jun/2026 12:05:20] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:05:20,763 127.0.0.1 - - [18/Jun/2026 12:05:20] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:20,790 127.0.0.1 - - [18/Jun/2026 12:05:20] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:05:20,821 127.0.0.1 - - [18/Jun/2026 12:05:20] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:06:29,451 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:06:30,629 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:06:30,919 127.0.0.1 - - [18/Jun/2026 12:06:30] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 12:06:31,001 127.0.0.1 - - [18/Jun/2026 12:06:31] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:06:31,002 127.0.0.1 - - [18/Jun/2026 12:06:31] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:06:31,038 127.0.0.1 - - [18/Jun/2026 12:06:31] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:06:31,066 127.0.0.1 - - [18/Jun/2026 12:06:31] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:06:31,102 127.0.0.1 - - [18/Jun/2026 12:06:31] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:06:50,100 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:06:51,367 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:06:51,680 127.0.0.1 - - [18/Jun/2026 12:06:51] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 12:06:51,743 127.0.0.1 - - [18/Jun/2026 12:06:51] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:06:51,746 127.0.0.1 - - [18/Jun/2026 12:06:51] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:06:51,781 127.0.0.1 - - [18/Jun/2026 12:06:51] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:06:51,812 127.0.0.1 - - [18/Jun/2026 12:06:51] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:06:51,846 127.0.0.1 - - [18/Jun/2026 12:06:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:06:51,863 127.0.0.1 - - [18/Jun/2026 12:06:51] "[36mGET /static/images/favicon.png HTTP/1.1[0m" 304 -
+2026-06-18 12:07:03,434 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:07:04,771 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:07:05,082 Cache hit: standings_ATP
+2026-06-18 12:07:05,082 Cache hit: standings_WTA
+2026-06-18 12:07:05,083 127.0.0.1 - - [18/Jun/2026 12:07:05] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:07:05,173 127.0.0.1 - - [18/Jun/2026 12:07:05] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:07:05,174 127.0.0.1 - - [18/Jun/2026 12:07:05] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:07:05,213 127.0.0.1 - - [18/Jun/2026 12:07:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:07:05,241 127.0.0.1 - - [18/Jun/2026 12:07:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:07:05,276 127.0.0.1 - - [18/Jun/2026 12:07:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:08:58,628 Cache hit: standings_ATP
+2026-06-18 12:08:58,628 Cache hit: standings_WTA
+2026-06-18 12:08:58,658 127.0.0.1 - - [18/Jun/2026 12:08:58] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-18 12:08:58,877 127.0.0.1 - - [18/Jun/2026 12:08:58] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:08:58,885 127.0.0.1 - - [18/Jun/2026 12:08:58] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:08:59,367 127.0.0.1 - - [18/Jun/2026 12:08:59] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:08:59,488 127.0.0.1 - - [18/Jun/2026 12:08:59] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:08:59,562 127.0.0.1 - - [18/Jun/2026 12:08:59] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:00,631 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:09:01,931 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=2072&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:09:01,933 Cache hit: standings_ATP
+2026-06-18 12:09:01,934 127.0.0.1 - - [18/Jun/2026 12:09:01] "GET /player.html?id=2072 HTTP/1.1" 200 -
+2026-06-18 12:09:02,012 127.0.0.1 - - [18/Jun/2026 12:09:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:02,016 127.0.0.1 - - [18/Jun/2026 12:09:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:02,051 127.0.0.1 - - [18/Jun/2026 12:09:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:02,083 127.0.0.1 - - [18/Jun/2026 12:09:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:03,587 127.0.0.1 - - [18/Jun/2026 12:09:03] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:06,807 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:09:08,025 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:09:08,336 Cache hit: standings_ATP
+2026-06-18 12:09:08,336 Cache hit: standings_WTA
+2026-06-18 12:09:08,337 127.0.0.1 - - [18/Jun/2026 12:09:08] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:09:08,415 127.0.0.1 - - [18/Jun/2026 12:09:08] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:08,431 127.0.0.1 - - [18/Jun/2026 12:09:08] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:08,465 127.0.0.1 - - [18/Jun/2026 12:09:08] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:08,496 127.0.0.1 - - [18/Jun/2026 12:09:08] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:08,532 127.0.0.1 - - [18/Jun/2026 12:09:08] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:11,139 Cache hit: standings_ATP
+2026-06-18 12:09:11,139 Cache hit: standings_WTA
+2026-06-18 12:09:11,177 127.0.0.1 - - [18/Jun/2026 12:09:11] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-18 12:09:11,224 127.0.0.1 - - [18/Jun/2026 12:09:11] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:11,230 127.0.0.1 - - [18/Jun/2026 12:09:11] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:11,730 127.0.0.1 - - [18/Jun/2026 12:09:11] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:11,780 127.0.0.1 - - [18/Jun/2026 12:09:11] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:11,817 127.0.0.1 - - [18/Jun/2026 12:09:11] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:24,210 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:09:25,289 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=1905&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:09:25,290 Cache hit: standings_ATP
+2026-06-18 12:09:25,291 127.0.0.1 - - [18/Jun/2026 12:09:25] "GET /player.html?id=1905 HTTP/1.1" 200 -
+2026-06-18 12:09:25,349 127.0.0.1 - - [18/Jun/2026 12:09:25] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:25,361 127.0.0.1 - - [18/Jun/2026 12:09:25] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:25,396 127.0.0.1 - - [18/Jun/2026 12:09:25] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:25,429 127.0.0.1 - - [18/Jun/2026 12:09:25] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:26,257 127.0.0.1 - - [18/Jun/2026 12:09:26] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:36,675 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:09:38,035 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:09:38,347 Cache hit: standings_ATP
+2026-06-18 12:09:38,347 Cache hit: standings_WTA
+2026-06-18 12:09:38,348 127.0.0.1 - - [18/Jun/2026 12:09:38] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:09:38,447 127.0.0.1 - - [18/Jun/2026 12:09:38] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:38,449 127.0.0.1 - - [18/Jun/2026 12:09:38] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:38,484 127.0.0.1 - - [18/Jun/2026 12:09:38] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:38,514 127.0.0.1 - - [18/Jun/2026 12:09:38] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:38,551 127.0.0.1 - - [18/Jun/2026 12:09:38] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:54,031 Cache hit: standings_ATP
+2026-06-18 12:09:54,031 Cache hit: standings_WTA
+2026-06-18 12:09:54,036 127.0.0.1 - - [18/Jun/2026 12:09:54] "GET /search.html?name=jessica HTTP/1.1" 200 -
+2026-06-18 12:09:54,086 127.0.0.1 - - [18/Jun/2026 12:09:54] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:54,088 127.0.0.1 - - [18/Jun/2026 12:09:54] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:09:54,126 127.0.0.1 - - [18/Jun/2026 12:09:54] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:54,161 127.0.0.1 - - [18/Jun/2026 12:09:54] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:09:54,202 127.0.0.1 - - [18/Jun/2026 12:09:54] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:02,195 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:10:03,484 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:10:03,800 Cache hit: standings_ATP
+2026-06-18 12:10:03,801 Cache hit: standings_WTA
+2026-06-18 12:10:03,801 127.0.0.1 - - [18/Jun/2026 12:10:03] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:10:03,977 127.0.0.1 - - [18/Jun/2026 12:10:03] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:10:03,982 127.0.0.1 - - [18/Jun/2026 12:10:03] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:10:04,013 127.0.0.1 - - [18/Jun/2026 12:10:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:04,040 127.0.0.1 - - [18/Jun/2026 12:10:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:04,075 127.0.0.1 - - [18/Jun/2026 12:10:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:14,116 127.0.0.1 - - [18/Jun/2026 12:10:14] "GET / HTTP/1.1" 200 -
+2026-06-18 12:10:14,168 127.0.0.1 - - [18/Jun/2026 12:10:14] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:10:14,170 127.0.0.1 - - [18/Jun/2026 12:10:14] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:10:14,227 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/dashboard.html","violated-directive":"manifest-src","effective-directive":"manifest-src","original-policy":"script-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; img-src 'self' data: https://api.api-tennis.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; frame-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; default-src 'self'; connect-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; style-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; media-src 'self'; object-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'","disposition":"enforce","blocked-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/static/manifest.json","status-code":200,"script-sample":""}}
+2026-06-18 12:10:14,228 127.0.0.1 - - [18/Jun/2026 12:10:14] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 12:10:14,229 {"csp-report":{"document-uri":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","referrer":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/dashboard.html","violated-directive":"style-src-attr","effective-directive":"style-src-attr","original-policy":"script-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; img-src 'self' data: https://api.api-tennis.com https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; frame-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; default-src 'self'; connect-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; style-src 'self' https://gc.kis.v2.scr.kaspersky-labs.com wss://gc.kis.v2.scr.kaspersky-labs.com; media-src 'self'; object-src 'self'; base-uri 'self'; report-uri /csp_report; font-src 'self'; worker-src 'self'; manifest-src 'self'; frame-ancestors 'none'; form-action 'self'","disposition":"enforce","blocked-uri":"inline","line-number":32,"source-file":"https://cautious-garbanzo-4jq6jp7x6r9fqggw-5000.app.github.dev/","status-code":200,"script-sample":""}}
+2026-06-18 12:10:14,231 127.0.0.1 - - [18/Jun/2026 12:10:14] "POST /csp_report HTTP/1.1" 200 -
+2026-06-18 12:10:14,237 127.0.0.1 - - [18/Jun/2026 12:10:14] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:14,276 127.0.0.1 - - [18/Jun/2026 12:10:14] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:14,311 127.0.0.1 - - [18/Jun/2026 12:10:14] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:42,050 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:10:44,114 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:10:44,427 Cache hit: standings_ATP
+2026-06-18 12:10:44,428 Cache hit: standings_WTA
+2026-06-18 12:10:44,428 127.0.0.1 - - [18/Jun/2026 12:10:44] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:10:44,508 127.0.0.1 - - [18/Jun/2026 12:10:44] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:10:44,510 127.0.0.1 - - [18/Jun/2026 12:10:44] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:10:44,582 127.0.0.1 - - [18/Jun/2026 12:10:44] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:44,609 127.0.0.1 - - [18/Jun/2026 12:10:44] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:10:44,647 127.0.0.1 - - [18/Jun/2026 12:10:44] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:11:03,476 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:11:04,716 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:11:05,071 127.0.0.1 - - [18/Jun/2026 12:11:05] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 12:11:05,182 127.0.0.1 - - [18/Jun/2026 12:11:05] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 12:11:05,317 127.0.0.1 - - [18/Jun/2026 12:11:05] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-18 12:11:05,397 127.0.0.1 - - [18/Jun/2026 12:11:05] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:11:05,428 127.0.0.1 - - [18/Jun/2026 12:11:05] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:11:05,462 127.0.0.1 - - [18/Jun/2026 12:11:05] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:12:00,417 Cache hit: standings_ATP
+2026-06-18 12:12:00,417 Cache hit: standings_WTA
+2026-06-18 12:12:00,447 127.0.0.1 - - [18/Jun/2026 12:12:00] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-18 12:12:00,501 127.0.0.1 - - [18/Jun/2026 12:12:00] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:12:00,504 127.0.0.1 - - [18/Jun/2026 12:12:00] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:12:00,978 127.0.0.1 - - [18/Jun/2026 12:12:00] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:12:01,019 127.0.0.1 - - [18/Jun/2026 12:12:01] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:12:01,060 127.0.0.1 - - [18/Jun/2026 12:12:01] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:12:34,284 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:12:35,554 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:12:35,868 127.0.0.1 - - [18/Jun/2026 12:12:35] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 12:12:35,938 127.0.0.1 - - [18/Jun/2026 12:12:35] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:12:35,950 127.0.0.1 - - [18/Jun/2026 12:12:35] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:12:35,990 127.0.0.1 - - [18/Jun/2026 12:12:35] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:12:36,025 127.0.0.1 - - [18/Jun/2026 12:12:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:12:36,059 127.0.0.1 - - [18/Jun/2026 12:12:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:02,695 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:13:03,966 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:13:04,278 Cache hit: standings_ATP
+2026-06-18 12:13:04,278 Cache hit: standings_WTA
+2026-06-18 12:13:04,279 127.0.0.1 - - [18/Jun/2026 12:13:04] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:13:04,340 127.0.0.1 - - [18/Jun/2026 12:13:04] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:13:04,345 127.0.0.1 - - [18/Jun/2026 12:13:04] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:13:04,383 127.0.0.1 - - [18/Jun/2026 12:13:04] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:04,415 127.0.0.1 - - [18/Jun/2026 12:13:04] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:04,452 127.0.0.1 - - [18/Jun/2026 12:13:04] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:05,043 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:13:06,286 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:13:06,639 Cache hit: standings_ATP
+2026-06-18 12:13:06,639 Cache hit: standings_WTA
+2026-06-18 12:13:06,639 127.0.0.1 - - [18/Jun/2026 12:13:06] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:13:06,760 127.0.0.1 - - [18/Jun/2026 12:13:06] "GET /static/css/style.css HTTP/1.1" 200 -
+2026-06-18 12:13:06,767 127.0.0.1 - - [18/Jun/2026 12:13:06] "GET /static/css/bootstrap.min.css HTTP/1.1" 200 -
+2026-06-18 12:13:06,858 127.0.0.1 - - [18/Jun/2026 12:13:06] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:06,902 127.0.0.1 - - [18/Jun/2026 12:13:06] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:06,933 127.0.0.1 - - [18/Jun/2026 12:13:06] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:17,161 Cache hit: standings_ATP
+2026-06-18 12:13:17,161 Cache hit: standings_WTA
+2026-06-18 12:13:17,202 127.0.0.1 - - [18/Jun/2026 12:13:17] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-18 12:13:17,296 127.0.0.1 - - [18/Jun/2026 12:13:17] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:13:17,299 127.0.0.1 - - [18/Jun/2026 12:13:17] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:13:17,749 127.0.0.1 - - [18/Jun/2026 12:13:17] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:17,796 127.0.0.1 - - [18/Jun/2026 12:13:17] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:17,834 127.0.0.1 - - [18/Jun/2026 12:13:17] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:27,977 Cache hit: standings_ATP
+2026-06-18 12:13:27,977 Cache hit: standings_WTA
+2026-06-18 12:13:27,978 127.0.0.1 - - [18/Jun/2026 12:13:27] "GET /search.html?name=ethan HTTP/1.1" 200 -
+2026-06-18 12:13:28,037 127.0.0.1 - - [18/Jun/2026 12:13:28] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:13:28,039 127.0.0.1 - - [18/Jun/2026 12:13:28] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:13:28,078 127.0.0.1 - - [18/Jun/2026 12:13:28] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:28,108 127.0.0.1 - - [18/Jun/2026 12:13:28] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:28,147 127.0.0.1 - - [18/Jun/2026 12:13:28] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:49,418 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:13:50,493 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=9225&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:13:50,494 Cache hit: standings_ATP
+2026-06-18 12:13:50,495 127.0.0.1 - - [18/Jun/2026 12:13:50] "GET /player.html?id=9225 HTTP/1.1" 200 -
+2026-06-18 12:13:50,562 127.0.0.1 - - [18/Jun/2026 12:13:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:13:50,565 127.0.0.1 - - [18/Jun/2026 12:13:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:13:50,611 127.0.0.1 - - [18/Jun/2026 12:13:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:50,640 127.0.0.1 - - [18/Jun/2026 12:13:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:13:51,995 127.0.0.1 - - [18/Jun/2026 12:13:51] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:00,540 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:14:01,804 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:14:02,125 Cache hit: standings_ATP
+2026-06-18 12:14:02,126 Cache hit: standings_WTA
+2026-06-18 12:14:02,126 127.0.0.1 - - [18/Jun/2026 12:14:02] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:14:02,264 127.0.0.1 - - [18/Jun/2026 12:14:02] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:02,267 127.0.0.1 - - [18/Jun/2026 12:14:02] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:02,303 127.0.0.1 - - [18/Jun/2026 12:14:02] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:02,344 127.0.0.1 - - [18/Jun/2026 12:14:02] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:02,383 127.0.0.1 - - [18/Jun/2026 12:14:02] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:14,027 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:14:15,104 https://api.api-tennis.com:443 "GET /tennis/?method=get_players&player_key=9225&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:14:15,106 Cache hit: standings_ATP
+2026-06-18 12:14:15,106 127.0.0.1 - - [18/Jun/2026 12:14:15] "GET /player.html?id=9225 HTTP/1.1" 200 -
+2026-06-18 12:14:15,294 127.0.0.1 - - [18/Jun/2026 12:14:15] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:25,737 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:14:27,002 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:14:27,315 127.0.0.1 - - [18/Jun/2026 12:14:27] "GET /live.html HTTP/1.1" 200 -
+2026-06-18 12:14:27,371 127.0.0.1 - - [18/Jun/2026 12:14:27] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:27,373 127.0.0.1 - - [18/Jun/2026 12:14:27] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:27,408 127.0.0.1 - - [18/Jun/2026 12:14:27] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:27,439 127.0.0.1 - - [18/Jun/2026 12:14:27] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:27,477 127.0.0.1 - - [18/Jun/2026 12:14:27] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:36,160 Cache hit: standings_ATP
+2026-06-18 12:14:36,160 Cache hit: standings_WTA
+2026-06-18 12:14:36,190 127.0.0.1 - - [18/Jun/2026 12:14:36] "GET /rankings.html HTTP/1.1" 200 -
+2026-06-18 12:14:36,290 127.0.0.1 - - [18/Jun/2026 12:14:36] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:36,292 127.0.0.1 - - [18/Jun/2026 12:14:36] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:36,739 127.0.0.1 - - [18/Jun/2026 12:14:36] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:36,799 127.0.0.1 - - [18/Jun/2026 12:14:36] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:36,839 127.0.0.1 - - [18/Jun/2026 12:14:36] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:46,624 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:14:47,889 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:14:48,200 Cache hit: standings_ATP
+2026-06-18 12:14:48,200 Cache hit: standings_WTA
+2026-06-18 12:14:48,201 127.0.0.1 - - [18/Jun/2026 12:14:48] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:14:48,312 127.0.0.1 - - [18/Jun/2026 12:14:48] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:48,316 127.0.0.1 - - [18/Jun/2026 12:14:48] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:48,348 127.0.0.1 - - [18/Jun/2026 12:14:48] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:48,376 127.0.0.1 - - [18/Jun/2026 12:14:48] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:48,410 127.0.0.1 - - [18/Jun/2026 12:14:48] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:48,903 Starting new HTTPS connection (1): api.api-tennis.com:443
+2026-06-18 12:14:50,171 https://api.api-tennis.com:443 "GET /tennis/?method=get_livescore&APIkey=a49e8d7edd7a1fd71466aa5a3584c3261b8ff69fd06d9652b7878cb7529b6f57 HTTP/1.1" 200 None
+2026-06-18 12:14:50,483 Cache hit: standings_ATP
+2026-06-18 12:14:50,483 Cache hit: standings_WTA
+2026-06-18 12:14:50,484 127.0.0.1 - - [18/Jun/2026 12:14:50] "GET /dashboard.html HTTP/1.1" 200 -
+2026-06-18 12:14:50,538 127.0.0.1 - - [18/Jun/2026 12:14:50] "[36mGET /static/css/style.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:50,543 127.0.0.1 - - [18/Jun/2026 12:14:50] "[36mGET /static/css/bootstrap.min.css HTTP/1.1[0m" 304 -
+2026-06-18 12:14:50,584 127.0.0.1 - - [18/Jun/2026 12:14:50] "[36mGET /static/js/bootstrap.bundle.min.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:50,619 127.0.0.1 - - [18/Jun/2026 12:14:50] "[36mGET /static/js/app.js HTTP/1.1[0m" 304 -
+2026-06-18 12:14:50,651 127.0.0.1 - - [18/Jun/2026 12:14:50] "[36mGET /static/js/serviceWorker.js HTTP/1.1[0m" 304 -
